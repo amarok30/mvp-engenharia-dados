@@ -1,0 +1,1990 @@
+{
+  "datasets": [
+    {
+      "name": "ds_q1",
+      "displayName": "Q1 série comparável",
+      "queryLines": [
+        "SELECT TO_DATE(CONCAT(safra, '-01-01')) AS safra, arranjo, pct_serie_comparavel AS pct FROM mafia_office.gold.vw_q1_evolucao_arranjo WHERE base = 'trabalhando' AND entra_serie_historica ORDER BY safra, ordem"
+      ]
+    },
+    {
+      "name": "ds_q1c",
+      "displayName": "Q1c composição por vínculo",
+      "queryLines": [
+        "SELECT CAST(safra AS STRING) AS safra, classificacao_duplos AS duplos, pct_remoto AS remoto_pct, pct_remoto_padronizado_2024 AS padronizado_pct, remoto_limite_inf_nulos AS limite_inf, remoto_limite_sup_nulos AS limite_sup FROM mafia_office.gold.vw_q1_remoto_por_vinculo WHERE vinculo = 'Todos' AND safra >= 2024 ORDER BY safra, classificacao_duplos"
+      ]
+    },
+    {
+      "name": "ds_q1d",
+      "displayName": "Q1d modelo",
+      "queryLines": [
+        "SELECT CONCAT(categoria, ' × ', referencia) AS contraste, ROUND(razao_de_chances, 2) AS razao_de_chances, CONCAT(ROUND(ic95_inf, 2), ' a ', ROUND(ic95_sup, 2)) AS ic95, CASE WHEN p_valor < 0.001 THEN '< 0,001' ELSE REPLACE(FORMAT_STRING('%.3f', p_valor), '.', ',') END AS p_valor FROM mafia_office.gold.analise_q1d_modelo_logistico WHERE fator = 'safra' AND tipo = 'contraste' ORDER BY categoria, referencia"
+      ]
+    },
+    {
+      "name": "ds_q2",
+      "displayName": "Q2 remoto e híbrido por porte, 2025",
+      "queryLines": [
+        "SELECT porte, porte_ordem, arranjo, arranjo_ordem, pct_no_porte AS pct, n_porte AS n FROM mafia_office.gold.vw_q2_arranjo_por_porte WHERE safra = 2025 AND arranjo IN ('Remoto', 'Híbrido') AND NOT e_autonomo AND porte <> 'Não sabe' ORDER BY porte_ordem, arranjo_ordem"
+      ]
+    },
+    {
+      "name": "ds_q3",
+      "displayName": "Q3 Brasil × resto do mundo",
+      "queryLines": [
+        "SELECT TO_DATE(CONCAT(safra, '-01-01')) AS safra, grupo, SUM(CASE WHEN arranjo IN ('Remoto', 'Híbrido') THEN pct_serie_comparavel END) AS nao_presencial_pct, MAX(CASE WHEN arranjo = 'Remoto' THEN pct_serie_comparavel END) AS remoto_pct FROM mafia_office.gold.vw_q3_brasil_x_resto_mundo WHERE entra_serie_historica GROUP BY safra, grupo ORDER BY safra, grupo"
+      ]
+    },
+    {
+      "name": "ds_q4",
+      "displayName": "Q4 perfis extremos, 2025",
+      "queryLines": [
+        "WITH p AS (SELECT perfil, SUM(n_serie_comparavel) AS n, ROUND(100 * SUM(remotos) / SUM(n_serie_comparavel), 1) AS remoto_pct FROM mafia_office.gold.vw_q4_perfil_remoto WHERE safra = 2025 GROUP BY perfil HAVING SUM(n_serie_comparavel) >= 100), r AS (SELECT *, ROW_NUMBER() OVER (ORDER BY remoto_pct DESC) AS alto, ROW_NUMBER() OVER (ORDER BY remoto_pct) AS baixo FROM p) SELECT perfil, n, remoto_pct, CASE WHEN alto <= 6 THEN 'mais remotos' ELSE 'menos remotos' END AS grupo FROM r WHERE alto <= 6 OR baixo <= 6 ORDER BY remoto_pct DESC"
+      ]
+    },
+    {
+      "name": "ds_q5",
+      "displayName": "Q5 satisfação",
+      "queryLines": [
+        "SELECT CAST(safra AS STRING) AS safra, arranjo, ordem, satisfacao_media AS media, satisfacao_media_padronizada AS padronizada, n_com_satisfacao AS n FROM mafia_office.gold.vw_q5_arranjo_satisfacao WHERE arranjo IN ('Remoto', 'Híbrido', 'Presencial') ORDER BY safra, ordem"
+      ]
+    },
+    {
+      "name": "ds_q6",
+      "displayName": "Q6 teletrabalho por UF",
+      "queryLines": [
+        "SELECT uf_sigla, percentual AS teletrabalho_pct, cv_classificacao AS precisao_cv, pessoas_mil FROM mafia_office.gold.vw_q6_teletrabalho_uf WHERE nivel = 'uf' AND modalidade_codigo = '59805' ORDER BY percentual DESC"
+      ]
+    },
+    {
+      "name": "ds_q7",
+      "displayName": "Q7 setor proxy, Brasil",
+      "queryLines": [
+        "SELECT MAKE_DATE(ano, 3 * trimestre - 2, 1) AS trimestre_inicio, 'trimestral' AS serie, SUM(pessoas_mil) AS ocupados_mil FROM mafia_office.gold.vw_q7_ocupacao_proxy_tecnologia_uf GROUP BY ano, trimestre UNION ALL SELECT MAKE_DATE(ano, 3 * trimestre - 2, 1), 'média móvel 4T', SUM(media_movel_4t) FROM mafia_office.gold.vw_q7_ocupacao_proxy_tecnologia_uf WHERE media_movel_4t IS NOT NULL GROUP BY ano, trimestre ORDER BY trimestre_inicio, serie"
+      ]
+    },
+    {
+      "name": "ds_q8",
+      "displayName": "Q8 cenários de público",
+      "queryLines": [
+        "SELECT CONCAT(cenario, ' · ', metodo) AS cenario_metodo, cenario, estimativa_mil, estimativa_ic95_inf_mil AS ic_inf, estimativa_ic95_sup_mil AS ic_sup, teto_logico_mil AS teto_mil, excede_teto_logico AS excede_teto FROM mafia_office.gold.vw_q8_mercado_brasil WHERE nivel = 'pais' ORDER BY cenario, metodo"
+      ]
+    },
+    {
+      "name": "ds_execucao",
+      "displayName": "Estado das verificações",
+      "queryLines": [
+        "SELECT DATE_FORMAT(MAX(executado_em), 'dd/MM/yyyy HH:mm') AS ultima_atualizacao_utc, COUNT(*) AS verificacoes, COUNT_IF(resultado = 'aprovado') AS aprovadas, COUNT_IF(resultado = 'reprovado') AS reprovadas, COUNT_IF(resultado NOT IN ('aprovado', 'reprovado')) AS medidas_ou_registradas FROM mafia_office.gold.verificacoes_qualidade"
+      ]
+    },
+    {
+      "name": "ds_checks",
+      "displayName": "Verificações",
+      "queryLines": [
+        "SELECT verificacao_id, dimensao_qualidade, resultado, classificacao, linhas_afetadas, valor_medido FROM mafia_office.gold.verificacoes_qualidade ORDER BY verificacao_id"
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "name": "pg_arranjo",
+      "displayName": "Q1 a Q4 · Arranjo de trabalho",
+      "layout": [
+        {
+          "widget": {
+            "name": "t1",
+            "multilineTextboxSpec": {
+              "lines": [
+                "**Stack Overflow Developer Survey, 2022 a 2025, base trabalhando, série comparável (Remoto, Híbrido, Presencial).** 2025 tem quebra de questionário e um quinto de não resposta; a leitura de 2025 usa os limites e o modelo abaixo. Percentuais descrevem quem respondeu, não a população."
+              ]
+            }
+          },
+          "position": {
+            "x": 0,
+            "y": 0,
+            "width": 6,
+            "height": 2
+          }
+        },
+        {
+          "widget": {
+            "name": "g_q1",
+            "queries": [
+              {
+                "name": "main_query",
+                "query": {
+                  "datasetName": "ds_q1",
+                  "fields": [
+                    {
+                      "name": "safra",
+                      "expression": "`safra`"
+                    },
+                    {
+                      "name": "pct",
+                      "expression": "`pct`"
+                    },
+                    {
+                      "name": "arranjo",
+                      "expression": "`arranjo`"
+                    }
+                  ],
+                  "disaggregated": true
+                }
+              }
+            ],
+            "spec": {
+              "version": 3,
+              "widgetType": "line",
+              "encodings": {
+                "x": {
+                  "fieldName": "safra",
+                  "scale": {
+                    "type": "temporal"
+                  },
+                  "displayName": "Safra"
+                },
+                "y": {
+                  "fieldName": "pct",
+                  "scale": {
+                    "type": "quantitative"
+                  },
+                  "displayName": "% dos que trabalham"
+                },
+                "color": {
+                  "fieldName": "arranjo",
+                  "scale": {
+                    "type": "categorical",
+                    "mappings": [
+                      {
+                        "value": "Remoto",
+                        "color": "#1f4e9c"
+                      },
+                      {
+                        "value": "Híbrido",
+                        "color": "#2e7d5b"
+                      },
+                      {
+                        "value": "Presencial",
+                        "color": "#c8552b"
+                      },
+                      {
+                        "value": "Flexível",
+                        "color": "#b8b8bf"
+                      }
+                    ]
+                  },
+                  "displayName": "arranjo"
+                }
+              },
+              "frame": {
+                "showTitle": true,
+                "title": "Q1 · Híbrido parado em 42% de 2022 a 2024; remoto cai de 43,0% para 38,0%",
+                "showDescription": false
+              }
+            }
+          },
+          "position": {
+            "x": 0,
+            "y": 2,
+            "width": 4,
+            "height": 7
+          }
+        },
+        {
+          "widget": {
+            "name": "tb_q1d",
+            "queries": [
+              {
+                "name": "main_query",
+                "query": {
+                  "datasetName": "ds_q1d",
+                  "fields": [
+                    {
+                      "name": "contraste",
+                      "expression": "`contraste`"
+                    },
+                    {
+                      "name": "razao_de_chances",
+                      "expression": "`razao_de_chances`"
+                    },
+                    {
+                      "name": "ic95",
+                      "expression": "`ic95`"
+                    },
+                    {
+                      "name": "p_valor",
+                      "expression": "`p_valor`"
+                    }
+                  ],
+                  "disaggregated": true
+                }
+              }
+            ],
+            "spec": {
+              "version": 1,
+              "widgetType": "table",
+              "encodings": {
+                "columns": [
+                  {
+                    "fieldName": "contraste",
+                    "booleanValues": [
+                      "não",
+                      "sim"
+                    ],
+                    "imageUrlTemplate": "{{ @ }}",
+                    "imageTitleTemplate": "{{ @ }}",
+                    "imageWidth": "",
+                    "imageHeight": "",
+                    "linkUrlTemplate": "{{ @ }}",
+                    "linkTextTemplate": "{{ @ }}",
+                    "linkTitleTemplate": "{{ @ }}",
+                    "linkOpenInNewTab": true,
+                    "type": "string",
+                    "displayAs": "string",
+                    "visible": true,
+                    "order": 0,
+                    "title": "Safra × referência",
+                    "allowSearch": false,
+                    "alignContent": "left",
+                    "allowHTML": false,
+                    "highlightLinks": false,
+                    "useMonospaceFont": false,
+                    "preserveWhitespace": false,
+                    "displayName": "Safra × referência"
+                  },
+                  {
+                    "fieldName": "razao_de_chances",
+                    "booleanValues": [
+                      "não",
+                      "sim"
+                    ],
+                    "imageUrlTemplate": "{{ @ }}",
+                    "imageTitleTemplate": "{{ @ }}",
+                    "imageWidth": "",
+                    "imageHeight": "",
+                    "linkUrlTemplate": "{{ @ }}",
+                    "linkTextTemplate": "{{ @ }}",
+                    "linkTitleTemplate": "{{ @ }}",
+                    "linkOpenInNewTab": true,
+                    "type": "decimal",
+                    "displayAs": "number",
+                    "visible": true,
+                    "order": 1,
+                    "title": "Razão de chances",
+                    "allowSearch": false,
+                    "alignContent": "right",
+                    "allowHTML": false,
+                    "highlightLinks": false,
+                    "useMonospaceFont": false,
+                    "preserveWhitespace": false,
+                    "displayName": "Razão de chances",
+                    "numberFormat": "0.00"
+                  },
+                  {
+                    "fieldName": "ic95",
+                    "booleanValues": [
+                      "não",
+                      "sim"
+                    ],
+                    "imageUrlTemplate": "{{ @ }}",
+                    "imageTitleTemplate": "{{ @ }}",
+                    "imageWidth": "",
+                    "imageHeight": "",
+                    "linkUrlTemplate": "{{ @ }}",
+                    "linkTextTemplate": "{{ @ }}",
+                    "linkTitleTemplate": "{{ @ }}",
+                    "linkOpenInNewTab": true,
+                    "type": "string",
+                    "displayAs": "string",
+                    "visible": true,
+                    "order": 2,
+                    "title": "IC 95%",
+                    "allowSearch": false,
+                    "alignContent": "left",
+                    "allowHTML": false,
+                    "highlightLinks": false,
+                    "useMonospaceFont": false,
+                    "preserveWhitespace": false,
+                    "displayName": "IC 95%"
+                  },
+                  {
+                    "fieldName": "p_valor",
+                    "booleanValues": [
+                      "não",
+                      "sim"
+                    ],
+                    "imageUrlTemplate": "{{ @ }}",
+                    "imageTitleTemplate": "{{ @ }}",
+                    "imageWidth": "",
+                    "imageHeight": "",
+                    "linkUrlTemplate": "{{ @ }}",
+                    "linkTextTemplate": "{{ @ }}",
+                    "linkTitleTemplate": "{{ @ }}",
+                    "linkOpenInNewTab": true,
+                    "type": "string",
+                    "displayAs": "string",
+                    "visible": true,
+                    "order": 3,
+                    "title": "p",
+                    "allowSearch": false,
+                    "alignContent": "right",
+                    "allowHTML": false,
+                    "highlightLinks": false,
+                    "useMonospaceFont": false,
+                    "preserveWhitespace": false,
+                    "displayName": "p"
+                  }
+                ]
+              },
+              "invisibleColumns": [],
+              "allowHTMLByDefault": false,
+              "itemsPerPage": 40,
+              "paginationSize": "default",
+              "condensed": true,
+              "withRowNumber": false,
+              "frame": {
+                "showTitle": true,
+                "title": "Q1d · Razão de chances de trabalho remoto, com ajuste por vínculo, Brasil/resto e experiência",
+                "showDescription": false
+              }
+            }
+          },
+          "position": {
+            "x": 4,
+            "y": 2,
+            "width": 2,
+            "height": 7
+          }
+        },
+        {
+          "widget": {
+            "name": "tb_q1c",
+            "queries": [
+              {
+                "name": "main_query",
+                "query": {
+                  "datasetName": "ds_q1c",
+                  "fields": [
+                    {
+                      "name": "safra",
+                      "expression": "`safra`"
+                    },
+                    {
+                      "name": "duplos",
+                      "expression": "`duplos`"
+                    },
+                    {
+                      "name": "remoto_pct",
+                      "expression": "`remoto_pct`"
+                    },
+                    {
+                      "name": "padronizado_pct",
+                      "expression": "`padronizado_pct`"
+                    },
+                    {
+                      "name": "limite_inf",
+                      "expression": "`limite_inf`"
+                    },
+                    {
+                      "name": "limite_sup",
+                      "expression": "`limite_sup`"
+                    }
+                  ],
+                  "disaggregated": true
+                }
+              }
+            ],
+            "spec": {
+              "version": 1,
+              "widgetType": "table",
+              "encodings": {
+                "columns": [
+                  {
+                    "fieldName": "safra",
+                    "booleanValues": [
+                      "não",
+                      "sim"
+                    ],
+                    "imageUrlTemplate": "{{ @ }}",
+                    "imageTitleTemplate": "{{ @ }}",
+                    "imageWidth": "",
+                    "imageHeight": "",
+                    "linkUrlTemplate": "{{ @ }}",
+                    "linkTextTemplate": "{{ @ }}",
+                    "linkTitleTemplate": "{{ @ }}",
+                    "linkOpenInNewTab": true,
+                    "type": "string",
+                    "displayAs": "string",
+                    "visible": true,
+                    "order": 0,
+                    "title": "Safra",
+                    "allowSearch": false,
+                    "alignContent": "left",
+                    "allowHTML": false,
+                    "highlightLinks": false,
+                    "useMonospaceFont": false,
+                    "preserveWhitespace": false,
+                    "displayName": "Safra"
+                  },
+                  {
+                    "fieldName": "duplos",
+                    "booleanValues": [
+                      "não",
+                      "sim"
+                    ],
+                    "imageUrlTemplate": "{{ @ }}",
+                    "imageTitleTemplate": "{{ @ }}",
+                    "imageWidth": "",
+                    "imageHeight": "",
+                    "linkUrlTemplate": "{{ @ }}",
+                    "linkTextTemplate": "{{ @ }}",
+                    "linkTitleTemplate": "{{ @ }}",
+                    "linkOpenInNewTab": true,
+                    "type": "string",
+                    "displayAs": "string",
+                    "visible": true,
+                    "order": 1,
+                    "title": "Classificação dos duplos",
+                    "allowSearch": false,
+                    "alignContent": "left",
+                    "allowHTML": false,
+                    "highlightLinks": false,
+                    "useMonospaceFont": false,
+                    "preserveWhitespace": false,
+                    "displayName": "Classificação dos duplos"
+                  },
+                  {
+                    "fieldName": "remoto_pct",
+                    "booleanValues": [
+                      "não",
+                      "sim"
+                    ],
+                    "imageUrlTemplate": "{{ @ }}",
+                    "imageTitleTemplate": "{{ @ }}",
+                    "imageWidth": "",
+                    "imageHeight": "",
+                    "linkUrlTemplate": "{{ @ }}",
+                    "linkTextTemplate": "{{ @ }}",
+                    "linkTitleTemplate": "{{ @ }}",
+                    "linkOpenInNewTab": true,
+                    "type": "decimal",
+                    "displayAs": "number",
+                    "visible": true,
+                    "order": 2,
+                    "title": "Remoto %",
+                    "allowSearch": false,
+                    "alignContent": "right",
+                    "allowHTML": false,
+                    "highlightLinks": false,
+                    "useMonospaceFont": false,
+                    "preserveWhitespace": false,
+                    "displayName": "Remoto %",
+                    "numberFormat": "0.0"
+                  },
+                  {
+                    "fieldName": "padronizado_pct",
+                    "booleanValues": [
+                      "não",
+                      "sim"
+                    ],
+                    "imageUrlTemplate": "{{ @ }}",
+                    "imageTitleTemplate": "{{ @ }}",
+                    "imageWidth": "",
+                    "imageHeight": "",
+                    "linkUrlTemplate": "{{ @ }}",
+                    "linkTextTemplate": "{{ @ }}",
+                    "linkTitleTemplate": "{{ @ }}",
+                    "linkOpenInNewTab": true,
+                    "type": "decimal",
+                    "displayAs": "number",
+                    "visible": true,
+                    "order": 3,
+                    "title": "Padronizado pela composição de 2024 %",
+                    "allowSearch": false,
+                    "alignContent": "right",
+                    "allowHTML": false,
+                    "highlightLinks": false,
+                    "useMonospaceFont": false,
+                    "preserveWhitespace": false,
+                    "displayName": "Padronizado pela composição de 2024 %",
+                    "numberFormat": "0.0"
+                  },
+                  {
+                    "fieldName": "limite_inf",
+                    "booleanValues": [
+                      "não",
+                      "sim"
+                    ],
+                    "imageUrlTemplate": "{{ @ }}",
+                    "imageTitleTemplate": "{{ @ }}",
+                    "imageWidth": "",
+                    "imageHeight": "",
+                    "linkUrlTemplate": "{{ @ }}",
+                    "linkTextTemplate": "{{ @ }}",
+                    "linkTitleTemplate": "{{ @ }}",
+                    "linkOpenInNewTab": true,
+                    "type": "decimal",
+                    "displayAs": "number",
+                    "visible": true,
+                    "order": 4,
+                    "title": "Limite inf. (nulos não remotos) %",
+                    "allowSearch": false,
+                    "alignContent": "right",
+                    "allowHTML": false,
+                    "highlightLinks": false,
+                    "useMonospaceFont": false,
+                    "preserveWhitespace": false,
+                    "displayName": "Limite inf. (nulos não remotos) %",
+                    "numberFormat": "0.0"
+                  },
+                  {
+                    "fieldName": "limite_sup",
+                    "booleanValues": [
+                      "não",
+                      "sim"
+                    ],
+                    "imageUrlTemplate": "{{ @ }}",
+                    "imageTitleTemplate": "{{ @ }}",
+                    "imageWidth": "",
+                    "imageHeight": "",
+                    "linkUrlTemplate": "{{ @ }}",
+                    "linkTextTemplate": "{{ @ }}",
+                    "linkTitleTemplate": "{{ @ }}",
+                    "linkOpenInNewTab": true,
+                    "type": "decimal",
+                    "displayAs": "number",
+                    "visible": true,
+                    "order": 5,
+                    "title": "Limite sup. (nulos remotos) %",
+                    "allowSearch": false,
+                    "alignContent": "right",
+                    "allowHTML": false,
+                    "highlightLinks": false,
+                    "useMonospaceFont": false,
+                    "preserveWhitespace": false,
+                    "displayName": "Limite sup. (nulos remotos) %",
+                    "numberFormat": "0.0"
+                  }
+                ]
+              },
+              "invisibleColumns": [],
+              "allowHTMLByDefault": false,
+              "itemsPerPage": 40,
+              "paginationSize": "default",
+              "condensed": true,
+              "withRowNumber": false,
+              "frame": {
+                "showTitle": true,
+                "title": "Q1c · 2024 e 2025: série bruta, padronizada por vínculo e limites de pior caso",
+                "showDescription": false
+              }
+            }
+          },
+          "position": {
+            "x": 0,
+            "y": 9,
+            "width": 6,
+            "height": 5
+          }
+        },
+        {
+          "widget": {
+            "name": "g_q3",
+            "queries": [
+              {
+                "name": "main_query",
+                "query": {
+                  "datasetName": "ds_q3",
+                  "fields": [
+                    {
+                      "name": "safra",
+                      "expression": "`safra`"
+                    },
+                    {
+                      "name": "nao_presencial_pct",
+                      "expression": "`nao_presencial_pct`"
+                    },
+                    {
+                      "name": "grupo",
+                      "expression": "`grupo`"
+                    }
+                  ],
+                  "disaggregated": true
+                }
+              }
+            ],
+            "spec": {
+              "version": 3,
+              "widgetType": "line",
+              "encodings": {
+                "x": {
+                  "fieldName": "safra",
+                  "scale": {
+                    "type": "temporal"
+                  },
+                  "displayName": "Safra"
+                },
+                "y": {
+                  "fieldName": "nao_presencial_pct",
+                  "scale": {
+                    "type": "quantitative"
+                  },
+                  "displayName": "% remoto ou híbrido"
+                },
+                "color": {
+                  "fieldName": "grupo",
+                  "scale": {
+                    "type": "categorical",
+                    "mappings": [
+                      {
+                        "value": "Brasil",
+                        "color": "#1f4e9c"
+                      },
+                      {
+                        "value": "Resto do mundo",
+                        "color": "#5b5b63"
+                      }
+                    ]
+                  },
+                  "displayName": "grupo"
+                }
+              },
+              "frame": {
+                "showTitle": true,
+                "title": "Q3 · Remoto ou híbrido: Brasil de 3 a 4 pontos acima do resto do mundo",
+                "showDescription": false
+              }
+            }
+          },
+          "position": {
+            "x": 0,
+            "y": 14,
+            "width": 3,
+            "height": 7
+          }
+        },
+        {
+          "widget": {
+            "name": "g_q2",
+            "queries": [
+              {
+                "name": "main_query",
+                "query": {
+                  "datasetName": "ds_q2",
+                  "fields": [
+                    {
+                      "name": "porte",
+                      "expression": "`porte`"
+                    },
+                    {
+                      "name": "pct",
+                      "expression": "`pct`"
+                    },
+                    {
+                      "name": "arranjo",
+                      "expression": "`arranjo`"
+                    }
+                  ],
+                  "disaggregated": true
+                }
+              }
+            ],
+            "spec": {
+              "version": 3,
+              "widgetType": "bar",
+              "encodings": {
+                "x": {
+                  "fieldName": "porte",
+                  "scale": {
+                    "type": "categorical",
+                    "sort": {
+                      "by": "natural-order"
+                    }
+                  },
+                  "displayName": "Porte da empresa (pessoas)"
+                },
+                "y": {
+                  "fieldName": "pct",
+                  "scale": {
+                    "type": "quantitative"
+                  },
+                  "displayName": "% de quem trabalha no porte"
+                },
+                "color": {
+                  "fieldName": "arranjo",
+                  "scale": {
+                    "type": "categorical",
+                    "mappings": [
+                      {
+                        "value": "Remoto",
+                        "color": "#1f4e9c"
+                      },
+                      {
+                        "value": "Híbrido",
+                        "color": "#2e8b6e"
+                      }
+                    ]
+                  },
+                  "displayName": "arranjo"
+                }
+              },
+              "frame": {
+                "showTitle": true,
+                "title": "Q2 · 2025: remoto mais híbrido é maior nas empresas grandes, puxado pelo híbrido",
+                "showDescription": false
+              },
+              "mark": {
+                "layout": "stack"
+              }
+            }
+          },
+          "position": {
+            "x": 3,
+            "y": 14,
+            "width": 3,
+            "height": 7
+          }
+        },
+        {
+          "widget": {
+            "name": "g_q4",
+            "queries": [
+              {
+                "name": "main_query",
+                "query": {
+                  "datasetName": "ds_q4",
+                  "fields": [
+                    {
+                      "name": "perfil",
+                      "expression": "`perfil`"
+                    },
+                    {
+                      "name": "remoto_pct",
+                      "expression": "`remoto_pct`"
+                    },
+                    {
+                      "name": "grupo",
+                      "expression": "`grupo`"
+                    }
+                  ],
+                  "disaggregated": true
+                }
+              }
+            ],
+            "spec": {
+              "version": 3,
+              "widgetType": "bar",
+              "encodings": {
+                "y": {
+                  "fieldName": "perfil",
+                  "scale": {
+                    "type": "categorical",
+                    "sort": {
+                      "by": "x-reversed"
+                    }
+                  },
+                  "displayName": "Perfil (2025, n ≥ 100)"
+                },
+                "x": {
+                  "fieldName": "remoto_pct",
+                  "scale": {
+                    "type": "quantitative"
+                  },
+                  "displayName": "% Remoto"
+                },
+                "color": {
+                  "fieldName": "grupo",
+                  "scale": {
+                    "type": "categorical",
+                    "mappings": [
+                      {
+                        "value": "mais remotos",
+                        "color": "#1f4e9c"
+                      },
+                      {
+                        "value": "menos remotos",
+                        "color": "#b8b8bf"
+                      }
+                    ]
+                  },
+                  "displayName": "grupo"
+                }
+              },
+              "frame": {
+                "showTitle": true,
+                "title": "Q4 · Os seis perfis mais e os seis menos remotos em 2025",
+                "showDescription": false
+              },
+              "mark": {
+                "layout": "group"
+              }
+            }
+          },
+          "position": {
+            "x": 0,
+            "y": 21,
+            "width": 6,
+            "height": 8
+          }
+        }
+      ],
+      "pageType": "PAGE_TYPE_CANVAS"
+    },
+    {
+      "name": "pg_mercado",
+      "displayName": "Q5 a Q8 · Satisfação e cenários de público",
+      "layout": [
+        {
+          "widget": {
+            "name": "t2",
+            "multilineTextboxSpec": {
+              "lines": [
+                "**Q5 é uma associação descritiva na pesquisa de 2024 e 2025. Q6 usa o módulo experimental de teletrabalho do IBGE de 2022; Q7 acompanha a ocupação de 2012 a 2026.** Q8 transfere taxas de 2022 ao setor proxy sob premissas explícitas: quatro estimativas A/B, de 893,6 a 1.241,9 mil pessoas. O teste C excede o teto e é descartado. Os intervalos cobrem apenas a precisão amostral da taxa, sem medir compradores ou demanda."
+              ]
+            }
+          },
+          "position": {
+            "x": 0,
+            "y": 0,
+            "width": 6,
+            "height": 2
+          }
+        },
+        {
+          "widget": {
+            "name": "g_q5",
+            "queries": [
+              {
+                "name": "main_query",
+                "query": {
+                  "datasetName": "ds_q5",
+                  "fields": [
+                    {
+                      "name": "arranjo",
+                      "expression": "`arranjo`"
+                    },
+                    {
+                      "name": "media",
+                      "expression": "`media`"
+                    },
+                    {
+                      "name": "safra",
+                      "expression": "`safra`"
+                    }
+                  ],
+                  "disaggregated": true
+                }
+              }
+            ],
+            "spec": {
+              "version": 3,
+              "widgetType": "bar",
+              "encodings": {
+                "x": {
+                  "fieldName": "arranjo",
+                  "scale": {
+                    "type": "categorical",
+                    "sort": {
+                      "by": "natural-order"
+                    }
+                  },
+                  "displayName": "Arranjo"
+                },
+                "y": {
+                  "fieldName": "media",
+                  "scale": {
+                    "type": "quantitative"
+                  },
+                  "displayName": "Satisfação média (0 a 10)"
+                },
+                "color": {
+                  "fieldName": "safra",
+                  "scale": {
+                    "type": "categorical",
+                    "mappings": [
+                      {
+                        "value": "2024",
+                        "color": "#b8b8bf"
+                      },
+                      {
+                        "value": "2025",
+                        "color": "#1f4e9c"
+                      }
+                    ]
+                  },
+                  "displayName": "safra"
+                }
+              },
+              "frame": {
+                "showTitle": true,
+                "title": "Q5 · Remotos declaram satisfação maior que presenciais nas duas safras",
+                "showDescription": false
+              },
+              "mark": {
+                "layout": "group"
+              }
+            }
+          },
+          "position": {
+            "x": 0,
+            "y": 2,
+            "width": 3,
+            "height": 7
+          }
+        },
+        {
+          "widget": {
+            "name": "tb_q5",
+            "queries": [
+              {
+                "name": "main_query",
+                "query": {
+                  "datasetName": "ds_q5",
+                  "fields": [
+                    {
+                      "name": "safra",
+                      "expression": "`safra`"
+                    },
+                    {
+                      "name": "arranjo",
+                      "expression": "`arranjo`"
+                    },
+                    {
+                      "name": "n",
+                      "expression": "`n`"
+                    },
+                    {
+                      "name": "media",
+                      "expression": "`media`"
+                    },
+                    {
+                      "name": "padronizada",
+                      "expression": "`padronizada`"
+                    }
+                  ],
+                  "disaggregated": true
+                }
+              }
+            ],
+            "spec": {
+              "version": 1,
+              "widgetType": "table",
+              "encodings": {
+                "columns": [
+                  {
+                    "fieldName": "safra",
+                    "booleanValues": [
+                      "não",
+                      "sim"
+                    ],
+                    "imageUrlTemplate": "{{ @ }}",
+                    "imageTitleTemplate": "{{ @ }}",
+                    "imageWidth": "",
+                    "imageHeight": "",
+                    "linkUrlTemplate": "{{ @ }}",
+                    "linkTextTemplate": "{{ @ }}",
+                    "linkTitleTemplate": "{{ @ }}",
+                    "linkOpenInNewTab": true,
+                    "type": "string",
+                    "displayAs": "string",
+                    "visible": true,
+                    "order": 0,
+                    "title": "Safra",
+                    "allowSearch": false,
+                    "alignContent": "left",
+                    "allowHTML": false,
+                    "highlightLinks": false,
+                    "useMonospaceFont": false,
+                    "preserveWhitespace": false,
+                    "displayName": "Safra"
+                  },
+                  {
+                    "fieldName": "arranjo",
+                    "booleanValues": [
+                      "não",
+                      "sim"
+                    ],
+                    "imageUrlTemplate": "{{ @ }}",
+                    "imageTitleTemplate": "{{ @ }}",
+                    "imageWidth": "",
+                    "imageHeight": "",
+                    "linkUrlTemplate": "{{ @ }}",
+                    "linkTextTemplate": "{{ @ }}",
+                    "linkTitleTemplate": "{{ @ }}",
+                    "linkOpenInNewTab": true,
+                    "type": "string",
+                    "displayAs": "string",
+                    "visible": true,
+                    "order": 1,
+                    "title": "Arranjo",
+                    "allowSearch": false,
+                    "alignContent": "left",
+                    "allowHTML": false,
+                    "highlightLinks": false,
+                    "useMonospaceFont": false,
+                    "preserveWhitespace": false,
+                    "displayName": "Arranjo"
+                  },
+                  {
+                    "fieldName": "n",
+                    "booleanValues": [
+                      "não",
+                      "sim"
+                    ],
+                    "imageUrlTemplate": "{{ @ }}",
+                    "imageTitleTemplate": "{{ @ }}",
+                    "imageWidth": "",
+                    "imageHeight": "",
+                    "linkUrlTemplate": "{{ @ }}",
+                    "linkTextTemplate": "{{ @ }}",
+                    "linkTitleTemplate": "{{ @ }}",
+                    "linkOpenInNewTab": true,
+                    "type": "integer",
+                    "displayAs": "number",
+                    "visible": true,
+                    "order": 2,
+                    "title": "n",
+                    "allowSearch": false,
+                    "alignContent": "right",
+                    "allowHTML": false,
+                    "highlightLinks": false,
+                    "useMonospaceFont": false,
+                    "preserveWhitespace": false,
+                    "displayName": "n",
+                    "numberFormat": "0"
+                  },
+                  {
+                    "fieldName": "media",
+                    "booleanValues": [
+                      "não",
+                      "sim"
+                    ],
+                    "imageUrlTemplate": "{{ @ }}",
+                    "imageTitleTemplate": "{{ @ }}",
+                    "imageWidth": "",
+                    "imageHeight": "",
+                    "linkUrlTemplate": "{{ @ }}",
+                    "linkTextTemplate": "{{ @ }}",
+                    "linkTitleTemplate": "{{ @ }}",
+                    "linkOpenInNewTab": true,
+                    "type": "decimal",
+                    "displayAs": "number",
+                    "visible": true,
+                    "order": 3,
+                    "title": "Média",
+                    "allowSearch": false,
+                    "alignContent": "right",
+                    "allowHTML": false,
+                    "highlightLinks": false,
+                    "useMonospaceFont": false,
+                    "preserveWhitespace": false,
+                    "displayName": "Média",
+                    "numberFormat": "0.00"
+                  },
+                  {
+                    "fieldName": "padronizada",
+                    "booleanValues": [
+                      "não",
+                      "sim"
+                    ],
+                    "imageUrlTemplate": "{{ @ }}",
+                    "imageTitleTemplate": "{{ @ }}",
+                    "imageWidth": "",
+                    "imageHeight": "",
+                    "linkUrlTemplate": "{{ @ }}",
+                    "linkTextTemplate": "{{ @ }}",
+                    "linkTitleTemplate": "{{ @ }}",
+                    "linkOpenInNewTab": true,
+                    "type": "decimal",
+                    "displayAs": "number",
+                    "visible": true,
+                    "order": 4,
+                    "title": "Padronizada por experiência",
+                    "allowSearch": false,
+                    "alignContent": "right",
+                    "allowHTML": false,
+                    "highlightLinks": false,
+                    "useMonospaceFont": false,
+                    "preserveWhitespace": false,
+                    "displayName": "Padronizada por experiência",
+                    "numberFormat": "0.00"
+                  }
+                ]
+              },
+              "invisibleColumns": [],
+              "allowHTMLByDefault": false,
+              "itemsPerPage": 40,
+              "paginationSize": "default",
+              "condensed": true,
+              "withRowNumber": false,
+              "frame": {
+                "showTitle": true,
+                "title": "Q5 · Diferença Remoto − Presencial: 0,32 (2024) e 0,26 (2025) ponto, padronizada",
+                "showDescription": false
+              }
+            }
+          },
+          "position": {
+            "x": 3,
+            "y": 2,
+            "width": 3,
+            "height": 7
+          }
+        },
+        {
+          "widget": {
+            "name": "g_q6",
+            "queries": [
+              {
+                "name": "main_query",
+                "query": {
+                  "datasetName": "ds_q6",
+                  "fields": [
+                    {
+                      "name": "uf_sigla",
+                      "expression": "`uf_sigla`"
+                    },
+                    {
+                      "name": "teletrabalho_pct",
+                      "expression": "`teletrabalho_pct`"
+                    },
+                    {
+                      "name": "precisao_cv",
+                      "expression": "`precisao_cv`"
+                    }
+                  ],
+                  "disaggregated": true
+                }
+              }
+            ],
+            "spec": {
+              "version": 3,
+              "widgetType": "bar",
+              "encodings": {
+                "y": {
+                  "fieldName": "uf_sigla",
+                  "scale": {
+                    "type": "categorical",
+                    "sort": {
+                      "by": "x-reversed"
+                    }
+                  },
+                  "displayName": "UF"
+                },
+                "x": {
+                  "fieldName": "teletrabalho_pct",
+                  "scale": {
+                    "type": "quantitative"
+                  },
+                  "displayName": "% dos ocupados em teletrabalho"
+                },
+                "color": {
+                  "fieldName": "precisao_cv",
+                  "scale": {
+                    "type": "categorical",
+                    "mappings": [
+                      {
+                        "value": "Ótima",
+                        "color": "#1f4e9c"
+                      },
+                      {
+                        "value": "Boa",
+                        "color": "#6f8fc4"
+                      },
+                      {
+                        "value": "Razoável",
+                        "color": "#b8b8bf"
+                      },
+                      {
+                        "value": "Pouco precisa",
+                        "color": "#e0e0e4"
+                      },
+                      {
+                        "value": "Imprecisa",
+                        "color": "#f0f0f2"
+                      }
+                    ]
+                  },
+                  "displayName": "precisao_cv"
+                }
+              },
+              "frame": {
+                "showTitle": true,
+                "title": "Q6 · Teletrabalho por UF em 2022, cor pela precisão do CV",
+                "showDescription": false
+              },
+              "mark": {
+                "layout": "group"
+              }
+            }
+          },
+          "position": {
+            "x": 0,
+            "y": 9,
+            "width": 6,
+            "height": 7
+          }
+        },
+        {
+          "widget": {
+            "name": "g_q7",
+            "queries": [
+              {
+                "name": "main_query",
+                "query": {
+                  "datasetName": "ds_q7",
+                  "fields": [
+                    {
+                      "name": "trimestre_inicio",
+                      "expression": "`trimestre_inicio`"
+                    },
+                    {
+                      "name": "ocupados_mil",
+                      "expression": "`ocupados_mil`"
+                    },
+                    {
+                      "name": "serie",
+                      "expression": "`serie`"
+                    }
+                  ],
+                  "disaggregated": true
+                }
+              }
+            ],
+            "spec": {
+              "version": 3,
+              "widgetType": "line",
+              "encodings": {
+                "x": {
+                  "fieldName": "trimestre_inicio",
+                  "scale": {
+                    "type": "temporal"
+                  },
+                  "displayName": "Trimestre"
+                },
+                "y": {
+                  "fieldName": "ocupados_mil",
+                  "scale": {
+                    "type": "quantitative"
+                  },
+                  "displayName": "Ocupados (mil)"
+                },
+                "color": {
+                  "fieldName": "serie",
+                  "scale": {
+                    "type": "categorical",
+                    "mappings": [
+                      {
+                        "value": "trimestral",
+                        "color": "#b8b8bf"
+                      },
+                      {
+                        "value": "média móvel 4T",
+                        "color": "#1f4e9c"
+                      }
+                    ]
+                  },
+                  "displayName": "serie"
+                }
+              },
+              "frame": {
+                "showTitle": true,
+                "title": "Q7 · Setor proxy (grupamento 56624), soma das UFs, 2012 a 2026",
+                "showDescription": false
+              }
+            }
+          },
+          "position": {
+            "x": 0,
+            "y": 16,
+            "width": 3,
+            "height": 7
+          }
+        },
+        {
+          "widget": {
+            "name": "tb_q8",
+            "queries": [
+              {
+                "name": "main_query",
+                "query": {
+                  "datasetName": "ds_q8",
+                  "fields": [
+                    {
+                      "name": "cenario_metodo",
+                      "expression": "`cenario_metodo`"
+                    },
+                    {
+                      "name": "estimativa_mil",
+                      "expression": "`estimativa_mil`"
+                    },
+                    {
+                      "name": "ic_inf",
+                      "expression": "`ic_inf`"
+                    },
+                    {
+                      "name": "ic_sup",
+                      "expression": "`ic_sup`"
+                    },
+                    {
+                      "name": "teto_mil",
+                      "expression": "`teto_mil`"
+                    },
+                    {
+                      "name": "excede_teto",
+                      "expression": "`excede_teto`"
+                    }
+                  ],
+                  "disaggregated": true
+                }
+              }
+            ],
+            "spec": {
+              "version": 1,
+              "widgetType": "table",
+              "encodings": {
+                "columns": [
+                  {
+                    "fieldName": "cenario_metodo",
+                    "booleanValues": [
+                      "não",
+                      "sim"
+                    ],
+                    "imageUrlTemplate": "{{ @ }}",
+                    "imageTitleTemplate": "{{ @ }}",
+                    "imageWidth": "",
+                    "imageHeight": "",
+                    "linkUrlTemplate": "{{ @ }}",
+                    "linkTextTemplate": "{{ @ }}",
+                    "linkTitleTemplate": "{{ @ }}",
+                    "linkOpenInNewTab": true,
+                    "type": "string",
+                    "displayAs": "string",
+                    "visible": true,
+                    "order": 0,
+                    "title": "Cenário · método",
+                    "allowSearch": false,
+                    "alignContent": "left",
+                    "allowHTML": false,
+                    "highlightLinks": false,
+                    "useMonospaceFont": false,
+                    "preserveWhitespace": false,
+                    "displayName": "Cenário · método"
+                  },
+                  {
+                    "fieldName": "estimativa_mil",
+                    "booleanValues": [
+                      "não",
+                      "sim"
+                    ],
+                    "imageUrlTemplate": "{{ @ }}",
+                    "imageTitleTemplate": "{{ @ }}",
+                    "imageWidth": "",
+                    "imageHeight": "",
+                    "linkUrlTemplate": "{{ @ }}",
+                    "linkTextTemplate": "{{ @ }}",
+                    "linkTitleTemplate": "{{ @ }}",
+                    "linkOpenInNewTab": true,
+                    "type": "decimal",
+                    "displayAs": "number",
+                    "visible": true,
+                    "order": 1,
+                    "title": "Estimativa (mil)",
+                    "allowSearch": false,
+                    "alignContent": "right",
+                    "allowHTML": false,
+                    "highlightLinks": false,
+                    "useMonospaceFont": false,
+                    "preserveWhitespace": false,
+                    "displayName": "Estimativa (mil)",
+                    "numberFormat": "0.0"
+                  },
+                  {
+                    "fieldName": "ic_inf",
+                    "booleanValues": [
+                      "não",
+                      "sim"
+                    ],
+                    "imageUrlTemplate": "{{ @ }}",
+                    "imageTitleTemplate": "{{ @ }}",
+                    "imageWidth": "",
+                    "imageHeight": "",
+                    "linkUrlTemplate": "{{ @ }}",
+                    "linkTextTemplate": "{{ @ }}",
+                    "linkTitleTemplate": "{{ @ }}",
+                    "linkOpenInNewTab": true,
+                    "type": "decimal",
+                    "displayAs": "number",
+                    "visible": true,
+                    "order": 2,
+                    "title": "IC inf.",
+                    "allowSearch": false,
+                    "alignContent": "right",
+                    "allowHTML": false,
+                    "highlightLinks": false,
+                    "useMonospaceFont": false,
+                    "preserveWhitespace": false,
+                    "displayName": "IC inf.",
+                    "numberFormat": "0.0"
+                  },
+                  {
+                    "fieldName": "ic_sup",
+                    "booleanValues": [
+                      "não",
+                      "sim"
+                    ],
+                    "imageUrlTemplate": "{{ @ }}",
+                    "imageTitleTemplate": "{{ @ }}",
+                    "imageWidth": "",
+                    "imageHeight": "",
+                    "linkUrlTemplate": "{{ @ }}",
+                    "linkTextTemplate": "{{ @ }}",
+                    "linkTitleTemplate": "{{ @ }}",
+                    "linkOpenInNewTab": true,
+                    "type": "decimal",
+                    "displayAs": "number",
+                    "visible": true,
+                    "order": 3,
+                    "title": "IC sup.",
+                    "allowSearch": false,
+                    "alignContent": "right",
+                    "allowHTML": false,
+                    "highlightLinks": false,
+                    "useMonospaceFont": false,
+                    "preserveWhitespace": false,
+                    "displayName": "IC sup.",
+                    "numberFormat": "0.0"
+                  },
+                  {
+                    "fieldName": "teto_mil",
+                    "booleanValues": [
+                      "não",
+                      "sim"
+                    ],
+                    "imageUrlTemplate": "{{ @ }}",
+                    "imageTitleTemplate": "{{ @ }}",
+                    "imageWidth": "",
+                    "imageHeight": "",
+                    "linkUrlTemplate": "{{ @ }}",
+                    "linkTextTemplate": "{{ @ }}",
+                    "linkTitleTemplate": "{{ @ }}",
+                    "linkOpenInNewTab": true,
+                    "type": "decimal",
+                    "displayAs": "number",
+                    "visible": true,
+                    "order": 4,
+                    "title": "Teto lógico (mil)",
+                    "allowSearch": false,
+                    "alignContent": "right",
+                    "allowHTML": false,
+                    "highlightLinks": false,
+                    "useMonospaceFont": false,
+                    "preserveWhitespace": false,
+                    "displayName": "Teto lógico (mil)",
+                    "numberFormat": "0.0"
+                  },
+                  {
+                    "fieldName": "excede_teto",
+                    "booleanValues": [
+                      "não",
+                      "sim"
+                    ],
+                    "imageUrlTemplate": "{{ @ }}",
+                    "imageTitleTemplate": "{{ @ }}",
+                    "imageWidth": "",
+                    "imageHeight": "",
+                    "linkUrlTemplate": "{{ @ }}",
+                    "linkTextTemplate": "{{ @ }}",
+                    "linkTitleTemplate": "{{ @ }}",
+                    "linkOpenInNewTab": true,
+                    "type": "boolean",
+                    "displayAs": "boolean",
+                    "visible": true,
+                    "order": 5,
+                    "title": "Excede o teto",
+                    "allowSearch": false,
+                    "alignContent": "left",
+                    "allowHTML": false,
+                    "highlightLinks": false,
+                    "useMonospaceFont": false,
+                    "preserveWhitespace": false,
+                    "displayName": "Excede o teto"
+                  }
+                ]
+              },
+              "invisibleColumns": [],
+              "allowHTMLByDefault": false,
+              "itemsPerPage": 40,
+              "paginationSize": "default",
+              "condensed": true,
+              "withRowNumber": false,
+              "frame": {
+                "showTitle": true,
+                "title": "Q8 · Quatro estimativas A/B de público; teste C descartado por exceder o teto",
+                "showDescription": false
+              }
+            }
+          },
+          "position": {
+            "x": 3,
+            "y": 16,
+            "width": 3,
+            "height": 7
+          }
+        }
+      ],
+      "pageType": "PAGE_TYPE_CANVAS"
+    },
+    {
+      "name": "pg_qualidade",
+      "displayName": "Qualidade do pipeline",
+      "layout": [
+        {
+          "widget": {
+            "name": "t3",
+            "multilineTextboxSpec": {
+              "lines": [
+                "**Estado atual das regras em `gold.verificacoes_qualidade`.** Pode reunir etapas de execuções diferentes. A aprovação de um job completo deve ser conferida no Databricks Jobs; o histórico por execução está em `gold.verificacoes_qualidade_historico`. `reprovado` interrompe o pipeline; `medido` e `registrado` descrevem características da fonte."
+              ]
+            }
+          },
+          "position": {
+            "x": 0,
+            "y": 0,
+            "width": 6,
+            "height": 2
+          }
+        },
+        {
+          "widget": {
+            "name": "tb_exec",
+            "queries": [
+              {
+                "name": "main_query",
+                "query": {
+                  "datasetName": "ds_execucao",
+                  "fields": [
+                    {
+                      "name": "ultima_atualizacao_utc",
+                      "expression": "`ultima_atualizacao_utc`"
+                    },
+                    {
+                      "name": "verificacoes",
+                      "expression": "`verificacoes`"
+                    },
+                    {
+                      "name": "aprovadas",
+                      "expression": "`aprovadas`"
+                    },
+                    {
+                      "name": "reprovadas",
+                      "expression": "`reprovadas`"
+                    },
+                    {
+                      "name": "medidas_ou_registradas",
+                      "expression": "`medidas_ou_registradas`"
+                    }
+                  ],
+                  "disaggregated": true
+                }
+              }
+            ],
+            "spec": {
+              "version": 1,
+              "widgetType": "table",
+              "encodings": {
+                "columns": [
+                  {
+                    "fieldName": "ultima_atualizacao_utc",
+                    "booleanValues": [
+                      "não",
+                      "sim"
+                    ],
+                    "imageUrlTemplate": "{{ @ }}",
+                    "imageTitleTemplate": "{{ @ }}",
+                    "imageWidth": "",
+                    "imageHeight": "",
+                    "linkUrlTemplate": "{{ @ }}",
+                    "linkTextTemplate": "{{ @ }}",
+                    "linkTitleTemplate": "{{ @ }}",
+                    "linkOpenInNewTab": true,
+                    "type": "string",
+                    "displayAs": "string",
+                    "visible": true,
+                    "order": 0,
+                    "title": "Última atualização das regras (UTC)",
+                    "allowSearch": false,
+                    "alignContent": "left",
+                    "allowHTML": false,
+                    "highlightLinks": false,
+                    "useMonospaceFont": false,
+                    "preserveWhitespace": false,
+                    "displayName": "Última atualização das regras (UTC)"
+                  },
+                  {
+                    "fieldName": "verificacoes",
+                    "booleanValues": [
+                      "não",
+                      "sim"
+                    ],
+                    "imageUrlTemplate": "{{ @ }}",
+                    "imageTitleTemplate": "{{ @ }}",
+                    "imageWidth": "",
+                    "imageHeight": "",
+                    "linkUrlTemplate": "{{ @ }}",
+                    "linkTextTemplate": "{{ @ }}",
+                    "linkTitleTemplate": "{{ @ }}",
+                    "linkOpenInNewTab": true,
+                    "type": "integer",
+                    "displayAs": "number",
+                    "visible": true,
+                    "order": 1,
+                    "title": "Verificações",
+                    "allowSearch": false,
+                    "alignContent": "right",
+                    "allowHTML": false,
+                    "highlightLinks": false,
+                    "useMonospaceFont": false,
+                    "preserveWhitespace": false,
+                    "displayName": "Verificações",
+                    "numberFormat": "0"
+                  },
+                  {
+                    "fieldName": "aprovadas",
+                    "booleanValues": [
+                      "não",
+                      "sim"
+                    ],
+                    "imageUrlTemplate": "{{ @ }}",
+                    "imageTitleTemplate": "{{ @ }}",
+                    "imageWidth": "",
+                    "imageHeight": "",
+                    "linkUrlTemplate": "{{ @ }}",
+                    "linkTextTemplate": "{{ @ }}",
+                    "linkTitleTemplate": "{{ @ }}",
+                    "linkOpenInNewTab": true,
+                    "type": "integer",
+                    "displayAs": "number",
+                    "visible": true,
+                    "order": 2,
+                    "title": "Aprovadas",
+                    "allowSearch": false,
+                    "alignContent": "right",
+                    "allowHTML": false,
+                    "highlightLinks": false,
+                    "useMonospaceFont": false,
+                    "preserveWhitespace": false,
+                    "displayName": "Aprovadas",
+                    "numberFormat": "0"
+                  },
+                  {
+                    "fieldName": "reprovadas",
+                    "booleanValues": [
+                      "não",
+                      "sim"
+                    ],
+                    "imageUrlTemplate": "{{ @ }}",
+                    "imageTitleTemplate": "{{ @ }}",
+                    "imageWidth": "",
+                    "imageHeight": "",
+                    "linkUrlTemplate": "{{ @ }}",
+                    "linkTextTemplate": "{{ @ }}",
+                    "linkTitleTemplate": "{{ @ }}",
+                    "linkOpenInNewTab": true,
+                    "type": "integer",
+                    "displayAs": "number",
+                    "visible": true,
+                    "order": 3,
+                    "title": "Reprovadas",
+                    "allowSearch": false,
+                    "alignContent": "right",
+                    "allowHTML": false,
+                    "highlightLinks": false,
+                    "useMonospaceFont": false,
+                    "preserveWhitespace": false,
+                    "displayName": "Reprovadas",
+                    "numberFormat": "0"
+                  },
+                  {
+                    "fieldName": "medidas_ou_registradas",
+                    "booleanValues": [
+                      "não",
+                      "sim"
+                    ],
+                    "imageUrlTemplate": "{{ @ }}",
+                    "imageTitleTemplate": "{{ @ }}",
+                    "imageWidth": "",
+                    "imageHeight": "",
+                    "linkUrlTemplate": "{{ @ }}",
+                    "linkTextTemplate": "{{ @ }}",
+                    "linkTitleTemplate": "{{ @ }}",
+                    "linkOpenInNewTab": true,
+                    "type": "integer",
+                    "displayAs": "number",
+                    "visible": true,
+                    "order": 4,
+                    "title": "Medidas ou registradas",
+                    "allowSearch": false,
+                    "alignContent": "right",
+                    "allowHTML": false,
+                    "highlightLinks": false,
+                    "useMonospaceFont": false,
+                    "preserveWhitespace": false,
+                    "displayName": "Medidas ou registradas",
+                    "numberFormat": "0"
+                  }
+                ]
+              },
+              "invisibleColumns": [],
+              "allowHTMLByDefault": false,
+              "itemsPerPage": 40,
+              "paginationSize": "default",
+              "condensed": true,
+              "withRowNumber": false,
+              "frame": {
+                "showTitle": true,
+                "title": "Estado das verificações",
+                "showDescription": false
+              }
+            }
+          },
+          "position": {
+            "x": 0,
+            "y": 2,
+            "width": 6,
+            "height": 3
+          }
+        },
+        {
+          "widget": {
+            "name": "tb_checks",
+            "queries": [
+              {
+                "name": "main_query",
+                "query": {
+                  "datasetName": "ds_checks",
+                  "fields": [
+                    {
+                      "name": "verificacao_id",
+                      "expression": "`verificacao_id`"
+                    },
+                    {
+                      "name": "dimensao_qualidade",
+                      "expression": "`dimensao_qualidade`"
+                    },
+                    {
+                      "name": "resultado",
+                      "expression": "`resultado`"
+                    },
+                    {
+                      "name": "classificacao",
+                      "expression": "`classificacao`"
+                    },
+                    {
+                      "name": "linhas_afetadas",
+                      "expression": "`linhas_afetadas`"
+                    },
+                    {
+                      "name": "valor_medido",
+                      "expression": "`valor_medido`"
+                    }
+                  ],
+                  "disaggregated": true
+                }
+              }
+            ],
+            "spec": {
+              "version": 1,
+              "widgetType": "table",
+              "encodings": {
+                "columns": [
+                  {
+                    "fieldName": "verificacao_id",
+                    "booleanValues": [
+                      "não",
+                      "sim"
+                    ],
+                    "imageUrlTemplate": "{{ @ }}",
+                    "imageTitleTemplate": "{{ @ }}",
+                    "imageWidth": "",
+                    "imageHeight": "",
+                    "linkUrlTemplate": "{{ @ }}",
+                    "linkTextTemplate": "{{ @ }}",
+                    "linkTitleTemplate": "{{ @ }}",
+                    "linkOpenInNewTab": true,
+                    "type": "string",
+                    "displayAs": "string",
+                    "visible": true,
+                    "order": 0,
+                    "title": "Verificação",
+                    "allowSearch": false,
+                    "alignContent": "left",
+                    "allowHTML": false,
+                    "highlightLinks": false,
+                    "useMonospaceFont": false,
+                    "preserveWhitespace": false,
+                    "displayName": "Verificação"
+                  },
+                  {
+                    "fieldName": "dimensao_qualidade",
+                    "booleanValues": [
+                      "não",
+                      "sim"
+                    ],
+                    "imageUrlTemplate": "{{ @ }}",
+                    "imageTitleTemplate": "{{ @ }}",
+                    "imageWidth": "",
+                    "imageHeight": "",
+                    "linkUrlTemplate": "{{ @ }}",
+                    "linkTextTemplate": "{{ @ }}",
+                    "linkTitleTemplate": "{{ @ }}",
+                    "linkOpenInNewTab": true,
+                    "type": "string",
+                    "displayAs": "string",
+                    "visible": true,
+                    "order": 1,
+                    "title": "Dimensão",
+                    "allowSearch": false,
+                    "alignContent": "left",
+                    "allowHTML": false,
+                    "highlightLinks": false,
+                    "useMonospaceFont": false,
+                    "preserveWhitespace": false,
+                    "displayName": "Dimensão"
+                  },
+                  {
+                    "fieldName": "resultado",
+                    "booleanValues": [
+                      "não",
+                      "sim"
+                    ],
+                    "imageUrlTemplate": "{{ @ }}",
+                    "imageTitleTemplate": "{{ @ }}",
+                    "imageWidth": "",
+                    "imageHeight": "",
+                    "linkUrlTemplate": "{{ @ }}",
+                    "linkTextTemplate": "{{ @ }}",
+                    "linkTitleTemplate": "{{ @ }}",
+                    "linkOpenInNewTab": true,
+                    "type": "string",
+                    "displayAs": "string",
+                    "visible": true,
+                    "order": 2,
+                    "title": "Resultado",
+                    "allowSearch": false,
+                    "alignContent": "left",
+                    "allowHTML": false,
+                    "highlightLinks": false,
+                    "useMonospaceFont": false,
+                    "preserveWhitespace": false,
+                    "displayName": "Resultado"
+                  },
+                  {
+                    "fieldName": "classificacao",
+                    "booleanValues": [
+                      "não",
+                      "sim"
+                    ],
+                    "imageUrlTemplate": "{{ @ }}",
+                    "imageTitleTemplate": "{{ @ }}",
+                    "imageWidth": "",
+                    "imageHeight": "",
+                    "linkUrlTemplate": "{{ @ }}",
+                    "linkTextTemplate": "{{ @ }}",
+                    "linkTitleTemplate": "{{ @ }}",
+                    "linkOpenInNewTab": true,
+                    "type": "string",
+                    "displayAs": "string",
+                    "visible": true,
+                    "order": 3,
+                    "title": "Classificação",
+                    "allowSearch": false,
+                    "alignContent": "left",
+                    "allowHTML": false,
+                    "highlightLinks": false,
+                    "useMonospaceFont": false,
+                    "preserveWhitespace": false,
+                    "displayName": "Classificação"
+                  },
+                  {
+                    "fieldName": "linhas_afetadas",
+                    "booleanValues": [
+                      "não",
+                      "sim"
+                    ],
+                    "imageUrlTemplate": "{{ @ }}",
+                    "imageTitleTemplate": "{{ @ }}",
+                    "imageWidth": "",
+                    "imageHeight": "",
+                    "linkUrlTemplate": "{{ @ }}",
+                    "linkTextTemplate": "{{ @ }}",
+                    "linkTitleTemplate": "{{ @ }}",
+                    "linkOpenInNewTab": true,
+                    "type": "integer",
+                    "displayAs": "number",
+                    "visible": true,
+                    "order": 4,
+                    "title": "Linhas afetadas",
+                    "allowSearch": false,
+                    "alignContent": "right",
+                    "allowHTML": false,
+                    "highlightLinks": false,
+                    "useMonospaceFont": false,
+                    "preserveWhitespace": false,
+                    "displayName": "Linhas afetadas",
+                    "numberFormat": "0"
+                  },
+                  {
+                    "fieldName": "valor_medido",
+                    "booleanValues": [
+                      "não",
+                      "sim"
+                    ],
+                    "imageUrlTemplate": "{{ @ }}",
+                    "imageTitleTemplate": "{{ @ }}",
+                    "imageWidth": "",
+                    "imageHeight": "",
+                    "linkUrlTemplate": "{{ @ }}",
+                    "linkTextTemplate": "{{ @ }}",
+                    "linkTitleTemplate": "{{ @ }}",
+                    "linkOpenInNewTab": true,
+                    "type": "string",
+                    "displayAs": "string",
+                    "visible": true,
+                    "order": 5,
+                    "title": "Medido e esperado",
+                    "allowSearch": false,
+                    "alignContent": "left",
+                    "allowHTML": false,
+                    "highlightLinks": false,
+                    "useMonospaceFont": false,
+                    "preserveWhitespace": false,
+                    "displayName": "Medido e esperado"
+                  }
+                ]
+              },
+              "invisibleColumns": [],
+              "allowHTMLByDefault": false,
+              "itemsPerPage": 40,
+              "paginationSize": "default",
+              "condensed": true,
+              "withRowNumber": false,
+              "frame": {
+                "showTitle": true,
+                "title": "C01 a C30",
+                "showDescription": false
+              }
+            }
+          },
+          "position": {
+            "x": 0,
+            "y": 5,
+            "width": 6,
+            "height": 12
+          }
+        }
+      ],
+      "pageType": "PAGE_TYPE_CANVAS"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+# Execução opcional dos testes. A validação local usa os mesmos arquivos.
+name: testes
+
+on:
+  workflow_dispatch:
+
+jobs:
+  testes-unitarios-silver:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: "17"
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Dependências
+        run: pip install pyspark==3.5.5 delta-spark==3.3.2 sqlparse pytest
+      - name: Testes unitários
+        run: python -m pytest testes/ -q

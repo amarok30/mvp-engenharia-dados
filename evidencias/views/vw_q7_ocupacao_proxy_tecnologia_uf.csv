@@ -1,0 +1,1567 @@
+uf_sigla,uf_nome,regiao,ano,trimestre,periodo,pessoas_mil,media_movel_4t,media_movel_4t_ano_anterior,variacao_anual_media_movel_pct
+AC,Acre,Norte,2012,1,2012T1,26.0,,,
+AC,Acre,Norte,2012,2,2012T2,23.0,,,
+AC,Acre,Norte,2012,3,2012T3,18.0,,,
+AC,Acre,Norte,2012,4,2012T4,19.0,21.5,,
+AC,Acre,Norte,2013,1,2013T1,21.0,20.3,,
+AC,Acre,Norte,2013,2,2013T2,19.0,19.3,,
+AC,Acre,Norte,2013,3,2013T3,21.0,20.0,,
+AC,Acre,Norte,2013,4,2013T4,20.0,20.3,21.5,-5.8
+AC,Acre,Norte,2014,1,2014T1,21.0,20.3,20.3,0.0
+AC,Acre,Norte,2014,2,2014T2,32.0,23.5,19.3,22.1
+AC,Acre,Norte,2014,3,2014T3,40.0,28.3,20.0,41.3
+AC,Acre,Norte,2014,4,2014T4,32.0,31.3,20.3,54.3
+AC,Acre,Norte,2015,1,2015T1,35.0,34.8,20.3,71.6
+AC,Acre,Norte,2015,2,2015T2,33.0,35.0,23.5,48.9
+AC,Acre,Norte,2015,3,2015T3,29.0,32.3,28.3,14.2
+AC,Acre,Norte,2015,4,2015T4,21.0,29.5,31.3,-5.6
+AC,Acre,Norte,2016,1,2016T1,21.0,26.0,34.8,-25.2
+AC,Acre,Norte,2016,2,2016T2,25.0,24.0,35.0,-31.4
+AC,Acre,Norte,2016,3,2016T3,20.0,21.8,32.3,-32.6
+AC,Acre,Norte,2016,4,2016T4,20.0,21.5,29.5,-27.1
+AC,Acre,Norte,2017,1,2017T1,24.0,22.3,26.0,-14.4
+AC,Acre,Norte,2017,2,2017T2,24.0,22.0,24.0,-8.3
+AC,Acre,Norte,2017,3,2017T3,24.0,23.0,21.8,5.7
+AC,Acre,Norte,2017,4,2017T4,22.0,23.5,21.5,9.3
+AC,Acre,Norte,2018,1,2018T1,27.0,24.3,22.3,9.0
+AC,Acre,Norte,2018,2,2018T2,26.0,24.8,22.0,12.5
+AC,Acre,Norte,2018,3,2018T3,26.0,25.3,23.0,9.8
+AC,Acre,Norte,2018,4,2018T4,28.0,26.8,23.5,13.8
+AC,Acre,Norte,2019,1,2019T1,27.0,26.8,24.3,10.3
+AC,Acre,Norte,2019,2,2019T2,27.0,27.0,24.8,9.1
+AC,Acre,Norte,2019,3,2019T3,26.0,27.0,25.3,6.9
+AC,Acre,Norte,2019,4,2019T4,25.0,26.3,26.8,-1.9
+AC,Acre,Norte,2020,1,2020T1,23.0,25.3,26.8,-5.6
+AC,Acre,Norte,2020,2,2020T2,25.0,24.8,27.0,-8.3
+AC,Acre,Norte,2020,3,2020T3,23.0,24.0,27.0,-11.1
+AC,Acre,Norte,2020,4,2020T4,26.0,24.3,26.3,-7.6
+AC,Acre,Norte,2021,1,2021T1,27.0,25.3,25.3,0.0
+AC,Acre,Norte,2021,2,2021T2,25.0,25.3,24.8,2.0
+AC,Acre,Norte,2021,3,2021T3,28.0,26.5,24.0,10.4
+AC,Acre,Norte,2021,4,2021T4,29.0,27.3,24.3,12.4
+AC,Acre,Norte,2022,1,2022T1,26.0,27.0,25.3,6.9
+AC,Acre,Norte,2022,2,2022T2,28.0,27.8,25.3,9.9
+AC,Acre,Norte,2022,3,2022T3,23.0,26.5,26.5,0.0
+AC,Acre,Norte,2022,4,2022T4,29.0,26.5,27.3,-2.8
+AC,Acre,Norte,2023,1,2023T1,27.0,26.8,27.0,-0.9
+AC,Acre,Norte,2023,2,2023T2,29.0,27.0,27.8,-2.7
+AC,Acre,Norte,2023,3,2023T3,30.0,28.8,26.5,8.5
+AC,Acre,Norte,2023,4,2023T4,34.0,30.0,26.5,13.2
+AC,Acre,Norte,2024,1,2024T1,33.0,31.5,26.8,17.8
+AC,Acre,Norte,2024,2,2024T2,34.0,32.8,27.0,21.3
+AC,Acre,Norte,2024,3,2024T3,34.0,33.8,28.8,17.4
+AC,Acre,Norte,2024,4,2024T4,35.0,34.0,30.0,13.3
+AC,Acre,Norte,2025,1,2025T1,36.0,34.8,31.5,10.3
+AC,Acre,Norte,2025,2,2025T2,36.0,35.3,32.8,7.6
+AC,Acre,Norte,2025,3,2025T3,37.0,36.0,33.8,6.7
+AC,Acre,Norte,2025,4,2025T4,40.0,37.3,34.0,9.6
+AC,Acre,Norte,2026,1,2026T1,39.0,38.0,34.8,9.4
+AC,Acre,Norte,2026,2,2026T2,39.0,38.8,35.3,9.9
+AL,Alagoas,Nordeste,2012,1,2012T1,71.0,,,
+AL,Alagoas,Nordeste,2012,2,2012T2,67.0,,,
+AL,Alagoas,Nordeste,2012,3,2012T3,64.0,,,
+AL,Alagoas,Nordeste,2012,4,2012T4,64.0,66.5,,
+AL,Alagoas,Nordeste,2013,1,2013T1,66.0,65.3,,
+AL,Alagoas,Nordeste,2013,2,2013T2,66.0,65.0,,
+AL,Alagoas,Nordeste,2013,3,2013T3,62.0,64.5,,
+AL,Alagoas,Nordeste,2013,4,2013T4,67.0,65.3,66.5,-1.9
+AL,Alagoas,Nordeste,2014,1,2014T1,72.0,66.8,65.3,2.3
+AL,Alagoas,Nordeste,2014,2,2014T2,80.0,70.3,65.0,8.1
+AL,Alagoas,Nordeste,2014,3,2014T3,73.0,73.0,64.5,13.2
+AL,Alagoas,Nordeste,2014,4,2014T4,80.0,76.3,65.3,16.9
+AL,Alagoas,Nordeste,2015,1,2015T1,80.0,78.3,66.8,17.2
+AL,Alagoas,Nordeste,2015,2,2015T2,79.0,78.0,70.3,11.0
+AL,Alagoas,Nordeste,2015,3,2015T3,86.0,81.3,73.0,11.3
+AL,Alagoas,Nordeste,2015,4,2015T4,64.0,77.3,76.3,1.3
+AL,Alagoas,Nordeste,2016,1,2016T1,69.0,74.5,78.3,-4.8
+AL,Alagoas,Nordeste,2016,2,2016T2,73.0,73.0,78.0,-6.4
+AL,Alagoas,Nordeste,2016,3,2016T3,69.0,68.8,81.3,-15.4
+AL,Alagoas,Nordeste,2016,4,2016T4,65.0,69.0,77.3,-10.7
+AL,Alagoas,Nordeste,2017,1,2017T1,64.0,67.8,74.5,-9.1
+AL,Alagoas,Nordeste,2017,2,2017T2,64.0,65.5,73.0,-10.3
+AL,Alagoas,Nordeste,2017,3,2017T3,58.0,62.8,68.8,-8.7
+AL,Alagoas,Nordeste,2017,4,2017T4,78.0,66.0,69.0,-4.3
+AL,Alagoas,Nordeste,2018,1,2018T1,74.0,68.5,67.8,1.1
+AL,Alagoas,Nordeste,2018,2,2018T2,72.0,70.5,65.5,7.6
+AL,Alagoas,Nordeste,2018,3,2018T3,68.0,73.0,62.8,16.3
+AL,Alagoas,Nordeste,2018,4,2018T4,78.0,73.0,66.0,10.6
+AL,Alagoas,Nordeste,2019,1,2019T1,75.0,73.3,68.5,6.9
+AL,Alagoas,Nordeste,2019,2,2019T2,83.0,76.0,70.5,7.8
+AL,Alagoas,Nordeste,2019,3,2019T3,80.0,79.0,73.0,8.2
+AL,Alagoas,Nordeste,2019,4,2019T4,84.0,80.5,73.0,10.3
+AL,Alagoas,Nordeste,2020,1,2020T1,86.0,83.3,73.3,13.7
+AL,Alagoas,Nordeste,2020,2,2020T2,72.0,80.5,76.0,5.9
+AL,Alagoas,Nordeste,2020,3,2020T3,64.0,76.5,79.0,-3.2
+AL,Alagoas,Nordeste,2020,4,2020T4,73.0,73.8,80.5,-8.4
+AL,Alagoas,Nordeste,2021,1,2021T1,81.0,72.5,83.3,-12.9
+AL,Alagoas,Nordeste,2021,2,2021T2,81.0,74.8,80.5,-7.1
+AL,Alagoas,Nordeste,2021,3,2021T3,89.0,81.0,76.5,5.9
+AL,Alagoas,Nordeste,2021,4,2021T4,88.0,84.8,73.8,14.9
+AL,Alagoas,Nordeste,2022,1,2022T1,89.0,86.8,72.5,19.7
+AL,Alagoas,Nordeste,2022,2,2022T2,99.0,91.3,74.8,22.1
+AL,Alagoas,Nordeste,2022,3,2022T3,98.0,93.5,81.0,15.4
+AL,Alagoas,Nordeste,2022,4,2022T4,97.0,95.8,84.8,13.0
+AL,Alagoas,Nordeste,2023,1,2023T1,99.0,98.3,86.8,13.3
+AL,Alagoas,Nordeste,2023,2,2023T2,97.0,97.8,91.3,7.1
+AL,Alagoas,Nordeste,2023,3,2023T3,101.0,98.5,93.5,5.3
+AL,Alagoas,Nordeste,2023,4,2023T4,109.0,101.5,95.8,6.0
+AL,Alagoas,Nordeste,2024,1,2024T1,104.0,102.8,98.3,4.6
+AL,Alagoas,Nordeste,2024,2,2024T2,117.0,107.8,97.8,10.2
+AL,Alagoas,Nordeste,2024,3,2024T3,107.0,109.3,98.5,10.9
+AL,Alagoas,Nordeste,2024,4,2024T4,104.0,108.0,101.5,6.4
+AL,Alagoas,Nordeste,2025,1,2025T1,105.0,108.3,102.8,5.4
+AL,Alagoas,Nordeste,2025,2,2025T2,114.0,107.5,107.8,-0.2
+AL,Alagoas,Nordeste,2025,3,2025T3,114.0,109.3,109.3,0.0
+AL,Alagoas,Nordeste,2025,4,2025T4,114.0,111.8,108.0,3.5
+AL,Alagoas,Nordeste,2026,1,2026T1,116.0,114.5,108.3,5.8
+AL,Alagoas,Nordeste,2026,2,2026T2,110.0,113.5,107.5,5.6
+AM,Amazonas,Norte,2012,1,2012T1,87.0,,,
+AM,Amazonas,Norte,2012,2,2012T2,93.0,,,
+AM,Amazonas,Norte,2012,3,2012T3,92.0,,,
+AM,Amazonas,Norte,2012,4,2012T4,91.0,90.8,,
+AM,Amazonas,Norte,2013,1,2013T1,88.0,91.0,,
+AM,Amazonas,Norte,2013,2,2013T2,93.0,91.0,,
+AM,Amazonas,Norte,2013,3,2013T3,90.0,90.5,,
+AM,Amazonas,Norte,2013,4,2013T4,99.0,92.5,90.8,1.9
+AM,Amazonas,Norte,2014,1,2014T1,95.0,94.3,91.0,3.6
+AM,Amazonas,Norte,2014,2,2014T2,79.0,90.8,91.0,-0.3
+AM,Amazonas,Norte,2014,3,2014T3,105.0,94.5,90.5,4.4
+AM,Amazonas,Norte,2014,4,2014T4,99.0,94.5,92.5,2.2
+AM,Amazonas,Norte,2015,1,2015T1,97.0,95.0,94.3,0.8
+AM,Amazonas,Norte,2015,2,2015T2,92.0,98.3,90.8,8.3
+AM,Amazonas,Norte,2015,3,2015T3,92.0,95.0,94.5,0.5
+AM,Amazonas,Norte,2015,4,2015T4,77.0,89.5,94.5,-5.3
+AM,Amazonas,Norte,2016,1,2016T1,75.0,84.0,95.0,-11.6
+AM,Amazonas,Norte,2016,2,2016T2,83.0,81.8,98.3,-16.8
+AM,Amazonas,Norte,2016,3,2016T3,82.0,79.3,95.0,-16.6
+AM,Amazonas,Norte,2016,4,2016T4,80.0,80.0,89.5,-10.6
+AM,Amazonas,Norte,2017,1,2017T1,89.0,83.5,84.0,-0.6
+AM,Amazonas,Norte,2017,2,2017T2,91.0,85.5,81.8,4.6
+AM,Amazonas,Norte,2017,3,2017T3,100.0,90.0,79.3,13.6
+AM,Amazonas,Norte,2017,4,2017T4,101.0,95.3,80.0,19.1
+AM,Amazonas,Norte,2018,1,2018T1,104.0,99.0,83.5,18.6
+AM,Amazonas,Norte,2018,2,2018T2,97.0,100.5,85.5,17.5
+AM,Amazonas,Norte,2018,3,2018T3,120.0,105.5,90.0,17.2
+AM,Amazonas,Norte,2018,4,2018T4,109.0,107.5,95.3,12.9
+AM,Amazonas,Norte,2019,1,2019T1,113.0,109.8,99.0,10.9
+AM,Amazonas,Norte,2019,2,2019T2,110.0,113.0,100.5,12.4
+AM,Amazonas,Norte,2019,3,2019T3,115.0,111.8,105.5,5.9
+AM,Amazonas,Norte,2019,4,2019T4,107.0,111.3,107.5,3.5
+AM,Amazonas,Norte,2020,1,2020T1,126.0,114.5,109.8,4.3
+AM,Amazonas,Norte,2020,2,2020T2,118.0,116.5,113.0,3.1
+AM,Amazonas,Norte,2020,3,2020T3,105.0,114.0,111.8,2.0
+AM,Amazonas,Norte,2020,4,2020T4,117.0,116.5,111.3,4.7
+AM,Amazonas,Norte,2021,1,2021T1,112.0,113.0,114.5,-1.3
+AM,Amazonas,Norte,2021,2,2021T2,124.0,114.5,116.5,-1.7
+AM,Amazonas,Norte,2021,3,2021T3,110.0,115.8,114.0,1.5
+AM,Amazonas,Norte,2021,4,2021T4,110.0,114.0,116.5,-2.1
+AM,Amazonas,Norte,2022,1,2022T1,132.0,119.0,113.0,5.3
+AM,Amazonas,Norte,2022,2,2022T2,131.0,120.8,114.5,5.5
+AM,Amazonas,Norte,2022,3,2022T3,149.0,130.5,115.8,12.7
+AM,Amazonas,Norte,2022,4,2022T4,130.0,135.5,114.0,18.9
+AM,Amazonas,Norte,2023,1,2023T1,143.0,138.3,119.0,16.2
+AM,Amazonas,Norte,2023,2,2023T2,122.0,136.0,120.8,12.6
+AM,Amazonas,Norte,2023,3,2023T3,147.0,135.5,130.5,3.8
+AM,Amazonas,Norte,2023,4,2023T4,140.0,138.0,135.5,1.8
+AM,Amazonas,Norte,2024,1,2024T1,139.0,137.0,138.3,-0.9
+AM,Amazonas,Norte,2024,2,2024T2,143.0,142.3,136.0,4.6
+AM,Amazonas,Norte,2024,3,2024T3,141.0,140.8,135.5,3.9
+AM,Amazonas,Norte,2024,4,2024T4,143.0,141.5,138.0,2.5
+AM,Amazonas,Norte,2025,1,2025T1,139.0,141.5,137.0,3.3
+AM,Amazonas,Norte,2025,2,2025T2,142.0,141.3,142.3,-0.7
+AM,Amazonas,Norte,2025,3,2025T3,137.0,140.3,140.8,-0.4
+AM,Amazonas,Norte,2025,4,2025T4,138.0,139.0,141.5,-1.8
+AM,Amazonas,Norte,2026,1,2026T1,134.0,137.8,141.5,-2.7
+AM,Amazonas,Norte,2026,2,2026T2,150.0,139.8,141.3,-1.1
+AP,Amapá,Norte,2012,1,2012T1,19.0,,,
+AP,Amapá,Norte,2012,2,2012T2,21.0,,,
+AP,Amapá,Norte,2012,3,2012T3,24.0,,,
+AP,Amapá,Norte,2012,4,2012T4,20.0,21.0,,
+AP,Amapá,Norte,2013,1,2013T1,18.0,20.8,,
+AP,Amapá,Norte,2013,2,2013T2,20.0,20.5,,
+AP,Amapá,Norte,2013,3,2013T3,22.0,20.0,,
+AP,Amapá,Norte,2013,4,2013T4,25.0,21.3,21.0,1.2
+AP,Amapá,Norte,2014,1,2014T1,24.0,22.8,20.8,9.6
+AP,Amapá,Norte,2014,2,2014T2,27.0,24.5,20.5,19.5
+AP,Amapá,Norte,2014,3,2014T3,33.0,27.3,20.0,36.3
+AP,Amapá,Norte,2014,4,2014T4,32.0,29.0,21.3,36.5
+AP,Amapá,Norte,2015,1,2015T1,30.0,30.5,22.8,34.1
+AP,Amapá,Norte,2015,2,2015T2,29.0,31.0,24.5,26.5
+AP,Amapá,Norte,2015,3,2015T3,32.0,30.8,27.3,12.8
+AP,Amapá,Norte,2015,4,2015T4,22.0,28.3,29.0,-2.6
+AP,Amapá,Norte,2016,1,2016T1,20.0,25.8,30.5,-15.6
+AP,Amapá,Norte,2016,2,2016T2,19.0,23.3,31.0,-25.0
+AP,Amapá,Norte,2016,3,2016T3,16.0,19.3,30.8,-37.4
+AP,Amapá,Norte,2016,4,2016T4,19.0,18.5,28.3,-34.5
+AP,Amapá,Norte,2017,1,2017T1,16.0,17.5,25.8,-32.0
+AP,Amapá,Norte,2017,2,2017T2,20.0,17.8,23.3,-23.7
+AP,Amapá,Norte,2017,3,2017T3,18.0,18.3,19.3,-5.2
+AP,Amapá,Norte,2017,4,2017T4,22.0,19.0,18.5,2.7
+AP,Amapá,Norte,2018,1,2018T1,17.0,19.3,17.5,10.0
+AP,Amapá,Norte,2018,2,2018T2,21.0,19.5,17.8,9.9
+AP,Amapá,Norte,2018,3,2018T3,22.0,20.5,18.3,12.3
+AP,Amapá,Norte,2018,4,2018T4,22.0,20.5,19.0,7.9
+AP,Amapá,Norte,2019,1,2019T1,20.0,21.3,19.3,10.4
+AP,Amapá,Norte,2019,2,2019T2,19.0,20.8,19.5,6.4
+AP,Amapá,Norte,2019,3,2019T3,22.0,20.8,20.5,1.2
+AP,Amapá,Norte,2019,4,2019T4,21.0,20.5,20.5,0.0
+AP,Amapá,Norte,2020,1,2020T1,23.0,21.3,21.3,0.0
+AP,Amapá,Norte,2020,2,2020T2,21.0,21.8,20.8,4.8
+AP,Amapá,Norte,2020,3,2020T3,20.0,21.3,20.8,2.4
+AP,Amapá,Norte,2020,4,2020T4,22.0,21.5,20.5,4.9
+AP,Amapá,Norte,2021,1,2021T1,24.0,21.8,21.3,2.4
+AP,Amapá,Norte,2021,2,2021T2,21.0,21.8,21.8,0.0
+AP,Amapá,Norte,2021,3,2021T3,23.0,22.5,21.3,5.9
+AP,Amapá,Norte,2021,4,2021T4,27.0,23.8,21.5,10.5
+AP,Amapá,Norte,2022,1,2022T1,24.0,23.8,21.8,9.2
+AP,Amapá,Norte,2022,2,2022T2,20.0,23.5,21.8,8.0
+AP,Amapá,Norte,2022,3,2022T3,26.0,24.3,22.5,7.8
+AP,Amapá,Norte,2022,4,2022T4,26.0,24.0,23.8,1.1
+AP,Amapá,Norte,2023,1,2023T1,32.0,26.0,23.8,9.5
+AP,Amapá,Norte,2023,2,2023T2,33.0,29.3,23.5,24.5
+AP,Amapá,Norte,2023,3,2023T3,32.0,30.8,24.3,26.8
+AP,Amapá,Norte,2023,4,2023T4,30.0,31.8,24.0,32.3
+AP,Amapá,Norte,2024,1,2024T1,26.0,30.3,26.0,16.3
+AP,Amapá,Norte,2024,2,2024T2,23.0,27.8,29.3,-5.1
+AP,Amapá,Norte,2024,3,2024T3,26.0,26.3,30.8,-14.6
+AP,Amapá,Norte,2024,4,2024T4,29.0,26.0,31.8,-18.1
+AP,Amapá,Norte,2025,1,2025T1,25.0,25.8,30.3,-14.9
+AP,Amapá,Norte,2025,2,2025T2,31.0,27.8,27.8,0.0
+AP,Amapá,Norte,2025,3,2025T3,35.0,30.0,26.3,14.3
+AP,Amapá,Norte,2025,4,2025T4,36.0,31.8,26.0,22.1
+AP,Amapá,Norte,2026,1,2026T1,35.0,34.3,25.8,33.0
+AP,Amapá,Norte,2026,2,2026T2,32.0,34.5,27.8,24.3
+BA,Bahia,Nordeste,2012,1,2012T1,413.0,,,
+BA,Bahia,Nordeste,2012,2,2012T2,389.0,,,
+BA,Bahia,Nordeste,2012,3,2012T3,407.0,,,
+BA,Bahia,Nordeste,2012,4,2012T4,410.0,404.8,,
+BA,Bahia,Nordeste,2013,1,2013T1,406.0,403.0,,
+BA,Bahia,Nordeste,2013,2,2013T2,400.0,405.8,,
+BA,Bahia,Nordeste,2013,3,2013T3,450.0,416.5,,
+BA,Bahia,Nordeste,2013,4,2013T4,430.0,421.5,404.8,4.1
+BA,Bahia,Nordeste,2014,1,2014T1,466.0,436.5,403.0,8.3
+BA,Bahia,Nordeste,2014,2,2014T2,473.0,454.8,405.8,12.1
+BA,Bahia,Nordeste,2014,3,2014T3,502.0,467.8,416.5,12.3
+BA,Bahia,Nordeste,2014,4,2014T4,474.0,478.8,421.5,13.6
+BA,Bahia,Nordeste,2015,1,2015T1,497.0,486.5,436.5,11.5
+BA,Bahia,Nordeste,2015,2,2015T2,492.0,491.3,454.8,8.0
+BA,Bahia,Nordeste,2015,3,2015T3,505.0,492.0,467.8,5.2
+BA,Bahia,Nordeste,2015,4,2015T4,447.0,485.3,478.8,1.4
+BA,Bahia,Nordeste,2016,1,2016T1,468.0,478.0,486.5,-1.7
+BA,Bahia,Nordeste,2016,2,2016T2,450.0,467.5,491.3,-4.8
+BA,Bahia,Nordeste,2016,3,2016T3,438.0,450.8,492.0,-8.4
+BA,Bahia,Nordeste,2016,4,2016T4,453.0,452.3,485.3,-6.8
+BA,Bahia,Nordeste,2017,1,2017T1,479.0,455.0,478.0,-4.8
+BA,Bahia,Nordeste,2017,2,2017T2,452.0,455.5,467.5,-2.6
+BA,Bahia,Nordeste,2017,3,2017T3,431.0,453.8,450.8,0.7
+BA,Bahia,Nordeste,2017,4,2017T4,417.0,444.8,452.3,-1.7
+BA,Bahia,Nordeste,2018,1,2018T1,418.0,429.5,455.0,-5.6
+BA,Bahia,Nordeste,2018,2,2018T2,410.0,419.0,455.5,-8.0
+BA,Bahia,Nordeste,2018,3,2018T3,408.0,413.3,453.8,-8.9
+BA,Bahia,Nordeste,2018,4,2018T4,406.0,410.5,444.8,-7.7
+BA,Bahia,Nordeste,2019,1,2019T1,432.0,414.0,429.5,-3.6
+BA,Bahia,Nordeste,2019,2,2019T2,400.0,411.5,419.0,-1.8
+BA,Bahia,Nordeste,2019,3,2019T3,416.0,413.5,413.3,0.1
+BA,Bahia,Nordeste,2019,4,2019T4,416.0,416.0,410.5,1.3
+BA,Bahia,Nordeste,2020,1,2020T1,419.0,412.8,414.0,-0.3
+BA,Bahia,Nordeste,2020,2,2020T2,380.0,407.8,411.5,-0.9
+BA,Bahia,Nordeste,2020,3,2020T3,339.0,388.5,413.5,-6.0
+BA,Bahia,Nordeste,2020,4,2020T4,382.0,380.0,416.0,-8.7
+BA,Bahia,Nordeste,2021,1,2021T1,395.0,374.0,412.8,-9.4
+BA,Bahia,Nordeste,2021,2,2021T2,399.0,378.8,407.8,-7.1
+BA,Bahia,Nordeste,2021,3,2021T3,398.0,393.5,388.5,1.3
+BA,Bahia,Nordeste,2021,4,2021T4,431.0,405.8,380.0,6.8
+BA,Bahia,Nordeste,2022,1,2022T1,477.0,426.3,374.0,14.0
+BA,Bahia,Nordeste,2022,2,2022T2,435.0,435.3,378.8,14.9
+BA,Bahia,Nordeste,2022,3,2022T3,453.0,449.0,393.5,14.1
+BA,Bahia,Nordeste,2022,4,2022T4,488.0,463.3,405.8,14.2
+BA,Bahia,Nordeste,2023,1,2023T1,451.0,456.8,426.3,7.2
+BA,Bahia,Nordeste,2023,2,2023T2,503.0,473.8,435.3,8.8
+BA,Bahia,Nordeste,2023,3,2023T3,480.0,480.5,449.0,7.0
+BA,Bahia,Nordeste,2023,4,2023T4,527.0,490.3,463.3,5.8
+BA,Bahia,Nordeste,2024,1,2024T1,495.0,501.3,456.8,9.7
+BA,Bahia,Nordeste,2024,2,2024T2,551.0,513.3,473.8,8.3
+BA,Bahia,Nordeste,2024,3,2024T3,559.0,533.0,480.5,10.9
+BA,Bahia,Nordeste,2024,4,2024T4,572.0,544.3,490.3,11.0
+BA,Bahia,Nordeste,2025,1,2025T1,583.0,566.3,501.3,13.0
+BA,Bahia,Nordeste,2025,2,2025T2,561.0,568.8,513.3,10.8
+BA,Bahia,Nordeste,2025,3,2025T3,584.0,575.0,533.0,7.9
+BA,Bahia,Nordeste,2025,4,2025T4,620.0,587.0,544.3,7.9
+BA,Bahia,Nordeste,2026,1,2026T1,640.0,601.3,566.3,6.2
+BA,Bahia,Nordeste,2026,2,2026T2,631.0,618.8,568.8,8.8
+CE,Ceará,Nordeste,2012,1,2012T1,230.0,,,
+CE,Ceará,Nordeste,2012,2,2012T2,241.0,,,
+CE,Ceará,Nordeste,2012,3,2012T3,237.0,,,
+CE,Ceará,Nordeste,2012,4,2012T4,240.0,237.0,,
+CE,Ceará,Nordeste,2013,1,2013T1,229.0,236.8,,
+CE,Ceará,Nordeste,2013,2,2013T2,235.0,235.3,,
+CE,Ceará,Nordeste,2013,3,2013T3,237.0,235.3,,
+CE,Ceará,Nordeste,2013,4,2013T4,254.0,238.8,237.0,0.7
+CE,Ceará,Nordeste,2014,1,2014T1,250.0,244.0,236.8,3.1
+CE,Ceará,Nordeste,2014,2,2014T2,264.0,251.3,235.3,6.8
+CE,Ceará,Nordeste,2014,3,2014T3,273.0,260.3,235.3,10.6
+CE,Ceará,Nordeste,2014,4,2014T4,274.0,265.3,238.8,11.1
+CE,Ceará,Nordeste,2015,1,2015T1,258.0,267.3,244.0,9.5
+CE,Ceará,Nordeste,2015,2,2015T2,261.0,266.5,251.3,6.1
+CE,Ceará,Nordeste,2015,3,2015T3,258.0,262.8,260.3,1.0
+CE,Ceará,Nordeste,2015,4,2015T4,254.0,257.8,265.3,-2.8
+CE,Ceará,Nordeste,2016,1,2016T1,237.0,252.5,267.3,-5.5
+CE,Ceará,Nordeste,2016,2,2016T2,246.0,248.8,266.5,-6.7
+CE,Ceará,Nordeste,2016,3,2016T3,242.0,244.8,262.8,-6.9
+CE,Ceará,Nordeste,2016,4,2016T4,247.0,243.0,257.8,-5.7
+CE,Ceará,Nordeste,2017,1,2017T1,248.0,245.8,252.5,-2.7
+CE,Ceará,Nordeste,2017,2,2017T2,254.0,247.8,248.8,-0.4
+CE,Ceará,Nordeste,2017,3,2017T3,252.0,250.3,244.8,2.2
+CE,Ceará,Nordeste,2017,4,2017T4,281.0,258.8,243.0,6.5
+CE,Ceará,Nordeste,2018,1,2018T1,274.0,265.3,245.8,7.9
+CE,Ceará,Nordeste,2018,2,2018T2,294.0,275.3,247.8,11.1
+CE,Ceará,Nordeste,2018,3,2018T3,309.0,289.5,250.3,15.7
+CE,Ceará,Nordeste,2018,4,2018T4,287.0,291.0,258.8,12.5
+CE,Ceará,Nordeste,2019,1,2019T1,276.0,291.5,265.3,9.9
+CE,Ceará,Nordeste,2019,2,2019T2,279.0,287.8,275.3,4.5
+CE,Ceará,Nordeste,2019,3,2019T3,291.0,283.3,289.5,-2.2
+CE,Ceará,Nordeste,2019,4,2019T4,288.0,283.5,291.0,-2.6
+CE,Ceará,Nordeste,2020,1,2020T1,273.0,282.8,291.5,-3.0
+CE,Ceará,Nordeste,2020,2,2020T2,247.0,274.8,287.8,-4.5
+CE,Ceará,Nordeste,2020,3,2020T3,251.0,264.8,283.3,-6.5
+CE,Ceará,Nordeste,2020,4,2020T4,282.0,263.3,283.5,-7.1
+CE,Ceará,Nordeste,2021,1,2021T1,302.0,270.5,282.8,-4.3
+CE,Ceará,Nordeste,2021,2,2021T2,285.0,280.0,274.8,1.9
+CE,Ceará,Nordeste,2021,3,2021T3,290.0,289.8,264.8,9.4
+CE,Ceará,Nordeste,2021,4,2021T4,317.0,298.5,263.3,13.4
+CE,Ceará,Nordeste,2022,1,2022T1,277.0,292.3,270.5,8.0
+CE,Ceará,Nordeste,2022,2,2022T2,273.0,289.3,280.0,3.3
+CE,Ceará,Nordeste,2022,3,2022T3,299.0,291.5,289.8,0.6
+CE,Ceará,Nordeste,2022,4,2022T4,313.0,290.5,298.5,-2.7
+CE,Ceará,Nordeste,2023,1,2023T1,308.0,298.3,292.3,2.1
+CE,Ceará,Nordeste,2023,2,2023T2,312.0,308.0,289.3,6.5
+CE,Ceará,Nordeste,2023,3,2023T3,311.0,311.0,291.5,6.7
+CE,Ceará,Nordeste,2023,4,2023T4,302.0,308.3,290.5,6.1
+CE,Ceará,Nordeste,2024,1,2024T1,324.0,312.3,298.3,4.7
+CE,Ceará,Nordeste,2024,2,2024T2,313.0,312.5,308.0,1.5
+CE,Ceará,Nordeste,2024,3,2024T3,324.0,315.8,311.0,1.5
+CE,Ceará,Nordeste,2024,4,2024T4,312.0,318.3,308.3,3.2
+CE,Ceará,Nordeste,2025,1,2025T1,301.0,312.5,312.3,0.1
+CE,Ceará,Nordeste,2025,2,2025T2,347.0,321.0,312.5,2.7
+CE,Ceará,Nordeste,2025,3,2025T3,337.0,324.3,315.8,2.7
+CE,Ceará,Nordeste,2025,4,2025T4,351.0,334.0,318.3,4.9
+CE,Ceará,Nordeste,2026,1,2026T1,363.0,349.5,312.5,11.8
+CE,Ceará,Nordeste,2026,2,2026T2,359.0,352.5,321.0,9.8
+DF,Distrito Federal,Centro-Oeste,2012,1,2012T1,269.0,,,
+DF,Distrito Federal,Centro-Oeste,2012,2,2012T2,277.0,,,
+DF,Distrito Federal,Centro-Oeste,2012,3,2012T3,288.0,,,
+DF,Distrito Federal,Centro-Oeste,2012,4,2012T4,295.0,282.3,,
+DF,Distrito Federal,Centro-Oeste,2013,1,2013T1,311.0,292.8,,
+DF,Distrito Federal,Centro-Oeste,2013,2,2013T2,294.0,297.0,,
+DF,Distrito Federal,Centro-Oeste,2013,3,2013T3,311.0,302.8,,
+DF,Distrito Federal,Centro-Oeste,2013,4,2013T4,308.0,306.0,282.3,8.4
+DF,Distrito Federal,Centro-Oeste,2014,1,2014T1,312.0,306.3,292.8,4.6
+DF,Distrito Federal,Centro-Oeste,2014,2,2014T2,308.0,309.8,297.0,4.3
+DF,Distrito Federal,Centro-Oeste,2014,3,2014T3,324.0,313.0,302.8,3.4
+DF,Distrito Federal,Centro-Oeste,2014,4,2014T4,341.0,321.3,306.0,5.0
+DF,Distrito Federal,Centro-Oeste,2015,1,2015T1,306.0,319.8,306.3,4.4
+DF,Distrito Federal,Centro-Oeste,2015,2,2015T2,305.0,319.0,309.8,3.0
+DF,Distrito Federal,Centro-Oeste,2015,3,2015T3,314.0,316.5,313.0,1.1
+DF,Distrito Federal,Centro-Oeste,2015,4,2015T4,293.0,304.5,321.3,-5.2
+DF,Distrito Federal,Centro-Oeste,2016,1,2016T1,287.0,299.8,319.8,-6.3
+DF,Distrito Federal,Centro-Oeste,2016,2,2016T2,270.0,291.0,319.0,-8.8
+DF,Distrito Federal,Centro-Oeste,2016,3,2016T3,272.0,280.5,316.5,-11.4
+DF,Distrito Federal,Centro-Oeste,2016,4,2016T4,274.0,275.8,304.5,-9.4
+DF,Distrito Federal,Centro-Oeste,2017,1,2017T1,279.0,273.8,299.8,-8.7
+DF,Distrito Federal,Centro-Oeste,2017,2,2017T2,272.0,274.3,291.0,-5.8
+DF,Distrito Federal,Centro-Oeste,2017,3,2017T3,294.0,279.8,280.5,-0.3
+DF,Distrito Federal,Centro-Oeste,2017,4,2017T4,288.0,283.3,275.8,2.7
+DF,Distrito Federal,Centro-Oeste,2018,1,2018T1,283.0,284.3,273.8,3.8
+DF,Distrito Federal,Centro-Oeste,2018,2,2018T2,281.0,286.5,274.3,4.5
+DF,Distrito Federal,Centro-Oeste,2018,3,2018T3,283.0,283.8,279.8,1.4
+DF,Distrito Federal,Centro-Oeste,2018,4,2018T4,278.0,281.3,283.3,-0.7
+DF,Distrito Federal,Centro-Oeste,2019,1,2019T1,274.0,279.0,284.3,-1.8
+DF,Distrito Federal,Centro-Oeste,2019,2,2019T2,272.0,276.8,286.5,-3.4
+DF,Distrito Federal,Centro-Oeste,2019,3,2019T3,279.0,275.8,283.8,-2.8
+DF,Distrito Federal,Centro-Oeste,2019,4,2019T4,262.0,271.8,281.3,-3.4
+DF,Distrito Federal,Centro-Oeste,2020,1,2020T1,270.0,270.8,279.0,-3.0
+DF,Distrito Federal,Centro-Oeste,2020,2,2020T2,294.0,276.3,276.8,-0.2
+DF,Distrito Federal,Centro-Oeste,2020,3,2020T3,305.0,282.8,275.8,2.5
+DF,Distrito Federal,Centro-Oeste,2020,4,2020T4,299.0,292.0,271.8,7.5
+DF,Distrito Federal,Centro-Oeste,2021,1,2021T1,332.0,307.5,270.8,13.6
+DF,Distrito Federal,Centro-Oeste,2021,2,2021T2,313.0,312.3,276.3,13.0
+DF,Distrito Federal,Centro-Oeste,2021,3,2021T3,313.0,314.3,282.8,11.1
+DF,Distrito Federal,Centro-Oeste,2021,4,2021T4,320.0,319.5,292.0,9.4
+DF,Distrito Federal,Centro-Oeste,2022,1,2022T1,327.0,318.3,307.5,3.5
+DF,Distrito Federal,Centro-Oeste,2022,2,2022T2,320.0,320.0,312.3,2.5
+DF,Distrito Federal,Centro-Oeste,2022,3,2022T3,319.0,321.5,314.3,2.3
+DF,Distrito Federal,Centro-Oeste,2022,4,2022T4,316.0,320.5,319.5,0.3
+DF,Distrito Federal,Centro-Oeste,2023,1,2023T1,329.0,321.0,318.3,0.9
+DF,Distrito Federal,Centro-Oeste,2023,2,2023T2,318.0,320.5,320.0,0.2
+DF,Distrito Federal,Centro-Oeste,2023,3,2023T3,319.0,320.5,321.5,-0.3
+DF,Distrito Federal,Centro-Oeste,2023,4,2023T4,331.0,324.3,320.5,1.2
+DF,Distrito Federal,Centro-Oeste,2024,1,2024T1,339.0,326.8,321.0,1.8
+DF,Distrito Federal,Centro-Oeste,2024,2,2024T2,330.0,329.8,320.5,2.9
+DF,Distrito Federal,Centro-Oeste,2024,3,2024T3,327.0,331.8,320.5,3.5
+DF,Distrito Federal,Centro-Oeste,2024,4,2024T4,335.0,332.8,324.3,2.6
+DF,Distrito Federal,Centro-Oeste,2025,1,2025T1,344.0,334.0,326.8,2.2
+DF,Distrito Federal,Centro-Oeste,2025,2,2025T2,359.0,341.3,329.8,3.5
+DF,Distrito Federal,Centro-Oeste,2025,3,2025T3,372.0,352.5,331.8,6.3
+DF,Distrito Federal,Centro-Oeste,2025,4,2025T4,383.0,364.5,332.8,9.5
+DF,Distrito Federal,Centro-Oeste,2026,1,2026T1,370.0,371.0,334.0,11.1
+DF,Distrito Federal,Centro-Oeste,2026,2,2026T2,388.0,378.3,341.3,10.8
+ES,Espírito Santo,Sudeste,2012,1,2012T1,172.0,,,
+ES,Espírito Santo,Sudeste,2012,2,2012T2,161.0,,,
+ES,Espírito Santo,Sudeste,2012,3,2012T3,169.0,,,
+ES,Espírito Santo,Sudeste,2012,4,2012T4,170.0,168.0,,
+ES,Espírito Santo,Sudeste,2013,1,2013T1,175.0,168.8,,
+ES,Espírito Santo,Sudeste,2013,2,2013T2,181.0,173.8,,
+ES,Espírito Santo,Sudeste,2013,3,2013T3,175.0,175.3,,
+ES,Espírito Santo,Sudeste,2013,4,2013T4,165.0,174.0,168.0,3.6
+ES,Espírito Santo,Sudeste,2014,1,2014T1,170.0,172.8,168.8,2.4
+ES,Espírito Santo,Sudeste,2014,2,2014T2,187.0,174.3,173.8,0.3
+ES,Espírito Santo,Sudeste,2014,3,2014T3,189.0,177.8,175.3,1.4
+ES,Espírito Santo,Sudeste,2014,4,2014T4,180.0,181.5,174.0,4.3
+ES,Espírito Santo,Sudeste,2015,1,2015T1,181.0,184.3,172.8,6.7
+ES,Espírito Santo,Sudeste,2015,2,2015T2,168.0,179.5,174.3,3.0
+ES,Espírito Santo,Sudeste,2015,3,2015T3,171.0,175.0,177.8,-1.5
+ES,Espírito Santo,Sudeste,2015,4,2015T4,155.0,168.8,181.5,-7.0
+ES,Espírito Santo,Sudeste,2016,1,2016T1,159.0,163.3,184.3,-11.4
+ES,Espírito Santo,Sudeste,2016,2,2016T2,157.0,160.5,179.5,-10.6
+ES,Espírito Santo,Sudeste,2016,3,2016T3,156.0,156.8,175.0,-10.4
+ES,Espírito Santo,Sudeste,2016,4,2016T4,164.0,159.0,168.8,-5.8
+ES,Espírito Santo,Sudeste,2017,1,2017T1,156.0,158.3,163.3,-3.1
+ES,Espírito Santo,Sudeste,2017,2,2017T2,165.0,160.3,160.5,-0.2
+ES,Espírito Santo,Sudeste,2017,3,2017T3,163.0,162.0,156.8,3.3
+ES,Espírito Santo,Sudeste,2017,4,2017T4,178.0,165.5,159.0,4.1
+ES,Espírito Santo,Sudeste,2018,1,2018T1,171.0,169.3,158.3,7.0
+ES,Espírito Santo,Sudeste,2018,2,2018T2,173.0,171.3,160.3,6.9
+ES,Espírito Santo,Sudeste,2018,3,2018T3,181.0,175.8,162.0,8.5
+ES,Espírito Santo,Sudeste,2018,4,2018T4,185.0,177.5,165.5,7.3
+ES,Espírito Santo,Sudeste,2019,1,2019T1,185.0,181.0,169.3,6.9
+ES,Espírito Santo,Sudeste,2019,2,2019T2,189.0,185.0,171.3,8.0
+ES,Espírito Santo,Sudeste,2019,3,2019T3,193.0,188.0,175.8,7.0
+ES,Espírito Santo,Sudeste,2019,4,2019T4,189.0,189.0,177.5,6.5
+ES,Espírito Santo,Sudeste,2020,1,2020T1,194.0,191.3,181.0,5.7
+ES,Espírito Santo,Sudeste,2020,2,2020T2,192.0,192.0,185.0,3.8
+ES,Espírito Santo,Sudeste,2020,3,2020T3,188.0,190.8,188.0,1.5
+ES,Espírito Santo,Sudeste,2020,4,2020T4,208.0,195.5,189.0,3.4
+ES,Espírito Santo,Sudeste,2021,1,2021T1,223.0,202.8,191.3,6.0
+ES,Espírito Santo,Sudeste,2021,2,2021T2,207.0,206.5,192.0,7.6
+ES,Espírito Santo,Sudeste,2021,3,2021T3,226.0,216.0,190.8,13.2
+ES,Espírito Santo,Sudeste,2021,4,2021T4,221.0,219.3,195.5,12.1
+ES,Espírito Santo,Sudeste,2022,1,2022T1,206.0,215.0,202.8,6.0
+ES,Espírito Santo,Sudeste,2022,2,2022T2,192.0,211.3,206.5,2.3
+ES,Espírito Santo,Sudeste,2022,3,2022T3,209.0,207.0,216.0,-4.2
+ES,Espírito Santo,Sudeste,2022,4,2022T4,212.0,204.8,219.3,-6.6
+ES,Espírito Santo,Sudeste,2023,1,2023T1,211.0,206.0,215.0,-4.2
+ES,Espírito Santo,Sudeste,2023,2,2023T2,217.0,212.3,211.3,0.5
+ES,Espírito Santo,Sudeste,2023,3,2023T3,214.0,213.5,207.0,3.1
+ES,Espírito Santo,Sudeste,2023,4,2023T4,233.0,218.8,204.8,6.8
+ES,Espírito Santo,Sudeste,2024,1,2024T1,221.0,221.3,206.0,7.4
+ES,Espírito Santo,Sudeste,2024,2,2024T2,230.0,224.5,212.3,5.8
+ES,Espírito Santo,Sudeste,2024,3,2024T3,219.0,225.8,213.5,5.7
+ES,Espírito Santo,Sudeste,2024,4,2024T4,220.0,222.5,218.8,1.7
+ES,Espírito Santo,Sudeste,2025,1,2025T1,225.0,223.5,221.3,1.0
+ES,Espírito Santo,Sudeste,2025,2,2025T2,231.0,223.8,224.5,-0.3
+ES,Espírito Santo,Sudeste,2025,3,2025T3,238.0,228.5,225.8,1.2
+ES,Espírito Santo,Sudeste,2025,4,2025T4,248.0,235.5,222.5,5.8
+ES,Espírito Santo,Sudeste,2026,1,2026T1,237.0,238.5,223.5,6.7
+ES,Espírito Santo,Sudeste,2026,2,2026T2,237.0,240.0,223.8,7.3
+GO,Goiás,Centro-Oeste,2012,1,2012T1,296.0,,,
+GO,Goiás,Centro-Oeste,2012,2,2012T2,291.0,,,
+GO,Goiás,Centro-Oeste,2012,3,2012T3,269.0,,,
+GO,Goiás,Centro-Oeste,2012,4,2012T4,293.0,287.3,,
+GO,Goiás,Centro-Oeste,2013,1,2013T1,280.0,283.3,,
+GO,Goiás,Centro-Oeste,2013,2,2013T2,278.0,280.0,,
+GO,Goiás,Centro-Oeste,2013,3,2013T3,282.0,283.3,,
+GO,Goiás,Centro-Oeste,2013,4,2013T4,294.0,283.5,287.3,-1.3
+GO,Goiás,Centro-Oeste,2014,1,2014T1,286.0,285.0,283.3,0.6
+GO,Goiás,Centro-Oeste,2014,2,2014T2,288.0,287.5,280.0,2.7
+GO,Goiás,Centro-Oeste,2014,3,2014T3,324.0,298.0,283.3,5.2
+GO,Goiás,Centro-Oeste,2014,4,2014T4,334.0,308.0,283.5,8.6
+GO,Goiás,Centro-Oeste,2015,1,2015T1,300.0,311.5,285.0,9.3
+GO,Goiás,Centro-Oeste,2015,2,2015T2,384.0,335.5,287.5,16.7
+GO,Goiás,Centro-Oeste,2015,3,2015T3,369.0,346.8,298.0,16.4
+GO,Goiás,Centro-Oeste,2015,4,2015T4,287.0,335.0,308.0,8.8
+GO,Goiás,Centro-Oeste,2016,1,2016T1,297.0,334.3,311.5,7.3
+GO,Goiás,Centro-Oeste,2016,2,2016T2,308.0,315.3,335.5,-6.0
+GO,Goiás,Centro-Oeste,2016,3,2016T3,279.0,292.8,346.8,-15.6
+GO,Goiás,Centro-Oeste,2016,4,2016T4,279.0,290.8,335.0,-13.2
+GO,Goiás,Centro-Oeste,2017,1,2017T1,302.0,292.0,334.3,-12.6
+GO,Goiás,Centro-Oeste,2017,2,2017T2,288.0,287.0,315.3,-9.0
+GO,Goiás,Centro-Oeste,2017,3,2017T3,315.0,296.0,292.8,1.1
+GO,Goiás,Centro-Oeste,2017,4,2017T4,316.0,305.3,290.8,5.0
+GO,Goiás,Centro-Oeste,2018,1,2018T1,311.0,307.5,292.0,5.3
+GO,Goiás,Centro-Oeste,2018,2,2018T2,329.0,317.8,287.0,10.7
+GO,Goiás,Centro-Oeste,2018,3,2018T3,321.0,319.3,296.0,7.9
+GO,Goiás,Centro-Oeste,2018,4,2018T4,334.0,323.8,305.3,6.1
+GO,Goiás,Centro-Oeste,2019,1,2019T1,327.0,327.8,307.5,6.6
+GO,Goiás,Centro-Oeste,2019,2,2019T2,320.0,325.5,317.8,2.4
+GO,Goiás,Centro-Oeste,2019,3,2019T3,317.0,324.5,319.3,1.6
+GO,Goiás,Centro-Oeste,2019,4,2019T4,321.0,321.3,323.8,-0.8
+GO,Goiás,Centro-Oeste,2020,1,2020T1,307.0,316.3,327.8,-3.5
+GO,Goiás,Centro-Oeste,2020,2,2020T2,285.0,307.5,325.5,-5.5
+GO,Goiás,Centro-Oeste,2020,3,2020T3,323.0,309.0,324.5,-4.8
+GO,Goiás,Centro-Oeste,2020,4,2020T4,356.0,317.8,321.3,-1.1
+GO,Goiás,Centro-Oeste,2021,1,2021T1,343.0,326.8,316.3,3.3
+GO,Goiás,Centro-Oeste,2021,2,2021T2,368.0,347.5,307.5,13.0
+GO,Goiás,Centro-Oeste,2021,3,2021T3,388.0,363.8,309.0,17.7
+GO,Goiás,Centro-Oeste,2021,4,2021T4,374.0,368.3,317.8,15.9
+GO,Goiás,Centro-Oeste,2022,1,2022T1,360.0,372.5,326.8,14.0
+GO,Goiás,Centro-Oeste,2022,2,2022T2,381.0,375.8,347.5,8.1
+GO,Goiás,Centro-Oeste,2022,3,2022T3,392.0,376.8,363.8,3.6
+GO,Goiás,Centro-Oeste,2022,4,2022T4,372.0,376.3,368.3,2.2
+GO,Goiás,Centro-Oeste,2023,1,2023T1,409.0,388.5,372.5,4.3
+GO,Goiás,Centro-Oeste,2023,2,2023T2,396.0,392.3,375.8,4.4
+GO,Goiás,Centro-Oeste,2023,3,2023T3,418.0,398.8,376.8,5.8
+GO,Goiás,Centro-Oeste,2023,4,2023T4,412.0,408.8,376.3,8.6
+GO,Goiás,Centro-Oeste,2024,1,2024T1,439.0,416.3,388.5,7.1
+GO,Goiás,Centro-Oeste,2024,2,2024T2,444.0,428.3,392.3,9.2
+GO,Goiás,Centro-Oeste,2024,3,2024T3,451.0,436.5,398.8,9.5
+GO,Goiás,Centro-Oeste,2024,4,2024T4,458.0,448.0,408.8,9.6
+GO,Goiás,Centro-Oeste,2025,1,2025T1,482.0,458.8,416.3,10.2
+GO,Goiás,Centro-Oeste,2025,2,2025T2,478.0,467.3,428.3,9.1
+GO,Goiás,Centro-Oeste,2025,3,2025T3,447.0,466.3,436.5,6.8
+GO,Goiás,Centro-Oeste,2025,4,2025T4,462.0,467.3,448.0,4.3
+GO,Goiás,Centro-Oeste,2026,1,2026T1,438.0,456.3,458.8,-0.5
+GO,Goiás,Centro-Oeste,2026,2,2026T2,448.0,448.8,467.3,-4.0
+MA,Maranhão,Nordeste,2012,1,2012T1,111.0,,,
+MA,Maranhão,Nordeste,2012,2,2012T2,100.0,,,
+MA,Maranhão,Nordeste,2012,3,2012T3,111.0,,,
+MA,Maranhão,Nordeste,2012,4,2012T4,102.0,106.0,,
+MA,Maranhão,Nordeste,2013,1,2013T1,107.0,105.0,,
+MA,Maranhão,Nordeste,2013,2,2013T2,113.0,108.3,,
+MA,Maranhão,Nordeste,2013,3,2013T3,118.0,110.0,,
+MA,Maranhão,Nordeste,2013,4,2013T4,121.0,114.8,106.0,8.3
+MA,Maranhão,Nordeste,2014,1,2014T1,109.0,115.3,105.0,9.8
+MA,Maranhão,Nordeste,2014,2,2014T2,120.0,117.0,108.3,8.1
+MA,Maranhão,Nordeste,2014,3,2014T3,146.0,124.0,110.0,12.7
+MA,Maranhão,Nordeste,2014,4,2014T4,124.0,124.8,114.8,8.7
+MA,Maranhão,Nordeste,2015,1,2015T1,125.0,128.8,115.3,11.7
+MA,Maranhão,Nordeste,2015,2,2015T2,124.0,129.8,117.0,10.9
+MA,Maranhão,Nordeste,2015,3,2015T3,113.0,121.5,124.0,-2.0
+MA,Maranhão,Nordeste,2015,4,2015T4,103.0,116.3,124.8,-6.8
+MA,Maranhão,Nordeste,2016,1,2016T1,101.0,110.3,128.8,-14.4
+MA,Maranhão,Nordeste,2016,2,2016T2,109.0,106.5,129.8,-17.9
+MA,Maranhão,Nordeste,2016,3,2016T3,102.0,103.8,121.5,-14.6
+MA,Maranhão,Nordeste,2016,4,2016T4,92.0,101.0,116.3,-13.1
+MA,Maranhão,Nordeste,2017,1,2017T1,102.0,101.3,110.3,-8.2
+MA,Maranhão,Nordeste,2017,2,2017T2,111.0,101.8,106.5,-4.5
+MA,Maranhão,Nordeste,2017,3,2017T3,110.0,103.8,103.8,0.0
+MA,Maranhão,Nordeste,2017,4,2017T4,114.0,109.3,101.0,8.2
+MA,Maranhão,Nordeste,2018,1,2018T1,121.0,114.0,101.3,12.6
+MA,Maranhão,Nordeste,2018,2,2018T2,119.0,116.0,101.8,14.0
+MA,Maranhão,Nordeste,2018,3,2018T3,121.0,118.8,103.8,14.5
+MA,Maranhão,Nordeste,2018,4,2018T4,126.0,121.8,109.3,11.4
+MA,Maranhão,Nordeste,2019,1,2019T1,125.0,122.8,114.0,7.7
+MA,Maranhão,Nordeste,2019,2,2019T2,126.0,124.5,116.0,7.3
+MA,Maranhão,Nordeste,2019,3,2019T3,134.0,127.8,118.8,7.6
+MA,Maranhão,Nordeste,2019,4,2019T4,137.0,130.5,121.8,7.2
+MA,Maranhão,Nordeste,2020,1,2020T1,127.0,131.0,122.8,6.7
+MA,Maranhão,Nordeste,2020,2,2020T2,115.0,128.3,124.5,3.0
+MA,Maranhão,Nordeste,2020,3,2020T3,107.0,121.5,127.8,-4.9
+MA,Maranhão,Nordeste,2020,4,2020T4,122.0,117.8,130.5,-9.8
+MA,Maranhão,Nordeste,2021,1,2021T1,119.0,115.8,131.0,-11.6
+MA,Maranhão,Nordeste,2021,2,2021T2,125.0,118.3,128.3,-7.8
+MA,Maranhão,Nordeste,2021,3,2021T3,145.0,127.8,121.5,5.1
+MA,Maranhão,Nordeste,2021,4,2021T4,142.0,132.8,117.8,12.7
+MA,Maranhão,Nordeste,2022,1,2022T1,143.0,138.8,115.8,19.9
+MA,Maranhão,Nordeste,2022,2,2022T2,157.0,146.8,118.3,24.1
+MA,Maranhão,Nordeste,2022,3,2022T3,133.0,143.8,127.8,12.5
+MA,Maranhão,Nordeste,2022,4,2022T4,140.0,143.3,132.8,7.9
+MA,Maranhão,Nordeste,2023,1,2023T1,155.0,146.3,138.8,5.4
+MA,Maranhão,Nordeste,2023,2,2023T2,144.0,143.0,146.8,-2.6
+MA,Maranhão,Nordeste,2023,3,2023T3,160.0,149.8,143.8,4.2
+MA,Maranhão,Nordeste,2023,4,2023T4,157.0,154.0,143.3,7.5
+MA,Maranhão,Nordeste,2024,1,2024T1,163.0,156.0,146.3,6.7
+MA,Maranhão,Nordeste,2024,2,2024T2,170.0,162.5,143.0,13.6
+MA,Maranhão,Nordeste,2024,3,2024T3,171.0,165.3,149.8,10.4
+MA,Maranhão,Nordeste,2024,4,2024T4,171.0,168.8,154.0,9.6
+MA,Maranhão,Nordeste,2025,1,2025T1,169.0,170.3,156.0,9.1
+MA,Maranhão,Nordeste,2025,2,2025T2,183.0,173.5,162.5,6.8
+MA,Maranhão,Nordeste,2025,3,2025T3,174.0,174.3,165.3,5.4
+MA,Maranhão,Nordeste,2025,4,2025T4,168.0,173.5,168.8,2.8
+MA,Maranhão,Nordeste,2026,1,2026T1,183.0,177.0,170.3,4.0
+MA,Maranhão,Nordeste,2026,2,2026T2,190.0,178.8,173.5,3.0
+MG,Minas Gerais,Sudeste,2012,1,2012T1,761.0,,,
+MG,Minas Gerais,Sudeste,2012,2,2012T2,793.0,,,
+MG,Minas Gerais,Sudeste,2012,3,2012T3,807.0,,,
+MG,Minas Gerais,Sudeste,2012,4,2012T4,827.0,797.0,,
+MG,Minas Gerais,Sudeste,2013,1,2013T1,808.0,808.8,,
+MG,Minas Gerais,Sudeste,2013,2,2013T2,845.0,821.8,,
+MG,Minas Gerais,Sudeste,2013,3,2013T3,816.0,824.0,,
+MG,Minas Gerais,Sudeste,2013,4,2013T4,839.0,827.0,797.0,3.8
+MG,Minas Gerais,Sudeste,2014,1,2014T1,839.0,834.8,808.8,3.2
+MG,Minas Gerais,Sudeste,2014,2,2014T2,889.0,845.8,821.8,2.9
+MG,Minas Gerais,Sudeste,2014,3,2014T3,923.0,872.5,824.0,5.9
+MG,Minas Gerais,Sudeste,2014,4,2014T4,901.0,888.0,827.0,7.4
+MG,Minas Gerais,Sudeste,2015,1,2015T1,919.0,908.0,834.8,8.8
+MG,Minas Gerais,Sudeste,2015,2,2015T2,923.0,916.5,845.8,8.4
+MG,Minas Gerais,Sudeste,2015,3,2015T3,902.0,911.3,872.5,4.4
+MG,Minas Gerais,Sudeste,2015,4,2015T4,855.0,899.8,888.0,1.3
+MG,Minas Gerais,Sudeste,2016,1,2016T1,828.0,877.0,908.0,-3.4
+MG,Minas Gerais,Sudeste,2016,2,2016T2,844.0,857.3,916.5,-6.5
+MG,Minas Gerais,Sudeste,2016,3,2016T3,859.0,846.5,911.3,-7.1
+MG,Minas Gerais,Sudeste,2016,4,2016T4,854.0,846.3,899.8,-5.9
+MG,Minas Gerais,Sudeste,2017,1,2017T1,868.0,856.3,877.0,-2.4
+MG,Minas Gerais,Sudeste,2017,2,2017T2,846.0,856.8,857.3,-0.1
+MG,Minas Gerais,Sudeste,2017,3,2017T3,851.0,854.8,846.5,1.0
+MG,Minas Gerais,Sudeste,2017,4,2017T4,889.0,863.5,846.3,2.0
+MG,Minas Gerais,Sudeste,2018,1,2018T1,869.0,863.8,856.3,0.9
+MG,Minas Gerais,Sudeste,2018,2,2018T2,889.0,874.5,856.8,2.1
+MG,Minas Gerais,Sudeste,2018,3,2018T3,904.0,887.8,854.8,3.9
+MG,Minas Gerais,Sudeste,2018,4,2018T4,925.0,896.8,863.5,3.9
+MG,Minas Gerais,Sudeste,2019,1,2019T1,939.0,914.3,863.8,5.8
+MG,Minas Gerais,Sudeste,2019,2,2019T2,953.0,930.3,874.5,6.4
+MG,Minas Gerais,Sudeste,2019,3,2019T3,949.0,941.5,887.8,6.1
+MG,Minas Gerais,Sudeste,2019,4,2019T4,973.0,953.5,896.8,6.3
+MG,Minas Gerais,Sudeste,2020,1,2020T1,934.0,952.3,914.3,4.2
+MG,Minas Gerais,Sudeste,2020,2,2020T2,900.0,939.0,930.3,0.9
+MG,Minas Gerais,Sudeste,2020,3,2020T3,882.0,922.3,941.5,-2.0
+MG,Minas Gerais,Sudeste,2020,4,2020T4,918.0,908.5,953.5,-4.7
+MG,Minas Gerais,Sudeste,2021,1,2021T1,939.0,909.8,952.3,-4.5
+MG,Minas Gerais,Sudeste,2021,2,2021T2,972.0,927.8,939.0,-1.2
+MG,Minas Gerais,Sudeste,2021,3,2021T3,930.0,939.8,922.3,1.9
+MG,Minas Gerais,Sudeste,2021,4,2021T4,964.0,951.3,908.5,4.7
+MG,Minas Gerais,Sudeste,2022,1,2022T1,1007.0,968.3,909.8,6.4
+MG,Minas Gerais,Sudeste,2022,2,2022T2,1031.0,983.0,927.8,6.0
+MG,Minas Gerais,Sudeste,2022,3,2022T3,1017.0,1004.8,939.8,6.9
+MG,Minas Gerais,Sudeste,2022,4,2022T4,1041.0,1024.0,951.3,7.6
+MG,Minas Gerais,Sudeste,2023,1,2023T1,1040.0,1032.3,968.3,6.6
+MG,Minas Gerais,Sudeste,2023,2,2023T2,1054.0,1038.0,983.0,5.6
+MG,Minas Gerais,Sudeste,2023,3,2023T3,1067.0,1050.5,1004.8,4.6
+MG,Minas Gerais,Sudeste,2023,4,2023T4,1116.0,1069.3,1024.0,4.4
+MG,Minas Gerais,Sudeste,2024,1,2024T1,1118.0,1088.8,1032.3,5.5
+MG,Minas Gerais,Sudeste,2024,2,2024T2,1145.0,1111.5,1038.0,7.1
+MG,Minas Gerais,Sudeste,2024,3,2024T3,1146.0,1131.3,1050.5,7.7
+MG,Minas Gerais,Sudeste,2024,4,2024T4,1129.0,1134.5,1069.3,6.1
+MG,Minas Gerais,Sudeste,2025,1,2025T1,1106.0,1131.5,1088.8,3.9
+MG,Minas Gerais,Sudeste,2025,2,2025T2,1164.0,1136.3,1111.5,2.2
+MG,Minas Gerais,Sudeste,2025,3,2025T3,1143.0,1135.5,1131.3,0.4
+MG,Minas Gerais,Sudeste,2025,4,2025T4,1134.0,1136.8,1134.5,0.2
+MG,Minas Gerais,Sudeste,2026,1,2026T1,1146.0,1146.8,1131.5,1.3
+MG,Minas Gerais,Sudeste,2026,2,2026T2,1181.0,1151.0,1136.3,1.3
+MS,Mato Grosso do Sul,Centro-Oeste,2012,1,2012T1,100.0,,,
+MS,Mato Grosso do Sul,Centro-Oeste,2012,2,2012T2,101.0,,,
+MS,Mato Grosso do Sul,Centro-Oeste,2012,3,2012T3,107.0,,,
+MS,Mato Grosso do Sul,Centro-Oeste,2012,4,2012T4,96.0,101.0,,
+MS,Mato Grosso do Sul,Centro-Oeste,2013,1,2013T1,104.0,102.0,,
+MS,Mato Grosso do Sul,Centro-Oeste,2013,2,2013T2,101.0,102.0,,
+MS,Mato Grosso do Sul,Centro-Oeste,2013,3,2013T3,96.0,99.3,,
+MS,Mato Grosso do Sul,Centro-Oeste,2013,4,2013T4,92.0,98.3,101.0,-2.7
+MS,Mato Grosso do Sul,Centro-Oeste,2014,1,2014T1,95.0,96.0,102.0,-5.9
+MS,Mato Grosso do Sul,Centro-Oeste,2014,2,2014T2,103.0,96.5,102.0,-5.4
+MS,Mato Grosso do Sul,Centro-Oeste,2014,3,2014T3,110.0,100.0,99.3,0.8
+MS,Mato Grosso do Sul,Centro-Oeste,2014,4,2014T4,101.0,102.3,98.3,4.1
+MS,Mato Grosso do Sul,Centro-Oeste,2015,1,2015T1,101.0,103.8,96.0,8.1
+MS,Mato Grosso do Sul,Centro-Oeste,2015,2,2015T2,102.0,103.5,96.5,7.3
+MS,Mato Grosso do Sul,Centro-Oeste,2015,3,2015T3,103.0,101.8,100.0,1.8
+MS,Mato Grosso do Sul,Centro-Oeste,2015,4,2015T4,97.0,100.8,102.3,-1.5
+MS,Mato Grosso do Sul,Centro-Oeste,2016,1,2016T1,101.0,100.8,103.8,-2.9
+MS,Mato Grosso do Sul,Centro-Oeste,2016,2,2016T2,110.0,102.8,103.5,-0.7
+MS,Mato Grosso do Sul,Centro-Oeste,2016,3,2016T3,109.0,104.3,101.8,2.5
+MS,Mato Grosso do Sul,Centro-Oeste,2016,4,2016T4,113.0,108.3,100.8,7.4
+MS,Mato Grosso do Sul,Centro-Oeste,2017,1,2017T1,112.0,111.0,100.8,10.2
+MS,Mato Grosso do Sul,Centro-Oeste,2017,2,2017T2,112.0,111.5,102.8,8.5
+MS,Mato Grosso do Sul,Centro-Oeste,2017,3,2017T3,113.0,112.5,104.3,7.9
+MS,Mato Grosso do Sul,Centro-Oeste,2017,4,2017T4,106.0,110.8,108.3,2.3
+MS,Mato Grosso do Sul,Centro-Oeste,2018,1,2018T1,119.0,112.5,111.0,1.4
+MS,Mato Grosso do Sul,Centro-Oeste,2018,2,2018T2,122.0,115.0,111.5,3.1
+MS,Mato Grosso do Sul,Centro-Oeste,2018,3,2018T3,113.0,115.0,112.5,2.2
+MS,Mato Grosso do Sul,Centro-Oeste,2018,4,2018T4,117.0,117.8,110.8,6.3
+MS,Mato Grosso do Sul,Centro-Oeste,2019,1,2019T1,124.0,119.0,112.5,5.8
+MS,Mato Grosso do Sul,Centro-Oeste,2019,2,2019T2,122.0,119.0,115.0,3.5
+MS,Mato Grosso do Sul,Centro-Oeste,2019,3,2019T3,122.0,121.3,115.0,5.4
+MS,Mato Grosso do Sul,Centro-Oeste,2019,4,2019T4,123.0,122.8,117.8,4.2
+MS,Mato Grosso do Sul,Centro-Oeste,2020,1,2020T1,109.0,119.0,119.0,0.0
+MS,Mato Grosso do Sul,Centro-Oeste,2020,2,2020T2,104.0,114.5,119.0,-3.8
+MS,Mato Grosso do Sul,Centro-Oeste,2020,3,2020T3,102.0,109.5,121.3,-9.7
+MS,Mato Grosso do Sul,Centro-Oeste,2020,4,2020T4,104.0,104.8,122.8,-14.7
+MS,Mato Grosso do Sul,Centro-Oeste,2021,1,2021T1,106.0,104.0,119.0,-12.6
+MS,Mato Grosso do Sul,Centro-Oeste,2021,2,2021T2,102.0,103.5,114.5,-9.6
+MS,Mato Grosso do Sul,Centro-Oeste,2021,3,2021T3,114.0,106.5,109.5,-2.7
+MS,Mato Grosso do Sul,Centro-Oeste,2021,4,2021T4,121.0,110.8,104.8,5.7
+MS,Mato Grosso do Sul,Centro-Oeste,2022,1,2022T1,109.0,111.5,104.0,7.2
+MS,Mato Grosso do Sul,Centro-Oeste,2022,2,2022T2,123.0,116.8,103.5,12.8
+MS,Mato Grosso do Sul,Centro-Oeste,2022,3,2022T3,121.0,118.5,106.5,11.3
+MS,Mato Grosso do Sul,Centro-Oeste,2022,4,2022T4,145.0,124.5,110.8,12.4
+MS,Mato Grosso do Sul,Centro-Oeste,2023,1,2023T1,143.0,133.0,111.5,19.3
+MS,Mato Grosso do Sul,Centro-Oeste,2023,2,2023T2,139.0,137.0,116.8,17.3
+MS,Mato Grosso do Sul,Centro-Oeste,2023,3,2023T3,158.0,146.3,118.5,23.4
+MS,Mato Grosso do Sul,Centro-Oeste,2023,4,2023T4,150.0,147.5,124.5,18.5
+MS,Mato Grosso do Sul,Centro-Oeste,2024,1,2024T1,148.0,148.8,133.0,11.8
+MS,Mato Grosso do Sul,Centro-Oeste,2024,2,2024T2,138.0,148.5,137.0,8.4
+MS,Mato Grosso do Sul,Centro-Oeste,2024,3,2024T3,144.0,145.0,146.3,-0.9
+MS,Mato Grosso do Sul,Centro-Oeste,2024,4,2024T4,147.0,144.3,147.5,-2.2
+MS,Mato Grosso do Sul,Centro-Oeste,2025,1,2025T1,142.0,142.8,148.8,-4.0
+MS,Mato Grosso do Sul,Centro-Oeste,2025,2,2025T2,126.0,139.8,148.5,-5.9
+MS,Mato Grosso do Sul,Centro-Oeste,2025,3,2025T3,135.0,137.5,145.0,-5.2
+MS,Mato Grosso do Sul,Centro-Oeste,2025,4,2025T4,136.0,134.8,144.3,-6.6
+MS,Mato Grosso do Sul,Centro-Oeste,2026,1,2026T1,140.0,134.3,142.8,-6.0
+MS,Mato Grosso do Sul,Centro-Oeste,2026,2,2026T2,130.0,135.3,139.8,-3.2
+MT,Mato Grosso,Centro-Oeste,2012,1,2012T1,118.0,,,
+MT,Mato Grosso,Centro-Oeste,2012,2,2012T2,105.0,,,
+MT,Mato Grosso,Centro-Oeste,2012,3,2012T3,115.0,,,
+MT,Mato Grosso,Centro-Oeste,2012,4,2012T4,112.0,112.5,,
+MT,Mato Grosso,Centro-Oeste,2013,1,2013T1,109.0,110.3,,
+MT,Mato Grosso,Centro-Oeste,2013,2,2013T2,124.0,115.0,,
+MT,Mato Grosso,Centro-Oeste,2013,3,2013T3,132.0,119.3,,
+MT,Mato Grosso,Centro-Oeste,2013,4,2013T4,126.0,122.8,112.5,9.1
+MT,Mato Grosso,Centro-Oeste,2014,1,2014T1,123.0,126.3,110.3,14.5
+MT,Mato Grosso,Centro-Oeste,2014,2,2014T2,133.0,128.5,115.0,11.7
+MT,Mato Grosso,Centro-Oeste,2014,3,2014T3,127.0,127.3,119.3,6.7
+MT,Mato Grosso,Centro-Oeste,2014,4,2014T4,121.0,126.0,122.8,2.6
+MT,Mato Grosso,Centro-Oeste,2015,1,2015T1,125.0,126.5,126.3,0.2
+MT,Mato Grosso,Centro-Oeste,2015,2,2015T2,124.0,124.3,128.5,-3.3
+MT,Mato Grosso,Centro-Oeste,2015,3,2015T3,127.0,124.3,127.3,-2.4
+MT,Mato Grosso,Centro-Oeste,2015,4,2015T4,118.0,123.5,126.0,-2.0
+MT,Mato Grosso,Centro-Oeste,2016,1,2016T1,108.0,119.3,126.5,-5.7
+MT,Mato Grosso,Centro-Oeste,2016,2,2016T2,114.0,116.8,124.3,-6.0
+MT,Mato Grosso,Centro-Oeste,2016,3,2016T3,109.0,112.3,124.3,-9.7
+MT,Mato Grosso,Centro-Oeste,2016,4,2016T4,111.0,110.5,123.5,-10.5
+MT,Mato Grosso,Centro-Oeste,2017,1,2017T1,113.0,111.8,119.3,-6.3
+MT,Mato Grosso,Centro-Oeste,2017,2,2017T2,122.0,113.8,116.8,-2.6
+MT,Mato Grosso,Centro-Oeste,2017,3,2017T3,135.0,120.3,112.3,7.1
+MT,Mato Grosso,Centro-Oeste,2017,4,2017T4,132.0,125.5,110.5,13.6
+MT,Mato Grosso,Centro-Oeste,2018,1,2018T1,136.0,131.3,111.8,17.4
+MT,Mato Grosso,Centro-Oeste,2018,2,2018T2,135.0,134.5,113.8,18.2
+MT,Mato Grosso,Centro-Oeste,2018,3,2018T3,155.0,139.5,120.3,16.0
+MT,Mato Grosso,Centro-Oeste,2018,4,2018T4,150.0,144.0,125.5,14.7
+MT,Mato Grosso,Centro-Oeste,2019,1,2019T1,148.0,147.0,131.3,12.0
+MT,Mato Grosso,Centro-Oeste,2019,2,2019T2,144.0,149.3,134.5,11.0
+MT,Mato Grosso,Centro-Oeste,2019,3,2019T3,146.0,147.0,139.5,5.4
+MT,Mato Grosso,Centro-Oeste,2019,4,2019T4,154.0,148.0,144.0,2.8
+MT,Mato Grosso,Centro-Oeste,2020,1,2020T1,163.0,151.8,147.0,3.2
+MT,Mato Grosso,Centro-Oeste,2020,2,2020T2,154.0,154.3,149.3,3.4
+MT,Mato Grosso,Centro-Oeste,2020,3,2020T3,158.0,157.3,147.0,7.0
+MT,Mato Grosso,Centro-Oeste,2020,4,2020T4,146.0,155.3,148.0,4.9
+MT,Mato Grosso,Centro-Oeste,2021,1,2021T1,151.0,152.3,151.8,0.3
+MT,Mato Grosso,Centro-Oeste,2021,2,2021T2,162.0,154.3,154.3,0.0
+MT,Mato Grosso,Centro-Oeste,2021,3,2021T3,159.0,154.5,157.3,-1.7
+MT,Mato Grosso,Centro-Oeste,2021,4,2021T4,155.0,156.8,155.3,1.0
+MT,Mato Grosso,Centro-Oeste,2022,1,2022T1,156.0,158.0,152.3,3.8
+MT,Mato Grosso,Centro-Oeste,2022,2,2022T2,178.0,162.0,154.3,5.0
+MT,Mato Grosso,Centro-Oeste,2022,3,2022T3,184.0,168.3,154.5,8.9
+MT,Mato Grosso,Centro-Oeste,2022,4,2022T4,169.0,171.8,156.8,9.6
+MT,Mato Grosso,Centro-Oeste,2023,1,2023T1,169.0,175.0,158.0,10.8
+MT,Mato Grosso,Centro-Oeste,2023,2,2023T2,160.0,170.5,162.0,5.2
+MT,Mato Grosso,Centro-Oeste,2023,3,2023T3,172.0,167.5,168.3,-0.4
+MT,Mato Grosso,Centro-Oeste,2023,4,2023T4,181.0,170.5,171.8,-0.7
+MT,Mato Grosso,Centro-Oeste,2024,1,2024T1,201.0,178.5,175.0,2.0
+MT,Mato Grosso,Centro-Oeste,2024,2,2024T2,236.0,197.5,170.5,15.8
+MT,Mato Grosso,Centro-Oeste,2024,3,2024T3,218.0,209.0,167.5,24.8
+MT,Mato Grosso,Centro-Oeste,2024,4,2024T4,214.0,217.3,170.5,27.4
+MT,Mato Grosso,Centro-Oeste,2025,1,2025T1,199.0,216.8,178.5,21.4
+MT,Mato Grosso,Centro-Oeste,2025,2,2025T2,211.0,210.5,197.5,6.6
+MT,Mato Grosso,Centro-Oeste,2025,3,2025T3,208.0,208.0,209.0,-0.5
+MT,Mato Grosso,Centro-Oeste,2025,4,2025T4,220.0,209.5,217.3,-3.6
+MT,Mato Grosso,Centro-Oeste,2026,1,2026T1,201.0,210.0,216.8,-3.1
+MT,Mato Grosso,Centro-Oeste,2026,2,2026T2,220.0,212.3,210.5,0.8
+PA,Pará,Norte,2012,1,2012T1,166.0,,,
+PA,Pará,Norte,2012,2,2012T2,152.0,,,
+PA,Pará,Norte,2012,3,2012T3,163.0,,,
+PA,Pará,Norte,2012,4,2012T4,159.0,160.0,,
+PA,Pará,Norte,2013,1,2013T1,162.0,159.0,,
+PA,Pará,Norte,2013,2,2013T2,158.0,160.5,,
+PA,Pará,Norte,2013,3,2013T3,169.0,162.0,,
+PA,Pará,Norte,2013,4,2013T4,148.0,159.3,160.0,-0.5
+PA,Pará,Norte,2014,1,2014T1,158.0,158.3,159.0,-0.5
+PA,Pará,Norte,2014,2,2014T2,174.0,162.3,160.5,1.1
+PA,Pará,Norte,2014,3,2014T3,187.0,166.8,162.0,2.9
+PA,Pará,Norte,2014,4,2014T4,172.0,172.8,159.3,8.5
+PA,Pará,Norte,2015,1,2015T1,167.0,175.0,158.3,10.6
+PA,Pará,Norte,2015,2,2015T2,168.0,173.5,162.3,6.9
+PA,Pará,Norte,2015,3,2015T3,166.0,168.3,166.8,0.9
+PA,Pará,Norte,2015,4,2015T4,152.0,163.3,172.8,-5.5
+PA,Pará,Norte,2016,1,2016T1,164.0,162.5,175.0,-7.1
+PA,Pará,Norte,2016,2,2016T2,159.0,160.3,173.5,-7.6
+PA,Pará,Norte,2016,3,2016T3,165.0,160.0,168.3,-4.9
+PA,Pará,Norte,2016,4,2016T4,154.0,160.5,163.3,-1.7
+PA,Pará,Norte,2017,1,2017T1,164.0,160.5,162.5,-1.2
+PA,Pará,Norte,2017,2,2017T2,156.0,159.8,160.3,-0.3
+PA,Pará,Norte,2017,3,2017T3,182.0,164.0,160.0,2.5
+PA,Pará,Norte,2017,4,2017T4,176.0,169.5,160.5,5.6
+PA,Pará,Norte,2018,1,2018T1,170.0,171.0,160.5,6.5
+PA,Pará,Norte,2018,2,2018T2,168.0,174.0,159.8,8.9
+PA,Pará,Norte,2018,3,2018T3,160.0,168.5,164.0,2.7
+PA,Pará,Norte,2018,4,2018T4,176.0,168.5,169.5,-0.6
+PA,Pará,Norte,2019,1,2019T1,170.0,168.5,171.0,-1.5
+PA,Pará,Norte,2019,2,2019T2,180.0,171.5,174.0,-1.4
+PA,Pará,Norte,2019,3,2019T3,201.0,181.8,168.5,7.9
+PA,Pará,Norte,2019,4,2019T4,184.0,183.8,168.5,9.1
+PA,Pará,Norte,2020,1,2020T1,193.0,189.5,168.5,12.5
+PA,Pará,Norte,2020,2,2020T2,161.0,184.8,171.5,7.7
+PA,Pará,Norte,2020,3,2020T3,150.0,172.0,181.8,-5.4
+PA,Pará,Norte,2020,4,2020T4,158.0,165.5,183.8,-9.9
+PA,Pará,Norte,2021,1,2021T1,165.0,158.5,189.5,-16.4
+PA,Pará,Norte,2021,2,2021T2,168.0,160.3,184.8,-13.3
+PA,Pará,Norte,2021,3,2021T3,195.0,171.5,172.0,-0.3
+PA,Pará,Norte,2021,4,2021T4,183.0,177.8,165.5,7.4
+PA,Pará,Norte,2022,1,2022T1,202.0,187.0,158.5,18.0
+PA,Pará,Norte,2022,2,2022T2,215.0,198.8,160.3,24.0
+PA,Pará,Norte,2022,3,2022T3,227.0,206.8,171.5,20.6
+PA,Pará,Norte,2022,4,2022T4,236.0,220.0,177.8,23.8
+PA,Pará,Norte,2023,1,2023T1,255.0,233.3,187.0,24.7
+PA,Pará,Norte,2023,2,2023T2,238.0,239.0,198.8,20.3
+PA,Pará,Norte,2023,3,2023T3,234.0,240.8,206.8,16.4
+PA,Pará,Norte,2023,4,2023T4,227.0,238.5,220.0,8.4
+PA,Pará,Norte,2024,1,2024T1,236.0,233.8,233.3,0.2
+PA,Pará,Norte,2024,2,2024T2,243.0,235.0,239.0,-1.7
+PA,Pará,Norte,2024,3,2024T3,238.0,236.0,240.8,-2.0
+PA,Pará,Norte,2024,4,2024T4,230.0,236.8,238.5,-0.7
+PA,Pará,Norte,2025,1,2025T1,239.0,237.5,233.8,1.6
+PA,Pará,Norte,2025,2,2025T2,237.0,236.0,235.0,0.4
+PA,Pará,Norte,2025,3,2025T3,224.0,232.5,236.0,-1.5
+PA,Pará,Norte,2025,4,2025T4,211.0,227.8,236.8,-3.8
+PA,Pará,Norte,2026,1,2026T1,214.0,221.5,237.5,-6.7
+PA,Pará,Norte,2026,2,2026T2,232.0,220.3,236.0,-6.7
+PB,Paraíba,Nordeste,2012,1,2012T1,92.0,,,
+PB,Paraíba,Nordeste,2012,2,2012T2,79.0,,,
+PB,Paraíba,Nordeste,2012,3,2012T3,83.0,,,
+PB,Paraíba,Nordeste,2012,4,2012T4,90.0,86.0,,
+PB,Paraíba,Nordeste,2013,1,2013T1,93.0,86.3,,
+PB,Paraíba,Nordeste,2013,2,2013T2,100.0,91.5,,
+PB,Paraíba,Nordeste,2013,3,2013T3,93.0,94.0,,
+PB,Paraíba,Nordeste,2013,4,2013T4,88.0,93.5,86.0,8.7
+PB,Paraíba,Nordeste,2014,1,2014T1,99.0,95.0,86.3,10.1
+PB,Paraíba,Nordeste,2014,2,2014T2,117.0,99.3,91.5,8.5
+PB,Paraíba,Nordeste,2014,3,2014T3,145.0,112.3,94.0,19.4
+PB,Paraíba,Nordeste,2014,4,2014T4,141.0,125.5,93.5,34.2
+PB,Paraíba,Nordeste,2015,1,2015T1,128.0,132.8,95.0,39.7
+PB,Paraíba,Nordeste,2015,2,2015T2,139.0,138.3,99.3,39.3
+PB,Paraíba,Nordeste,2015,3,2015T3,130.0,134.5,112.3,19.8
+PB,Paraíba,Nordeste,2015,4,2015T4,113.0,127.5,125.5,1.6
+PB,Paraíba,Nordeste,2016,1,2016T1,108.0,122.5,132.8,-7.7
+PB,Paraíba,Nordeste,2016,2,2016T2,105.0,114.0,138.3,-17.5
+PB,Paraíba,Nordeste,2016,3,2016T3,114.0,110.0,134.5,-18.2
+PB,Paraíba,Nordeste,2016,4,2016T4,113.0,110.0,127.5,-13.7
+PB,Paraíba,Nordeste,2017,1,2017T1,120.0,113.0,122.5,-7.8
+PB,Paraíba,Nordeste,2017,2,2017T2,114.0,115.3,114.0,1.1
+PB,Paraíba,Nordeste,2017,3,2017T3,119.0,116.5,110.0,5.9
+PB,Paraíba,Nordeste,2017,4,2017T4,127.0,120.0,110.0,9.1
+PB,Paraíba,Nordeste,2018,1,2018T1,110.0,117.5,113.0,4.0
+PB,Paraíba,Nordeste,2018,2,2018T2,122.0,119.5,115.3,3.7
+PB,Paraíba,Nordeste,2018,3,2018T3,120.0,119.8,116.5,2.8
+PB,Paraíba,Nordeste,2018,4,2018T4,123.0,118.8,120.0,-1.0
+PB,Paraíba,Nordeste,2019,1,2019T1,111.0,119.0,117.5,1.3
+PB,Paraíba,Nordeste,2019,2,2019T2,114.0,117.0,119.5,-2.1
+PB,Paraíba,Nordeste,2019,3,2019T3,118.0,116.5,119.8,-2.7
+PB,Paraíba,Nordeste,2019,4,2019T4,123.0,116.5,118.8,-1.9
+PB,Paraíba,Nordeste,2020,1,2020T1,123.0,119.5,119.0,0.4
+PB,Paraíba,Nordeste,2020,2,2020T2,120.0,121.0,117.0,3.4
+PB,Paraíba,Nordeste,2020,3,2020T3,114.0,120.0,116.5,3.0
+PB,Paraíba,Nordeste,2020,4,2020T4,118.0,118.8,116.5,1.9
+PB,Paraíba,Nordeste,2021,1,2021T1,125.0,119.3,119.5,-0.2
+PB,Paraíba,Nordeste,2021,2,2021T2,113.0,117.5,121.0,-2.9
+PB,Paraíba,Nordeste,2021,3,2021T3,120.0,119.0,120.0,-0.8
+PB,Paraíba,Nordeste,2021,4,2021T4,110.0,117.0,118.8,-1.5
+PB,Paraíba,Nordeste,2022,1,2022T1,118.0,115.3,119.3,-3.4
+PB,Paraíba,Nordeste,2022,2,2022T2,112.0,115.0,117.5,-2.1
+PB,Paraíba,Nordeste,2022,3,2022T3,127.0,116.8,119.0,-1.9
+PB,Paraíba,Nordeste,2022,4,2022T4,125.0,120.5,117.0,3.0
+PB,Paraíba,Nordeste,2023,1,2023T1,125.0,122.3,115.3,6.1
+PB,Paraíba,Nordeste,2023,2,2023T2,125.0,125.5,115.0,9.1
+PB,Paraíba,Nordeste,2023,3,2023T3,139.0,128.5,116.8,10.1
+PB,Paraíba,Nordeste,2023,4,2023T4,148.0,134.3,120.5,11.4
+PB,Paraíba,Nordeste,2024,1,2024T1,147.0,139.8,122.3,14.3
+PB,Paraíba,Nordeste,2024,2,2024T2,153.0,146.8,125.5,16.9
+PB,Paraíba,Nordeste,2024,3,2024T3,150.0,149.5,128.5,16.3
+PB,Paraíba,Nordeste,2024,4,2024T4,157.0,151.8,134.3,13.0
+PB,Paraíba,Nordeste,2025,1,2025T1,156.0,154.0,139.8,10.2
+PB,Paraíba,Nordeste,2025,2,2025T2,150.0,153.3,146.8,4.4
+PB,Paraíba,Nordeste,2025,3,2025T3,170.0,158.3,149.5,5.9
+PB,Paraíba,Nordeste,2025,4,2025T4,172.0,162.0,151.8,6.8
+PB,Paraíba,Nordeste,2026,1,2026T1,197.0,172.3,154.0,11.9
+PB,Paraíba,Nordeste,2026,2,2026T2,205.0,186.0,153.3,21.4
+PE,Pernambuco,Nordeste,2012,1,2012T1,363.0,,,
+PE,Pernambuco,Nordeste,2012,2,2012T2,360.0,,,
+PE,Pernambuco,Nordeste,2012,3,2012T3,343.0,,,
+PE,Pernambuco,Nordeste,2012,4,2012T4,343.0,352.3,,
+PE,Pernambuco,Nordeste,2013,1,2013T1,342.0,347.0,,
+PE,Pernambuco,Nordeste,2013,2,2013T2,363.0,347.8,,
+PE,Pernambuco,Nordeste,2013,3,2013T3,333.0,345.3,,
+PE,Pernambuco,Nordeste,2013,4,2013T4,344.0,345.5,352.3,-1.9
+PE,Pernambuco,Nordeste,2014,1,2014T1,332.0,343.0,347.0,-1.2
+PE,Pernambuco,Nordeste,2014,2,2014T2,383.0,348.0,347.8,0.1
+PE,Pernambuco,Nordeste,2014,3,2014T3,410.0,367.3,345.3,6.4
+PE,Pernambuco,Nordeste,2014,4,2014T4,372.0,374.3,345.5,8.3
+PE,Pernambuco,Nordeste,2015,1,2015T1,379.0,386.0,343.0,12.5
+PE,Pernambuco,Nordeste,2015,2,2015T2,421.0,395.5,348.0,13.6
+PE,Pernambuco,Nordeste,2015,3,2015T3,396.0,392.0,367.3,6.7
+PE,Pernambuco,Nordeste,2015,4,2015T4,328.0,381.0,374.3,1.8
+PE,Pernambuco,Nordeste,2016,1,2016T1,311.0,364.0,386.0,-5.7
+PE,Pernambuco,Nordeste,2016,2,2016T2,318.0,338.3,395.5,-14.5
+PE,Pernambuco,Nordeste,2016,3,2016T3,309.0,316.5,392.0,-19.3
+PE,Pernambuco,Nordeste,2016,4,2016T4,310.0,312.0,381.0,-18.1
+PE,Pernambuco,Nordeste,2017,1,2017T1,304.0,310.3,364.0,-14.8
+PE,Pernambuco,Nordeste,2017,2,2017T2,308.0,307.8,338.3,-9.0
+PE,Pernambuco,Nordeste,2017,3,2017T3,301.0,305.8,316.5,-3.4
+PE,Pernambuco,Nordeste,2017,4,2017T4,306.0,304.8,312.0,-2.3
+PE,Pernambuco,Nordeste,2018,1,2018T1,311.0,306.5,310.3,-1.2
+PE,Pernambuco,Nordeste,2018,2,2018T2,301.0,304.8,307.8,-1.0
+PE,Pernambuco,Nordeste,2018,3,2018T3,306.0,306.0,305.8,0.1
+PE,Pernambuco,Nordeste,2018,4,2018T4,323.0,310.3,304.8,1.8
+PE,Pernambuco,Nordeste,2019,1,2019T1,322.0,313.0,306.5,2.1
+PE,Pernambuco,Nordeste,2019,2,2019T2,345.0,324.0,304.8,6.3
+PE,Pernambuco,Nordeste,2019,3,2019T3,327.0,329.3,306.0,7.6
+PE,Pernambuco,Nordeste,2019,4,2019T4,327.0,330.3,310.3,6.4
+PE,Pernambuco,Nordeste,2020,1,2020T1,332.0,332.8,313.0,6.3
+PE,Pernambuco,Nordeste,2020,2,2020T2,304.0,322.5,324.0,-0.5
+PE,Pernambuco,Nordeste,2020,3,2020T3,278.0,310.3,329.3,-5.8
+PE,Pernambuco,Nordeste,2020,4,2020T4,293.0,301.8,330.3,-8.6
+PE,Pernambuco,Nordeste,2021,1,2021T1,286.0,290.3,332.8,-12.8
+PE,Pernambuco,Nordeste,2021,2,2021T2,292.0,287.3,322.5,-10.9
+PE,Pernambuco,Nordeste,2021,3,2021T3,298.0,292.3,310.3,-5.8
+PE,Pernambuco,Nordeste,2021,4,2021T4,333.0,302.3,301.8,0.2
+PE,Pernambuco,Nordeste,2022,1,2022T1,311.0,308.5,290.3,6.3
+PE,Pernambuco,Nordeste,2022,2,2022T2,346.0,322.0,287.3,12.1
+PE,Pernambuco,Nordeste,2022,3,2022T3,336.0,331.5,292.3,13.4
+PE,Pernambuco,Nordeste,2022,4,2022T4,355.0,337.0,302.3,11.5
+PE,Pernambuco,Nordeste,2023,1,2023T1,362.0,349.8,308.5,13.4
+PE,Pernambuco,Nordeste,2023,2,2023T2,374.0,356.8,322.0,10.8
+PE,Pernambuco,Nordeste,2023,3,2023T3,358.0,362.3,331.5,9.3
+PE,Pernambuco,Nordeste,2023,4,2023T4,387.0,370.3,337.0,9.9
+PE,Pernambuco,Nordeste,2024,1,2024T1,357.0,369.0,349.8,5.5
+PE,Pernambuco,Nordeste,2024,2,2024T2,382.0,371.0,356.8,4.0
+PE,Pernambuco,Nordeste,2024,3,2024T3,400.0,381.5,362.3,5.3
+PE,Pernambuco,Nordeste,2024,4,2024T4,414.0,388.3,370.3,4.9
+PE,Pernambuco,Nordeste,2025,1,2025T1,389.0,396.3,369.0,7.4
+PE,Pernambuco,Nordeste,2025,2,2025T2,403.0,401.5,371.0,8.2
+PE,Pernambuco,Nordeste,2025,3,2025T3,410.0,404.0,381.5,5.9
+PE,Pernambuco,Nordeste,2025,4,2025T4,422.0,406.0,388.3,4.6
+PE,Pernambuco,Nordeste,2026,1,2026T1,403.0,409.5,396.3,3.3
+PE,Pernambuco,Nordeste,2026,2,2026T2,372.0,401.8,401.5,0.1
+PI,Piauí,Nordeste,2012,1,2012T1,59.0,,,
+PI,Piauí,Nordeste,2012,2,2012T2,61.0,,,
+PI,Piauí,Nordeste,2012,3,2012T3,64.0,,,
+PI,Piauí,Nordeste,2012,4,2012T4,59.0,60.8,,
+PI,Piauí,Nordeste,2013,1,2013T1,60.0,61.0,,
+PI,Piauí,Nordeste,2013,2,2013T2,71.0,63.5,,
+PI,Piauí,Nordeste,2013,3,2013T3,77.0,66.8,,
+PI,Piauí,Nordeste,2013,4,2013T4,75.0,70.8,60.8,16.5
+PI,Piauí,Nordeste,2014,1,2014T1,74.0,74.3,61.0,21.7
+PI,Piauí,Nordeste,2014,2,2014T2,74.0,75.0,63.5,18.1
+PI,Piauí,Nordeste,2014,3,2014T3,78.0,75.3,66.8,12.7
+PI,Piauí,Nordeste,2014,4,2014T4,77.0,75.8,70.8,7.1
+PI,Piauí,Nordeste,2015,1,2015T1,73.0,75.5,74.3,1.7
+PI,Piauí,Nordeste,2015,2,2015T2,84.0,78.0,75.0,4.0
+PI,Piauí,Nordeste,2015,3,2015T3,88.0,80.5,75.3,7.0
+PI,Piauí,Nordeste,2015,4,2015T4,84.0,82.3,75.8,8.6
+PI,Piauí,Nordeste,2016,1,2016T1,86.0,85.5,75.5,13.2
+PI,Piauí,Nordeste,2016,2,2016T2,78.0,84.0,78.0,7.7
+PI,Piauí,Nordeste,2016,3,2016T3,80.0,82.0,80.5,1.9
+PI,Piauí,Nordeste,2016,4,2016T4,85.0,82.3,82.3,0.0
+PI,Piauí,Nordeste,2017,1,2017T1,85.0,82.0,85.5,-4.1
+PI,Piauí,Nordeste,2017,2,2017T2,78.0,82.0,84.0,-2.4
+PI,Piauí,Nordeste,2017,3,2017T3,78.0,81.5,82.0,-0.6
+PI,Piauí,Nordeste,2017,4,2017T4,84.0,81.3,82.3,-1.2
+PI,Piauí,Nordeste,2018,1,2018T1,81.0,80.3,82.0,-2.1
+PI,Piauí,Nordeste,2018,2,2018T2,81.0,81.0,82.0,-1.2
+PI,Piauí,Nordeste,2018,3,2018T3,74.0,80.0,81.5,-1.8
+PI,Piauí,Nordeste,2018,4,2018T4,83.0,79.8,81.3,-1.8
+PI,Piauí,Nordeste,2019,1,2019T1,78.0,79.0,80.3,-1.6
+PI,Piauí,Nordeste,2019,2,2019T2,85.0,80.0,81.0,-1.2
+PI,Piauí,Nordeste,2019,3,2019T3,76.0,80.5,80.0,0.6
+PI,Piauí,Nordeste,2019,4,2019T4,79.0,79.5,79.8,-0.3
+PI,Piauí,Nordeste,2020,1,2020T1,71.0,77.8,79.0,-1.6
+PI,Piauí,Nordeste,2020,2,2020T2,78.0,76.0,80.0,-5.0
+PI,Piauí,Nordeste,2020,3,2020T3,85.0,78.3,80.5,-2.8
+PI,Piauí,Nordeste,2020,4,2020T4,87.0,80.3,79.5,0.9
+PI,Piauí,Nordeste,2021,1,2021T1,81.0,82.8,77.8,6.4
+PI,Piauí,Nordeste,2021,2,2021T2,97.0,87.5,76.0,15.1
+PI,Piauí,Nordeste,2021,3,2021T3,99.0,91.0,78.3,16.3
+PI,Piauí,Nordeste,2021,4,2021T4,89.0,91.5,80.3,14.0
+PI,Piauí,Nordeste,2022,1,2022T1,93.0,94.5,82.8,14.2
+PI,Piauí,Nordeste,2022,2,2022T2,105.0,96.5,87.5,10.3
+PI,Piauí,Nordeste,2022,3,2022T3,110.0,99.3,91.0,9.1
+PI,Piauí,Nordeste,2022,4,2022T4,116.0,106.0,91.5,15.8
+PI,Piauí,Nordeste,2023,1,2023T1,123.0,113.5,94.5,20.1
+PI,Piauí,Nordeste,2023,2,2023T2,122.0,117.8,96.5,22.0
+PI,Piauí,Nordeste,2023,3,2023T3,114.0,118.8,99.3,19.6
+PI,Piauí,Nordeste,2023,4,2023T4,94.0,113.3,106.0,6.8
+PI,Piauí,Nordeste,2024,1,2024T1,100.0,107.5,113.5,-5.3
+PI,Piauí,Nordeste,2024,2,2024T2,98.0,101.5,117.8,-13.8
+PI,Piauí,Nordeste,2024,3,2024T3,93.0,96.3,118.8,-18.9
+PI,Piauí,Nordeste,2024,4,2024T4,99.0,97.5,113.3,-13.9
+PI,Piauí,Nordeste,2025,1,2025T1,104.0,98.5,107.5,-8.4
+PI,Piauí,Nordeste,2025,2,2025T2,108.0,101.0,101.5,-0.5
+PI,Piauí,Nordeste,2025,3,2025T3,105.0,104.0,96.3,8.1
+PI,Piauí,Nordeste,2025,4,2025T4,111.0,107.0,97.5,9.7
+PI,Piauí,Nordeste,2026,1,2026T1,108.0,108.0,98.5,9.6
+PI,Piauí,Nordeste,2026,2,2026T2,121.0,111.3,101.0,10.1
+PR,Paraná,Sul,2012,1,2012T1,548.0,,,
+PR,Paraná,Sul,2012,2,2012T2,560.0,,,
+PR,Paraná,Sul,2012,3,2012T3,602.0,,,
+PR,Paraná,Sul,2012,4,2012T4,566.0,569.0,,
+PR,Paraná,Sul,2013,1,2013T1,600.0,582.0,,
+PR,Paraná,Sul,2013,2,2013T2,600.0,592.0,,
+PR,Paraná,Sul,2013,3,2013T3,568.0,583.5,,
+PR,Paraná,Sul,2013,4,2013T4,589.0,589.3,569.0,3.6
+PR,Paraná,Sul,2014,1,2014T1,623.0,595.0,582.0,2.2
+PR,Paraná,Sul,2014,2,2014T2,601.0,595.3,592.0,0.5
+PR,Paraná,Sul,2014,3,2014T3,608.0,605.3,583.5,3.7
+PR,Paraná,Sul,2014,4,2014T4,588.0,605.0,589.3,2.7
+PR,Paraná,Sul,2015,1,2015T1,589.0,596.5,595.0,0.3
+PR,Paraná,Sul,2015,2,2015T2,557.0,585.5,595.3,-1.6
+PR,Paraná,Sul,2015,3,2015T3,570.0,576.0,605.3,-4.8
+PR,Paraná,Sul,2015,4,2015T4,540.0,564.0,605.0,-6.8
+PR,Paraná,Sul,2016,1,2016T1,516.0,545.8,596.5,-8.5
+PR,Paraná,Sul,2016,2,2016T2,499.0,531.3,585.5,-9.3
+PR,Paraná,Sul,2016,3,2016T3,498.0,513.3,576.0,-10.9
+PR,Paraná,Sul,2016,4,2016T4,527.0,510.0,564.0,-9.6
+PR,Paraná,Sul,2017,1,2017T1,539.0,515.8,545.8,-5.5
+PR,Paraná,Sul,2017,2,2017T2,553.0,529.3,531.3,-0.4
+PR,Paraná,Sul,2017,3,2017T3,539.0,539.5,513.3,5.1
+PR,Paraná,Sul,2017,4,2017T4,553.0,546.0,510.0,7.1
+PR,Paraná,Sul,2018,1,2018T1,576.0,555.3,515.8,7.7
+PR,Paraná,Sul,2018,2,2018T2,576.0,561.0,529.3,6.0
+PR,Paraná,Sul,2018,3,2018T3,585.0,572.5,539.5,6.1
+PR,Paraná,Sul,2018,4,2018T4,596.0,583.3,546.0,6.8
+PR,Paraná,Sul,2019,1,2019T1,589.0,586.5,555.3,5.6
+PR,Paraná,Sul,2019,2,2019T2,591.0,590.3,561.0,5.2
+PR,Paraná,Sul,2019,3,2019T3,587.0,590.8,572.5,3.2
+PR,Paraná,Sul,2019,4,2019T4,604.0,592.8,583.3,1.6
+PR,Paraná,Sul,2020,1,2020T1,607.0,597.3,586.5,1.8
+PR,Paraná,Sul,2020,2,2020T2,578.0,594.0,590.3,0.6
+PR,Paraná,Sul,2020,3,2020T3,555.0,586.0,590.8,-0.8
+PR,Paraná,Sul,2020,4,2020T4,625.0,591.3,592.8,-0.3
+PR,Paraná,Sul,2021,1,2021T1,723.0,620.3,597.3,3.9
+PR,Paraná,Sul,2021,2,2021T2,625.0,632.0,594.0,6.4
+PR,Paraná,Sul,2021,3,2021T3,614.0,646.8,586.0,10.4
+PR,Paraná,Sul,2021,4,2021T4,657.0,654.8,591.3,10.7
+PR,Paraná,Sul,2022,1,2022T1,609.0,626.3,620.3,1.0
+PR,Paraná,Sul,2022,2,2022T2,647.0,631.8,632.0,0.0
+PR,Paraná,Sul,2022,3,2022T3,682.0,648.8,646.8,0.3
+PR,Paraná,Sul,2022,4,2022T4,636.0,643.5,654.8,-1.7
+PR,Paraná,Sul,2023,1,2023T1,656.0,655.3,626.3,4.6
+PR,Paraná,Sul,2023,2,2023T2,670.0,661.0,631.8,4.6
+PR,Paraná,Sul,2023,3,2023T3,684.0,661.5,648.8,2.0
+PR,Paraná,Sul,2023,4,2023T4,753.0,690.8,643.5,7.3
+PR,Paraná,Sul,2024,1,2024T1,729.0,709.0,655.3,8.2
+PR,Paraná,Sul,2024,2,2024T2,703.0,717.3,661.0,8.5
+PR,Paraná,Sul,2024,3,2024T3,712.0,724.3,661.5,9.5
+PR,Paraná,Sul,2024,4,2024T4,706.0,712.5,690.8,3.1
+PR,Paraná,Sul,2025,1,2025T1,736.0,714.3,709.0,0.7
+PR,Paraná,Sul,2025,2,2025T2,728.0,720.5,717.3,0.5
+PR,Paraná,Sul,2025,3,2025T3,773.0,735.8,724.3,1.6
+PR,Paraná,Sul,2025,4,2025T4,791.0,757.0,712.5,6.2
+PR,Paraná,Sul,2026,1,2026T1,819.0,777.8,714.3,8.9
+PR,Paraná,Sul,2026,2,2026T2,824.0,801.8,720.5,11.3
+RJ,Rio de Janeiro,Sudeste,2012,1,2012T1,1193.0,,,
+RJ,Rio de Janeiro,Sudeste,2012,2,2012T2,1161.0,,,
+RJ,Rio de Janeiro,Sudeste,2012,3,2012T3,1162.0,,,
+RJ,Rio de Janeiro,Sudeste,2012,4,2012T4,1129.0,1161.3,,
+RJ,Rio de Janeiro,Sudeste,2013,1,2013T1,1152.0,1151.0,,
+RJ,Rio de Janeiro,Sudeste,2013,2,2013T2,1196.0,1159.8,,
+RJ,Rio de Janeiro,Sudeste,2013,3,2013T3,1182.0,1164.8,,
+RJ,Rio de Janeiro,Sudeste,2013,4,2013T4,1174.0,1176.0,1161.3,1.3
+RJ,Rio de Janeiro,Sudeste,2014,1,2014T1,1145.0,1174.3,1151.0,2.0
+RJ,Rio de Janeiro,Sudeste,2014,2,2014T2,1167.0,1167.0,1159.8,0.6
+RJ,Rio de Janeiro,Sudeste,2014,3,2014T3,1225.0,1177.8,1164.8,1.1
+RJ,Rio de Janeiro,Sudeste,2014,4,2014T4,1236.0,1193.3,1176.0,1.5
+RJ,Rio de Janeiro,Sudeste,2015,1,2015T1,1187.0,1203.8,1174.3,2.5
+RJ,Rio de Janeiro,Sudeste,2015,2,2015T2,1296.0,1236.0,1167.0,5.9
+RJ,Rio de Janeiro,Sudeste,2015,3,2015T3,1278.0,1249.3,1177.8,6.1
+RJ,Rio de Janeiro,Sudeste,2015,4,2015T4,1052.0,1203.3,1193.3,0.8
+RJ,Rio de Janeiro,Sudeste,2016,1,2016T1,1072.0,1174.5,1203.8,-2.4
+RJ,Rio de Janeiro,Sudeste,2016,2,2016T2,1073.0,1118.8,1236.0,-9.5
+RJ,Rio de Janeiro,Sudeste,2016,3,2016T3,1056.0,1063.3,1249.3,-14.9
+RJ,Rio de Janeiro,Sudeste,2016,4,2016T4,1038.0,1059.8,1203.3,-11.9
+RJ,Rio de Janeiro,Sudeste,2017,1,2017T1,1079.0,1061.5,1174.5,-9.6
+RJ,Rio de Janeiro,Sudeste,2017,2,2017T2,1042.0,1053.8,1118.8,-5.8
+RJ,Rio de Janeiro,Sudeste,2017,3,2017T3,1070.0,1057.3,1063.3,-0.6
+RJ,Rio de Janeiro,Sudeste,2017,4,2017T4,1106.0,1074.3,1059.8,1.4
+RJ,Rio de Janeiro,Sudeste,2018,1,2018T1,1104.0,1080.5,1061.5,1.8
+RJ,Rio de Janeiro,Sudeste,2018,2,2018T2,1079.0,1089.8,1053.8,3.4
+RJ,Rio de Janeiro,Sudeste,2018,3,2018T3,1115.0,1101.0,1057.3,4.1
+RJ,Rio de Janeiro,Sudeste,2018,4,2018T4,1153.0,1112.8,1074.3,3.6
+RJ,Rio de Janeiro,Sudeste,2019,1,2019T1,1165.0,1128.0,1080.5,4.4
+RJ,Rio de Janeiro,Sudeste,2019,2,2019T2,1153.0,1146.5,1089.8,5.2
+RJ,Rio de Janeiro,Sudeste,2019,3,2019T3,1180.0,1162.8,1101.0,5.6
+RJ,Rio de Janeiro,Sudeste,2019,4,2019T4,1153.0,1162.8,1112.8,4.5
+RJ,Rio de Janeiro,Sudeste,2020,1,2020T1,1144.0,1157.5,1128.0,2.6
+RJ,Rio de Janeiro,Sudeste,2020,2,2020T2,1041.0,1129.5,1146.5,-1.5
+RJ,Rio de Janeiro,Sudeste,2020,3,2020T3,1026.0,1091.0,1162.8,-6.2
+RJ,Rio de Janeiro,Sudeste,2020,4,2020T4,1102.0,1078.3,1162.8,-7.3
+RJ,Rio de Janeiro,Sudeste,2021,1,2021T1,1079.0,1062.0,1157.5,-8.3
+RJ,Rio de Janeiro,Sudeste,2021,2,2021T2,1228.0,1108.8,1129.5,-1.8
+RJ,Rio de Janeiro,Sudeste,2021,3,2021T3,1152.0,1140.3,1091.0,4.5
+RJ,Rio de Janeiro,Sudeste,2021,4,2021T4,1205.0,1166.0,1078.3,8.1
+RJ,Rio de Janeiro,Sudeste,2022,1,2022T1,1205.0,1197.5,1062.0,12.8
+RJ,Rio de Janeiro,Sudeste,2022,2,2022T2,1262.0,1206.0,1108.8,8.8
+RJ,Rio de Janeiro,Sudeste,2022,3,2022T3,1252.0,1231.0,1140.3,8.0
+RJ,Rio de Janeiro,Sudeste,2022,4,2022T4,1300.0,1254.8,1166.0,7.6
+RJ,Rio de Janeiro,Sudeste,2023,1,2023T1,1278.0,1273.0,1197.5,6.3
+RJ,Rio de Janeiro,Sudeste,2023,2,2023T2,1295.0,1281.3,1206.0,6.2
+RJ,Rio de Janeiro,Sudeste,2023,3,2023T3,1289.0,1290.5,1231.0,4.8
+RJ,Rio de Janeiro,Sudeste,2023,4,2023T4,1303.0,1291.3,1254.8,2.9
+RJ,Rio de Janeiro,Sudeste,2024,1,2024T1,1293.0,1295.0,1273.0,1.7
+RJ,Rio de Janeiro,Sudeste,2024,2,2024T2,1312.0,1299.3,1281.3,1.4
+RJ,Rio de Janeiro,Sudeste,2024,3,2024T3,1318.0,1306.5,1290.5,1.2
+RJ,Rio de Janeiro,Sudeste,2024,4,2024T4,1288.0,1302.8,1291.3,0.9
+RJ,Rio de Janeiro,Sudeste,2025,1,2025T1,1267.0,1296.3,1295.0,0.1
+RJ,Rio de Janeiro,Sudeste,2025,2,2025T2,1407.0,1320.0,1299.3,1.6
+RJ,Rio de Janeiro,Sudeste,2025,3,2025T3,1339.0,1325.3,1306.5,1.4
+RJ,Rio de Janeiro,Sudeste,2025,4,2025T4,1382.0,1348.8,1302.8,3.5
+RJ,Rio de Janeiro,Sudeste,2026,1,2026T1,1306.0,1358.5,1296.3,4.8
+RJ,Rio de Janeiro,Sudeste,2026,2,2026T2,1286.0,1328.3,1320.0,0.6
+RN,Rio Grande do Norte,Nordeste,2012,1,2012T1,90.0,,,
+RN,Rio Grande do Norte,Nordeste,2012,2,2012T2,93.0,,,
+RN,Rio Grande do Norte,Nordeste,2012,3,2012T3,97.0,,,
+RN,Rio Grande do Norte,Nordeste,2012,4,2012T4,95.0,93.8,,
+RN,Rio Grande do Norte,Nordeste,2013,1,2013T1,90.0,93.8,,
+RN,Rio Grande do Norte,Nordeste,2013,2,2013T2,101.0,95.8,,
+RN,Rio Grande do Norte,Nordeste,2013,3,2013T3,108.0,98.5,,
+RN,Rio Grande do Norte,Nordeste,2013,4,2013T4,100.0,99.8,93.8,6.4
+RN,Rio Grande do Norte,Nordeste,2014,1,2014T1,119.0,107.0,93.8,14.1
+RN,Rio Grande do Norte,Nordeste,2014,2,2014T2,128.0,113.8,95.8,18.8
+RN,Rio Grande do Norte,Nordeste,2014,3,2014T3,105.0,113.0,98.5,14.7
+RN,Rio Grande do Norte,Nordeste,2014,4,2014T4,111.0,115.8,99.8,16.0
+RN,Rio Grande do Norte,Nordeste,2015,1,2015T1,123.0,116.8,107.0,9.1
+RN,Rio Grande do Norte,Nordeste,2015,2,2015T2,136.0,118.8,113.8,4.4
+RN,Rio Grande do Norte,Nordeste,2015,3,2015T3,120.0,122.5,113.0,8.4
+RN,Rio Grande do Norte,Nordeste,2015,4,2015T4,117.0,124.0,115.8,7.1
+RN,Rio Grande do Norte,Nordeste,2016,1,2016T1,105.0,119.5,116.8,2.4
+RN,Rio Grande do Norte,Nordeste,2016,2,2016T2,109.0,112.8,118.8,-5.1
+RN,Rio Grande do Norte,Nordeste,2016,3,2016T3,109.0,110.0,122.5,-10.2
+RN,Rio Grande do Norte,Nordeste,2016,4,2016T4,109.0,108.0,124.0,-12.9
+RN,Rio Grande do Norte,Nordeste,2017,1,2017T1,110.0,109.3,119.5,-8.6
+RN,Rio Grande do Norte,Nordeste,2017,2,2017T2,118.0,111.5,112.8,-1.1
+RN,Rio Grande do Norte,Nordeste,2017,3,2017T3,109.0,111.5,110.0,1.4
+RN,Rio Grande do Norte,Nordeste,2017,4,2017T4,113.0,112.5,108.0,4.2
+RN,Rio Grande do Norte,Nordeste,2018,1,2018T1,113.0,113.3,109.3,3.7
+RN,Rio Grande do Norte,Nordeste,2018,2,2018T2,117.0,113.0,111.5,1.3
+RN,Rio Grande do Norte,Nordeste,2018,3,2018T3,123.0,116.5,111.5,4.5
+RN,Rio Grande do Norte,Nordeste,2018,4,2018T4,132.0,121.3,112.5,7.8
+RN,Rio Grande do Norte,Nordeste,2019,1,2019T1,114.0,121.5,113.3,7.3
+RN,Rio Grande do Norte,Nordeste,2019,2,2019T2,127.0,124.0,113.0,9.7
+RN,Rio Grande do Norte,Nordeste,2019,3,2019T3,139.0,128.0,116.5,9.9
+RN,Rio Grande do Norte,Nordeste,2019,4,2019T4,125.0,126.3,121.3,4.1
+RN,Rio Grande do Norte,Nordeste,2020,1,2020T1,142.0,133.3,121.5,9.7
+RN,Rio Grande do Norte,Nordeste,2020,2,2020T2,123.0,132.3,124.0,6.7
+RN,Rio Grande do Norte,Nordeste,2020,3,2020T3,133.0,130.8,128.0,2.1
+RN,Rio Grande do Norte,Nordeste,2020,4,2020T4,137.0,133.8,126.3,5.9
+RN,Rio Grande do Norte,Nordeste,2021,1,2021T1,119.0,128.0,133.3,-3.9
+RN,Rio Grande do Norte,Nordeste,2021,2,2021T2,124.0,128.3,132.3,-3.0
+RN,Rio Grande do Norte,Nordeste,2021,3,2021T3,121.0,125.3,130.8,-4.2
+RN,Rio Grande do Norte,Nordeste,2021,4,2021T4,126.0,122.5,133.8,-8.4
+RN,Rio Grande do Norte,Nordeste,2022,1,2022T1,128.0,124.8,128.0,-2.5
+RN,Rio Grande do Norte,Nordeste,2022,2,2022T2,136.0,127.8,128.3,-0.4
+RN,Rio Grande do Norte,Nordeste,2022,3,2022T3,129.0,129.8,125.3,3.6
+RN,Rio Grande do Norte,Nordeste,2022,4,2022T4,123.0,129.0,122.5,5.3
+RN,Rio Grande do Norte,Nordeste,2023,1,2023T1,138.0,131.5,124.8,5.4
+RN,Rio Grande do Norte,Nordeste,2023,2,2023T2,140.0,132.5,127.8,3.7
+RN,Rio Grande do Norte,Nordeste,2023,3,2023T3,155.0,139.0,129.8,7.1
+RN,Rio Grande do Norte,Nordeste,2023,4,2023T4,161.0,148.5,129.0,15.1
+RN,Rio Grande do Norte,Nordeste,2024,1,2024T1,154.0,152.5,131.5,16.0
+RN,Rio Grande do Norte,Nordeste,2024,2,2024T2,154.0,156.0,132.5,17.7
+RN,Rio Grande do Norte,Nordeste,2024,3,2024T3,158.0,156.8,139.0,12.8
+RN,Rio Grande do Norte,Nordeste,2024,4,2024T4,153.0,154.8,148.5,4.2
+RN,Rio Grande do Norte,Nordeste,2025,1,2025T1,171.0,159.0,152.5,4.3
+RN,Rio Grande do Norte,Nordeste,2025,2,2025T2,164.0,161.5,156.0,3.5
+RN,Rio Grande do Norte,Nordeste,2025,3,2025T3,146.0,158.5,156.8,1.1
+RN,Rio Grande do Norte,Nordeste,2025,4,2025T4,156.0,159.3,154.8,2.9
+RN,Rio Grande do Norte,Nordeste,2026,1,2026T1,153.0,154.8,159.0,-2.7
+RN,Rio Grande do Norte,Nordeste,2026,2,2026T2,161.0,154.0,161.5,-4.6
+RO,Rondônia,Norte,2012,1,2012T1,50.0,,,
+RO,Rondônia,Norte,2012,2,2012T2,42.0,,,
+RO,Rondônia,Norte,2012,3,2012T3,47.0,,,
+RO,Rondônia,Norte,2012,4,2012T4,44.0,45.8,,
+RO,Rondônia,Norte,2013,1,2013T1,39.0,43.0,,
+RO,Rondônia,Norte,2013,2,2013T2,43.0,43.3,,
+RO,Rondônia,Norte,2013,3,2013T3,47.0,43.3,,
+RO,Rondônia,Norte,2013,4,2013T4,46.0,43.8,45.8,-4.4
+RO,Rondônia,Norte,2014,1,2014T1,46.0,45.5,43.0,5.8
+RO,Rondônia,Norte,2014,2,2014T2,48.0,46.8,43.3,8.1
+RO,Rondônia,Norte,2014,3,2014T3,52.0,48.0,43.3,11.0
+RO,Rondônia,Norte,2014,4,2014T4,53.0,49.8,43.8,13.7
+RO,Rondônia,Norte,2015,1,2015T1,53.0,51.5,45.5,13.2
+RO,Rondônia,Norte,2015,2,2015T2,58.0,54.0,46.8,15.5
+RO,Rondônia,Norte,2015,3,2015T3,52.0,54.0,48.0,12.5
+RO,Rondônia,Norte,2015,4,2015T4,42.0,51.3,49.8,3.0
+RO,Rondônia,Norte,2016,1,2016T1,49.0,50.3,51.5,-2.4
+RO,Rondônia,Norte,2016,2,2016T2,45.0,47.0,54.0,-13.0
+RO,Rondônia,Norte,2016,3,2016T3,48.0,46.0,54.0,-14.8
+RO,Rondônia,Norte,2016,4,2016T4,42.0,46.0,51.3,-10.2
+RO,Rondônia,Norte,2017,1,2017T1,40.0,43.8,50.3,-12.9
+RO,Rondônia,Norte,2017,2,2017T2,49.0,44.8,47.0,-4.8
+RO,Rondônia,Norte,2017,3,2017T3,49.0,45.0,46.0,-2.2
+RO,Rondônia,Norte,2017,4,2017T4,46.0,46.0,46.0,0.0
+RO,Rondônia,Norte,2018,1,2018T1,43.0,46.8,43.8,6.9
+RO,Rondônia,Norte,2018,2,2018T2,40.0,44.5,44.8,-0.6
+RO,Rondônia,Norte,2018,3,2018T3,46.0,43.8,45.0,-2.8
+RO,Rondônia,Norte,2018,4,2018T4,45.0,43.5,46.0,-5.4
+RO,Rondônia,Norte,2019,1,2019T1,47.0,44.5,46.8,-4.8
+RO,Rondônia,Norte,2019,2,2019T2,55.0,48.3,44.5,8.4
+RO,Rondônia,Norte,2019,3,2019T3,50.0,49.3,43.8,12.6
+RO,Rondônia,Norte,2019,4,2019T4,58.0,52.5,43.5,20.7
+RO,Rondônia,Norte,2020,1,2020T1,57.0,55.0,44.5,23.6
+RO,Rondônia,Norte,2020,2,2020T2,55.0,55.0,48.3,14.0
+RO,Rondônia,Norte,2020,3,2020T3,51.0,55.3,49.3,12.2
+RO,Rondônia,Norte,2020,4,2020T4,50.0,53.3,52.5,1.4
+RO,Rondônia,Norte,2021,1,2021T1,59.0,53.8,55.0,-2.3
+RO,Rondônia,Norte,2021,2,2021T2,53.0,53.3,55.0,-3.2
+RO,Rondônia,Norte,2021,3,2021T3,57.0,54.8,55.3,-0.9
+RO,Rondônia,Norte,2021,4,2021T4,62.0,57.8,53.3,8.5
+RO,Rondônia,Norte,2022,1,2022T1,59.0,57.8,53.8,7.4
+RO,Rondônia,Norte,2022,2,2022T2,54.0,58.0,53.3,8.9
+RO,Rondônia,Norte,2022,3,2022T3,67.0,60.5,54.8,10.5
+RO,Rondônia,Norte,2022,4,2022T4,62.0,60.5,57.8,4.8
+RO,Rondônia,Norte,2023,1,2023T1,54.0,59.3,57.8,2.6
+RO,Rondônia,Norte,2023,2,2023T2,56.0,59.8,58.0,3.0
+RO,Rondônia,Norte,2023,3,2023T3,53.0,56.3,60.5,-7.0
+RO,Rondônia,Norte,2023,4,2023T4,60.0,55.8,60.5,-7.9
+RO,Rondônia,Norte,2024,1,2024T1,69.0,59.5,59.3,0.4
+RO,Rondônia,Norte,2024,2,2024T2,62.0,61.0,59.8,2.1
+RO,Rondônia,Norte,2024,3,2024T3,65.0,64.0,56.3,13.8
+RO,Rondônia,Norte,2024,4,2024T4,57.0,63.3,55.8,13.5
+RO,Rondônia,Norte,2025,1,2025T1,56.0,60.0,59.5,0.8
+RO,Rondônia,Norte,2025,2,2025T2,62.0,60.0,61.0,-1.6
+RO,Rondônia,Norte,2025,3,2025T3,68.0,60.8,64.0,-5.1
+RO,Rondônia,Norte,2025,4,2025T4,71.0,64.3,63.3,1.6
+RO,Rondônia,Norte,2026,1,2026T1,72.0,68.3,60.0,13.8
+RO,Rondônia,Norte,2026,2,2026T2,77.0,72.0,60.0,20.0
+RR,Roraima,Norte,2012,1,2012T1,16.0,,,
+RR,Roraima,Norte,2012,2,2012T2,17.0,,,
+RR,Roraima,Norte,2012,3,2012T3,18.0,,,
+RR,Roraima,Norte,2012,4,2012T4,15.0,16.5,,
+RR,Roraima,Norte,2013,1,2013T1,17.0,16.8,,
+RR,Roraima,Norte,2013,2,2013T2,15.0,16.3,,
+RR,Roraima,Norte,2013,3,2013T3,16.0,15.8,,
+RR,Roraima,Norte,2013,4,2013T4,20.0,17.0,16.5,3.0
+RR,Roraima,Norte,2014,1,2014T1,18.0,17.3,16.8,3.0
+RR,Roraima,Norte,2014,2,2014T2,19.0,18.3,16.3,12.3
+RR,Roraima,Norte,2014,3,2014T3,20.0,19.3,15.8,22.2
+RR,Roraima,Norte,2014,4,2014T4,21.0,19.5,17.0,14.7
+RR,Roraima,Norte,2015,1,2015T1,18.0,19.5,17.3,13.0
+RR,Roraima,Norte,2015,2,2015T2,17.0,19.0,18.3,4.1
+RR,Roraima,Norte,2015,3,2015T3,18.0,18.5,19.3,-3.9
+RR,Roraima,Norte,2015,4,2015T4,16.0,17.3,19.5,-11.5
+RR,Roraima,Norte,2016,1,2016T1,18.0,17.3,19.5,-11.5
+RR,Roraima,Norte,2016,2,2016T2,16.0,17.0,19.0,-10.5
+RR,Roraima,Norte,2016,3,2016T3,16.0,16.5,18.5,-10.8
+RR,Roraima,Norte,2016,4,2016T4,16.0,16.5,17.3,-4.3
+RR,Roraima,Norte,2017,1,2017T1,16.0,16.0,17.3,-7.2
+RR,Roraima,Norte,2017,2,2017T2,18.0,16.5,17.0,-2.9
+RR,Roraima,Norte,2017,3,2017T3,17.0,16.8,16.5,1.5
+RR,Roraima,Norte,2017,4,2017T4,20.0,17.8,16.5,7.6
+RR,Roraima,Norte,2018,1,2018T1,20.0,18.8,16.0,17.2
+RR,Roraima,Norte,2018,2,2018T2,19.0,19.0,16.5,15.2
+RR,Roraima,Norte,2018,3,2018T3,19.0,19.5,16.8,16.4
+RR,Roraima,Norte,2018,4,2018T4,19.0,19.3,17.8,8.5
+RR,Roraima,Norte,2019,1,2019T1,16.0,18.3,18.8,-2.7
+RR,Roraima,Norte,2019,2,2019T2,16.0,17.5,19.0,-7.9
+RR,Roraima,Norte,2019,3,2019T3,16.0,16.8,19.5,-14.1
+RR,Roraima,Norte,2019,4,2019T4,15.0,15.8,19.3,-18.2
+RR,Roraima,Norte,2020,1,2020T1,14.0,15.3,18.3,-16.4
+RR,Roraima,Norte,2020,2,2020T2,16.0,15.3,17.5,-12.9
+RR,Roraima,Norte,2020,3,2020T3,14.0,14.8,16.8,-11.9
+RR,Roraima,Norte,2020,4,2020T4,17.0,15.3,15.8,-3.2
+RR,Roraima,Norte,2021,1,2021T1,17.0,16.0,15.3,4.9
+RR,Roraima,Norte,2021,2,2021T2,16.0,16.0,15.3,4.9
+RR,Roraima,Norte,2021,3,2021T3,18.0,17.0,14.8,15.3
+RR,Roraima,Norte,2021,4,2021T4,18.0,17.3,15.3,13.1
+RR,Roraima,Norte,2022,1,2022T1,21.0,18.3,16.0,14.1
+RR,Roraima,Norte,2022,2,2022T2,20.0,19.3,16.0,20.3
+RR,Roraima,Norte,2022,3,2022T3,20.0,19.8,17.0,16.2
+RR,Roraima,Norte,2022,4,2022T4,22.0,20.8,17.3,20.3
+RR,Roraima,Norte,2023,1,2023T1,25.0,21.8,18.3,19.2
+RR,Roraima,Norte,2023,2,2023T2,21.0,22.0,19.3,14.3
+RR,Roraima,Norte,2023,3,2023T3,23.0,22.8,19.8,15.2
+RR,Roraima,Norte,2023,4,2023T4,24.0,23.3,20.8,12.0
+RR,Roraima,Norte,2024,1,2024T1,27.0,23.8,21.8,9.2
+RR,Roraima,Norte,2024,2,2024T2,27.0,25.3,22.0,14.8
+RR,Roraima,Norte,2024,3,2024T3,27.0,26.3,22.8,15.4
+RR,Roraima,Norte,2024,4,2024T4,27.0,27.0,23.3,16.1
+RR,Roraima,Norte,2025,1,2025T1,29.0,27.5,23.8,15.8
+RR,Roraima,Norte,2025,2,2025T2,31.0,28.5,25.3,12.9
+RR,Roraima,Norte,2025,3,2025T3,29.0,29.0,26.3,10.5
+RR,Roraima,Norte,2025,4,2025T4,27.0,29.0,27.0,7.4
+RR,Roraima,Norte,2026,1,2026T1,29.0,29.0,27.5,5.5
+RR,Roraima,Norte,2026,2,2026T2,27.0,28.0,28.5,-1.8
+RS,Rio Grande do Sul,Sul,2012,1,2012T1,569.0,,,
+RS,Rio Grande do Sul,Sul,2012,2,2012T2,532.0,,,
+RS,Rio Grande do Sul,Sul,2012,3,2012T3,584.0,,,
+RS,Rio Grande do Sul,Sul,2012,4,2012T4,576.0,565.3,,
+RS,Rio Grande do Sul,Sul,2013,1,2013T1,584.0,569.0,,
+RS,Rio Grande do Sul,Sul,2013,2,2013T2,566.0,577.5,,
+RS,Rio Grande do Sul,Sul,2013,3,2013T3,594.0,580.0,,
+RS,Rio Grande do Sul,Sul,2013,4,2013T4,590.0,583.5,565.3,3.2
+RS,Rio Grande do Sul,Sul,2014,1,2014T1,560.0,577.5,569.0,1.5
+RS,Rio Grande do Sul,Sul,2014,2,2014T2,571.0,578.8,577.5,0.2
+RS,Rio Grande do Sul,Sul,2014,3,2014T3,614.0,583.8,580.0,0.6
+RS,Rio Grande do Sul,Sul,2014,4,2014T4,587.0,583.0,583.5,-0.1
+RS,Rio Grande do Sul,Sul,2015,1,2015T1,600.0,593.0,577.5,2.7
+RS,Rio Grande do Sul,Sul,2015,2,2015T2,622.0,605.8,578.8,4.7
+RS,Rio Grande do Sul,Sul,2015,3,2015T3,617.0,606.5,583.8,3.9
+RS,Rio Grande do Sul,Sul,2015,4,2015T4,597.0,609.0,583.0,4.5
+RS,Rio Grande do Sul,Sul,2016,1,2016T1,581.0,604.3,593.0,1.9
+RS,Rio Grande do Sul,Sul,2016,2,2016T2,581.0,594.0,605.8,-1.9
+RS,Rio Grande do Sul,Sul,2016,3,2016T3,583.0,585.5,606.5,-3.5
+RS,Rio Grande do Sul,Sul,2016,4,2016T4,601.0,586.5,609.0,-3.7
+RS,Rio Grande do Sul,Sul,2017,1,2017T1,633.0,599.5,604.3,-0.8
+RS,Rio Grande do Sul,Sul,2017,2,2017T2,618.0,608.8,594.0,2.5
+RS,Rio Grande do Sul,Sul,2017,3,2017T3,629.0,620.3,585.5,5.9
+RS,Rio Grande do Sul,Sul,2017,4,2017T4,629.0,627.3,586.5,6.9
+RS,Rio Grande do Sul,Sul,2018,1,2018T1,601.0,619.3,599.5,3.3
+RS,Rio Grande do Sul,Sul,2018,2,2018T2,597.0,614.0,608.8,0.9
+RS,Rio Grande do Sul,Sul,2018,3,2018T3,595.0,605.5,620.3,-2.4
+RS,Rio Grande do Sul,Sul,2018,4,2018T4,621.0,603.5,627.3,-3.8
+RS,Rio Grande do Sul,Sul,2019,1,2019T1,641.0,613.5,619.3,-0.9
+RS,Rio Grande do Sul,Sul,2019,2,2019T2,638.0,623.8,614.0,1.6
+RS,Rio Grande do Sul,Sul,2019,3,2019T3,602.0,625.5,605.5,3.3
+RS,Rio Grande do Sul,Sul,2019,4,2019T4,617.0,624.5,603.5,3.5
+RS,Rio Grande do Sul,Sul,2020,1,2020T1,597.0,613.5,613.5,0.0
+RS,Rio Grande do Sul,Sul,2020,2,2020T2,573.0,597.3,623.8,-4.2
+RS,Rio Grande do Sul,Sul,2020,3,2020T3,582.0,592.3,625.5,-5.3
+RS,Rio Grande do Sul,Sul,2020,4,2020T4,616.0,592.0,624.5,-5.2
+RS,Rio Grande do Sul,Sul,2021,1,2021T1,671.0,610.5,613.5,-0.5
+RS,Rio Grande do Sul,Sul,2021,2,2021T2,626.0,623.8,597.3,4.4
+RS,Rio Grande do Sul,Sul,2021,3,2021T3,643.0,639.0,592.3,7.9
+RS,Rio Grande do Sul,Sul,2021,4,2021T4,645.0,646.3,592.0,9.2
+RS,Rio Grande do Sul,Sul,2022,1,2022T1,662.0,644.0,610.5,5.5
+RS,Rio Grande do Sul,Sul,2022,2,2022T2,675.0,656.3,623.8,5.2
+RS,Rio Grande do Sul,Sul,2022,3,2022T3,710.0,673.0,639.0,5.3
+RS,Rio Grande do Sul,Sul,2022,4,2022T4,706.0,688.3,646.3,6.5
+RS,Rio Grande do Sul,Sul,2023,1,2023T1,713.0,701.0,644.0,8.9
+RS,Rio Grande do Sul,Sul,2023,2,2023T2,715.0,711.0,656.3,8.3
+RS,Rio Grande do Sul,Sul,2023,3,2023T3,742.0,719.0,673.0,6.8
+RS,Rio Grande do Sul,Sul,2023,4,2023T4,716.0,721.5,688.3,4.8
+RS,Rio Grande do Sul,Sul,2024,1,2024T1,729.0,725.5,701.0,3.5
+RS,Rio Grande do Sul,Sul,2024,2,2024T2,691.0,719.5,711.0,1.2
+RS,Rio Grande do Sul,Sul,2024,3,2024T3,702.0,709.5,719.0,-1.3
+RS,Rio Grande do Sul,Sul,2024,4,2024T4,735.0,714.3,721.5,-1.0
+RS,Rio Grande do Sul,Sul,2025,1,2025T1,729.0,714.3,725.5,-1.6
+RS,Rio Grande do Sul,Sul,2025,2,2025T2,730.0,724.0,719.5,0.6
+RS,Rio Grande do Sul,Sul,2025,3,2025T3,706.0,725.0,709.5,2.2
+RS,Rio Grande do Sul,Sul,2025,4,2025T4,727.0,723.0,714.3,1.2
+RS,Rio Grande do Sul,Sul,2026,1,2026T1,740.0,725.8,714.3,1.6
+RS,Rio Grande do Sul,Sul,2026,2,2026T2,764.0,734.3,724.0,1.4
+SC,Santa Catarina,Sul,2012,1,2012T1,346.0,,,
+SC,Santa Catarina,Sul,2012,2,2012T2,324.0,,,
+SC,Santa Catarina,Sul,2012,3,2012T3,343.0,,,
+SC,Santa Catarina,Sul,2012,4,2012T4,331.0,336.0,,
+SC,Santa Catarina,Sul,2013,1,2013T1,319.0,329.3,,
+SC,Santa Catarina,Sul,2013,2,2013T2,316.0,327.3,,
+SC,Santa Catarina,Sul,2013,3,2013T3,310.0,319.0,,
+SC,Santa Catarina,Sul,2013,4,2013T4,315.0,315.0,336.0,-6.3
+SC,Santa Catarina,Sul,2014,1,2014T1,328.0,317.3,329.3,-3.6
+SC,Santa Catarina,Sul,2014,2,2014T2,329.0,320.5,327.3,-2.1
+SC,Santa Catarina,Sul,2014,3,2014T3,375.0,336.8,319.0,5.6
+SC,Santa Catarina,Sul,2014,4,2014T4,373.0,351.3,315.0,11.5
+SC,Santa Catarina,Sul,2015,1,2015T1,370.0,361.8,317.3,14.0
+SC,Santa Catarina,Sul,2015,2,2015T2,388.0,376.5,320.5,17.5
+SC,Santa Catarina,Sul,2015,3,2015T3,376.0,376.8,336.8,11.9
+SC,Santa Catarina,Sul,2015,4,2015T4,335.0,367.3,351.3,4.6
+SC,Santa Catarina,Sul,2016,1,2016T1,336.0,358.8,361.8,-0.8
+SC,Santa Catarina,Sul,2016,2,2016T2,318.0,341.3,376.5,-9.4
+SC,Santa Catarina,Sul,2016,3,2016T3,337.0,331.5,376.8,-12.0
+SC,Santa Catarina,Sul,2016,4,2016T4,335.0,331.5,367.3,-9.7
+SC,Santa Catarina,Sul,2017,1,2017T1,350.0,335.0,358.8,-6.6
+SC,Santa Catarina,Sul,2017,2,2017T2,343.0,341.3,341.3,0.0
+SC,Santa Catarina,Sul,2017,3,2017T3,349.0,344.3,331.5,3.8
+SC,Santa Catarina,Sul,2017,4,2017T4,368.0,352.5,331.5,6.3
+SC,Santa Catarina,Sul,2018,1,2018T1,373.0,358.3,335.0,6.9
+SC,Santa Catarina,Sul,2018,2,2018T2,371.0,365.3,341.3,7.0
+SC,Santa Catarina,Sul,2018,3,2018T3,383.0,373.8,344.3,8.6
+SC,Santa Catarina,Sul,2018,4,2018T4,403.0,382.5,352.5,8.5
+SC,Santa Catarina,Sul,2019,1,2019T1,398.0,388.8,358.3,8.5
+SC,Santa Catarina,Sul,2019,2,2019T2,408.0,398.0,365.3,9.0
+SC,Santa Catarina,Sul,2019,3,2019T3,396.0,401.3,373.8,7.4
+SC,Santa Catarina,Sul,2019,4,2019T4,410.0,403.0,382.5,5.4
+SC,Santa Catarina,Sul,2020,1,2020T1,415.0,407.3,388.8,4.8
+SC,Santa Catarina,Sul,2020,2,2020T2,438.0,414.8,398.0,4.2
+SC,Santa Catarina,Sul,2020,3,2020T3,448.0,427.8,401.3,6.6
+SC,Santa Catarina,Sul,2020,4,2020T4,472.0,443.3,403.0,10.0
+SC,Santa Catarina,Sul,2021,1,2021T1,466.0,456.0,407.3,12.0
+SC,Santa Catarina,Sul,2021,2,2021T2,459.0,461.3,414.8,11.2
+SC,Santa Catarina,Sul,2021,3,2021T3,417.0,453.5,427.8,6.0
+SC,Santa Catarina,Sul,2021,4,2021T4,463.0,451.3,443.3,1.8
+SC,Santa Catarina,Sul,2022,1,2022T1,450.0,447.3,456.0,-1.9
+SC,Santa Catarina,Sul,2022,2,2022T2,482.0,453.0,461.3,-1.8
+SC,Santa Catarina,Sul,2022,3,2022T3,493.0,472.0,453.5,4.1
+SC,Santa Catarina,Sul,2022,4,2022T4,484.0,477.3,451.3,5.8
+SC,Santa Catarina,Sul,2023,1,2023T1,461.0,480.0,447.3,7.3
+SC,Santa Catarina,Sul,2023,2,2023T2,468.0,476.5,453.0,5.2
+SC,Santa Catarina,Sul,2023,3,2023T3,507.0,480.0,472.0,1.7
+SC,Santa Catarina,Sul,2023,4,2023T4,514.0,487.5,477.3,2.1
+SC,Santa Catarina,Sul,2024,1,2024T1,519.0,502.0,480.0,4.6
+SC,Santa Catarina,Sul,2024,2,2024T2,526.0,516.5,476.5,8.4
+SC,Santa Catarina,Sul,2024,3,2024T3,541.0,525.0,480.0,9.4
+SC,Santa Catarina,Sul,2024,4,2024T4,541.0,531.8,487.5,9.1
+SC,Santa Catarina,Sul,2025,1,2025T1,556.0,541.0,502.0,7.8
+SC,Santa Catarina,Sul,2025,2,2025T2,567.0,551.3,516.5,6.7
+SC,Santa Catarina,Sul,2025,3,2025T3,618.0,570.5,525.0,8.7
+SC,Santa Catarina,Sul,2025,4,2025T4,582.0,580.8,531.8,9.2
+SC,Santa Catarina,Sul,2026,1,2026T1,593.0,590.0,541.0,9.1
+SC,Santa Catarina,Sul,2026,2,2026T2,599.0,598.0,551.3,8.5
+SE,Sergipe,Nordeste,2012,1,2012T1,54.0,,,
+SE,Sergipe,Nordeste,2012,2,2012T2,63.0,,,
+SE,Sergipe,Nordeste,2012,3,2012T3,64.0,,,
+SE,Sergipe,Nordeste,2012,4,2012T4,69.0,62.5,,
+SE,Sergipe,Nordeste,2013,1,2013T1,68.0,66.0,,
+SE,Sergipe,Nordeste,2013,2,2013T2,67.0,67.0,,
+SE,Sergipe,Nordeste,2013,3,2013T3,72.0,69.0,,
+SE,Sergipe,Nordeste,2013,4,2013T4,70.0,69.3,62.5,10.8
+SE,Sergipe,Nordeste,2014,1,2014T1,71.0,70.0,66.0,6.1
+SE,Sergipe,Nordeste,2014,2,2014T2,69.0,70.5,67.0,5.2
+SE,Sergipe,Nordeste,2014,3,2014T3,73.0,70.8,69.0,2.5
+SE,Sergipe,Nordeste,2014,4,2014T4,81.0,73.5,69.3,6.1
+SE,Sergipe,Nordeste,2015,1,2015T1,78.0,75.3,70.0,7.5
+SE,Sergipe,Nordeste,2015,2,2015T2,79.0,77.8,70.5,10.3
+SE,Sergipe,Nordeste,2015,3,2015T3,77.0,78.8,70.8,11.3
+SE,Sergipe,Nordeste,2015,4,2015T4,61.0,73.8,73.5,0.3
+SE,Sergipe,Nordeste,2016,1,2016T1,69.0,71.5,75.3,-5.0
+SE,Sergipe,Nordeste,2016,2,2016T2,65.0,68.0,77.8,-12.5
+SE,Sergipe,Nordeste,2016,3,2016T3,63.0,64.5,78.8,-18.1
+SE,Sergipe,Nordeste,2016,4,2016T4,64.0,65.3,73.8,-11.5
+SE,Sergipe,Nordeste,2017,1,2017T1,64.0,64.0,71.5,-10.5
+SE,Sergipe,Nordeste,2017,2,2017T2,65.0,64.0,68.0,-5.9
+SE,Sergipe,Nordeste,2017,3,2017T3,71.0,66.0,64.5,2.3
+SE,Sergipe,Nordeste,2017,4,2017T4,75.0,68.8,65.3,5.4
+SE,Sergipe,Nordeste,2018,1,2018T1,70.0,70.3,64.0,9.8
+SE,Sergipe,Nordeste,2018,2,2018T2,74.0,72.5,64.0,13.3
+SE,Sergipe,Nordeste,2018,3,2018T3,82.0,75.3,66.0,14.0
+SE,Sergipe,Nordeste,2018,4,2018T4,79.0,76.3,68.8,10.9
+SE,Sergipe,Nordeste,2019,1,2019T1,87.0,80.5,70.3,14.6
+SE,Sergipe,Nordeste,2019,2,2019T2,85.0,83.3,72.5,14.8
+SE,Sergipe,Nordeste,2019,3,2019T3,88.0,84.8,75.3,12.6
+SE,Sergipe,Nordeste,2019,4,2019T4,89.0,87.3,76.3,14.4
+SE,Sergipe,Nordeste,2020,1,2020T1,92.0,88.5,80.5,9.9
+SE,Sergipe,Nordeste,2020,2,2020T2,92.0,90.3,83.3,8.4
+SE,Sergipe,Nordeste,2020,3,2020T3,103.0,94.0,84.8,10.9
+SE,Sergipe,Nordeste,2020,4,2020T4,95.0,95.5,87.3,9.5
+SE,Sergipe,Nordeste,2021,1,2021T1,78.0,92.0,88.5,4.0
+SE,Sergipe,Nordeste,2021,2,2021T2,73.0,87.3,90.3,-3.3
+SE,Sergipe,Nordeste,2021,3,2021T3,78.0,81.0,94.0,-13.8
+SE,Sergipe,Nordeste,2021,4,2021T4,88.0,79.3,95.5,-17.0
+SE,Sergipe,Nordeste,2022,1,2022T1,98.0,84.3,92.0,-8.4
+SE,Sergipe,Nordeste,2022,2,2022T2,83.0,86.8,87.3,-0.6
+SE,Sergipe,Nordeste,2022,3,2022T3,79.0,87.0,81.0,7.4
+SE,Sergipe,Nordeste,2022,4,2022T4,87.0,86.8,79.3,9.5
+SE,Sergipe,Nordeste,2023,1,2023T1,84.0,83.3,84.3,-1.2
+SE,Sergipe,Nordeste,2023,2,2023T2,92.0,85.5,86.8,-1.4
+SE,Sergipe,Nordeste,2023,3,2023T3,87.0,87.5,87.0,0.6
+SE,Sergipe,Nordeste,2023,4,2023T4,86.0,87.3,86.8,0.6
+SE,Sergipe,Nordeste,2024,1,2024T1,95.0,90.0,83.3,8.1
+SE,Sergipe,Nordeste,2024,2,2024T2,103.0,92.8,85.5,8.5
+SE,Sergipe,Nordeste,2024,3,2024T3,99.0,95.8,87.5,9.4
+SE,Sergipe,Nordeste,2024,4,2024T4,97.0,98.5,87.3,12.9
+SE,Sergipe,Nordeste,2025,1,2025T1,90.0,97.3,90.0,8.1
+SE,Sergipe,Nordeste,2025,2,2025T2,95.0,95.3,92.8,2.7
+SE,Sergipe,Nordeste,2025,3,2025T3,90.0,93.0,95.8,-2.9
+SE,Sergipe,Nordeste,2025,4,2025T4,99.0,93.5,98.5,-5.1
+SE,Sergipe,Nordeste,2026,1,2026T1,100.0,96.0,97.3,-1.3
+SE,Sergipe,Nordeste,2026,2,2026T2,102.0,97.8,95.3,2.6
+SP,São Paulo,Sudeste,2012,1,2012T1,3232.0,,,
+SP,São Paulo,Sudeste,2012,2,2012T2,3258.0,,,
+SP,São Paulo,Sudeste,2012,3,2012T3,3412.0,,,
+SP,São Paulo,Sudeste,2012,4,2012T4,3388.0,3322.5,,
+SP,São Paulo,Sudeste,2013,1,2013T1,3440.0,3374.5,,
+SP,São Paulo,Sudeste,2013,2,2013T2,3462.0,3425.5,,
+SP,São Paulo,Sudeste,2013,3,2013T3,3410.0,3425.0,,
+SP,São Paulo,Sudeste,2013,4,2013T4,3323.0,3408.8,3322.5,2.6
+SP,São Paulo,Sudeste,2014,1,2014T1,3365.0,3390.0,3374.5,0.5
+SP,São Paulo,Sudeste,2014,2,2014T2,3548.0,3411.5,3425.5,-0.4
+SP,São Paulo,Sudeste,2014,3,2014T3,3591.0,3456.8,3425.0,0.9
+SP,São Paulo,Sudeste,2014,4,2014T4,3589.0,3523.3,3408.8,3.4
+SP,São Paulo,Sudeste,2015,1,2015T1,3465.0,3548.3,3390.0,4.7
+SP,São Paulo,Sudeste,2015,2,2015T2,3628.0,3568.3,3411.5,4.6
+SP,São Paulo,Sudeste,2015,3,2015T3,3504.0,3546.5,3456.8,2.6
+SP,São Paulo,Sudeste,2015,4,2015T4,3268.0,3466.3,3523.3,-1.6
+SP,São Paulo,Sudeste,2016,1,2016T1,3391.0,3447.8,3548.3,-2.8
+SP,São Paulo,Sudeste,2016,2,2016T2,3403.0,3391.5,3568.3,-5.0
+SP,São Paulo,Sudeste,2016,3,2016T3,3345.0,3351.8,3546.5,-5.5
+SP,São Paulo,Sudeste,2016,4,2016T4,3450.0,3397.3,3466.3,-2.0
+SP,São Paulo,Sudeste,2017,1,2017T1,3459.0,3414.3,3447.8,-1.0
+SP,São Paulo,Sudeste,2017,2,2017T2,3412.0,3416.5,3391.5,0.7
+SP,São Paulo,Sudeste,2017,3,2017T3,3535.0,3464.0,3351.8,3.3
+SP,São Paulo,Sudeste,2017,4,2017T4,3464.0,3467.5,3397.3,2.1
+SP,São Paulo,Sudeste,2018,1,2018T1,3464.0,3468.8,3414.3,1.6
+SP,São Paulo,Sudeste,2018,2,2018T2,3274.0,3434.3,3416.5,0.5
+SP,São Paulo,Sudeste,2018,3,2018T3,3395.0,3399.3,3464.0,-1.9
+SP,São Paulo,Sudeste,2018,4,2018T4,3463.0,3399.0,3467.5,-2.0
+SP,São Paulo,Sudeste,2019,1,2019T1,3561.0,3423.3,3468.8,-1.3
+SP,São Paulo,Sudeste,2019,2,2019T2,3557.0,3494.0,3434.3,1.7
+SP,São Paulo,Sudeste,2019,3,2019T3,3591.0,3543.0,3399.3,4.2
+SP,São Paulo,Sudeste,2019,4,2019T4,3563.0,3568.0,3399.0,5.0
+SP,São Paulo,Sudeste,2020,1,2020T1,3654.0,3591.3,3423.3,4.9
+SP,São Paulo,Sudeste,2020,2,2020T2,3405.0,3553.3,3494.0,1.7
+SP,São Paulo,Sudeste,2020,3,2020T3,3334.0,3489.0,3543.0,-1.5
+SP,São Paulo,Sudeste,2020,4,2020T4,3535.0,3482.0,3568.0,-2.4
+SP,São Paulo,Sudeste,2021,1,2021T1,3547.0,3455.3,3591.3,-3.8
+SP,São Paulo,Sudeste,2021,2,2021T2,3725.0,3535.3,3553.3,-0.5
+SP,São Paulo,Sudeste,2021,3,2021T3,3681.0,3622.0,3489.0,3.8
+SP,São Paulo,Sudeste,2021,4,2021T4,3801.0,3688.5,3482.0,5.9
+SP,São Paulo,Sudeste,2022,1,2022T1,3699.0,3726.5,3455.3,7.9
+SP,São Paulo,Sudeste,2022,2,2022T2,3807.0,3747.0,3535.3,6.0
+SP,São Paulo,Sudeste,2022,3,2022T3,3796.0,3775.8,3622.0,4.2
+SP,São Paulo,Sudeste,2022,4,2022T4,3825.0,3781.8,3688.5,2.5
+SP,São Paulo,Sudeste,2023,1,2023T1,3841.0,3817.3,3726.5,2.4
+SP,São Paulo,Sudeste,2023,2,2023T2,3805.0,3816.8,3747.0,1.9
+SP,São Paulo,Sudeste,2023,3,2023T3,4041.0,3878.0,3775.8,2.7
+SP,São Paulo,Sudeste,2023,4,2023T4,3981.0,3917.0,3781.8,3.6
+SP,São Paulo,Sudeste,2024,1,2024T1,4061.0,3972.0,3817.3,4.1
+SP,São Paulo,Sudeste,2024,2,2024T2,4183.0,4066.5,3816.8,6.5
+SP,São Paulo,Sudeste,2024,3,2024T3,4287.0,4128.0,3878.0,6.4
+SP,São Paulo,Sudeste,2024,4,2024T4,4254.0,4196.3,3917.0,7.1
+SP,São Paulo,Sudeste,2025,1,2025T1,4388.0,4278.0,3972.0,7.7
+SP,São Paulo,Sudeste,2025,2,2025T2,4328.0,4314.3,4066.5,6.1
+SP,São Paulo,Sudeste,2025,3,2025T3,4263.0,4308.3,4128.0,4.4
+SP,São Paulo,Sudeste,2025,4,2025T4,4291.0,4317.5,4196.3,2.9
+SP,São Paulo,Sudeste,2026,1,2026T1,4394.0,4319.0,4278.0,1.0
+SP,São Paulo,Sudeste,2026,2,2026T2,4268.0,4304.0,4314.3,-0.2
+TO,Tocantins,Norte,2012,1,2012T1,37.0,,,
+TO,Tocantins,Norte,2012,2,2012T2,32.0,,,
+TO,Tocantins,Norte,2012,3,2012T3,31.0,,,
+TO,Tocantins,Norte,2012,4,2012T4,28.0,32.0,,
+TO,Tocantins,Norte,2013,1,2013T1,28.0,29.8,,
+TO,Tocantins,Norte,2013,2,2013T2,28.0,28.8,,
+TO,Tocantins,Norte,2013,3,2013T3,28.0,28.0,,
+TO,Tocantins,Norte,2013,4,2013T4,33.0,29.3,32.0,-8.6
+TO,Tocantins,Norte,2014,1,2014T1,29.0,29.5,29.8,-0.8
+TO,Tocantins,Norte,2014,2,2014T2,32.0,30.5,28.8,6.1
+TO,Tocantins,Norte,2014,3,2014T3,32.0,31.5,28.0,12.5
+TO,Tocantins,Norte,2014,4,2014T4,28.0,30.3,29.3,3.4
+TO,Tocantins,Norte,2015,1,2015T1,35.0,31.8,29.5,7.6
+TO,Tocantins,Norte,2015,2,2015T2,35.0,32.5,30.5,6.6
+TO,Tocantins,Norte,2015,3,2015T3,35.0,33.3,31.5,5.6
+TO,Tocantins,Norte,2015,4,2015T4,30.0,33.8,30.3,11.6
+TO,Tocantins,Norte,2016,1,2016T1,33.0,33.3,31.8,4.7
+TO,Tocantins,Norte,2016,2,2016T2,33.0,32.8,32.5,0.8
+TO,Tocantins,Norte,2016,3,2016T3,28.0,31.0,33.3,-6.8
+TO,Tocantins,Norte,2016,4,2016T4,29.0,30.8,33.8,-8.9
+TO,Tocantins,Norte,2017,1,2017T1,28.0,29.5,33.3,-11.3
+TO,Tocantins,Norte,2017,2,2017T2,30.0,28.8,32.8,-12.2
+TO,Tocantins,Norte,2017,3,2017T3,29.0,29.0,31.0,-6.5
+TO,Tocantins,Norte,2017,4,2017T4,35.0,30.5,30.8,-0.8
+TO,Tocantins,Norte,2018,1,2018T1,33.0,31.8,29.5,7.6
+TO,Tocantins,Norte,2018,2,2018T2,36.0,33.3,28.8,15.7
+TO,Tocantins,Norte,2018,3,2018T3,36.0,35.0,29.0,20.7
+TO,Tocantins,Norte,2018,4,2018T4,32.0,34.3,30.5,12.3
+TO,Tocantins,Norte,2019,1,2019T1,38.0,35.5,31.8,11.8
+TO,Tocantins,Norte,2019,2,2019T2,39.0,36.3,33.3,9.0
+TO,Tocantins,Norte,2019,3,2019T3,42.0,37.8,35.0,7.9
+TO,Tocantins,Norte,2019,4,2019T4,41.0,40.0,34.3,16.8
+TO,Tocantins,Norte,2020,1,2020T1,40.0,40.5,35.5,14.1
+TO,Tocantins,Norte,2020,2,2020T2,39.0,40.5,36.3,11.7
+TO,Tocantins,Norte,2020,3,2020T3,31.0,37.8,37.8,0.0
+TO,Tocantins,Norte,2020,4,2020T4,37.0,36.8,40.0,-8.1
+TO,Tocantins,Norte,2021,1,2021T1,41.0,37.0,40.5,-8.6
+TO,Tocantins,Norte,2021,2,2021T2,33.0,35.5,40.5,-12.3
+TO,Tocantins,Norte,2021,3,2021T3,60.0,42.8,37.8,13.2
+TO,Tocantins,Norte,2021,4,2021T4,46.0,45.0,36.8,22.4
+TO,Tocantins,Norte,2022,1,2022T1,47.0,46.5,37.0,25.7
+TO,Tocantins,Norte,2022,2,2022T2,47.0,50.0,35.5,40.8
+TO,Tocantins,Norte,2022,3,2022T3,50.0,47.5,42.8,11.1
+TO,Tocantins,Norte,2022,4,2022T4,50.0,48.5,45.0,7.8
+TO,Tocantins,Norte,2023,1,2023T1,49.0,49.0,46.5,5.4
+TO,Tocantins,Norte,2023,2,2023T2,44.0,48.3,50.0,-3.5
+TO,Tocantins,Norte,2023,3,2023T3,53.0,49.0,47.5,3.2
+TO,Tocantins,Norte,2023,4,2023T4,52.0,49.5,48.5,2.1
+TO,Tocantins,Norte,2024,1,2024T1,50.0,49.8,49.0,1.5
+TO,Tocantins,Norte,2024,2,2024T2,55.0,52.5,48.3,8.8
+TO,Tocantins,Norte,2024,3,2024T3,54.0,52.8,49.0,7.7
+TO,Tocantins,Norte,2024,4,2024T4,55.0,53.5,49.5,8.1
+TO,Tocantins,Norte,2025,1,2025T1,59.0,55.8,49.8,12.1
+TO,Tocantins,Norte,2025,2,2025T2,56.0,56.0,52.5,6.7
+TO,Tocantins,Norte,2025,3,2025T3,63.0,58.3,52.8,10.4
+TO,Tocantins,Norte,2025,4,2025T4,65.0,60.8,53.5,13.6
+TO,Tocantins,Norte,2026,1,2026T1,60.0,61.0,55.8,9.4
+TO,Tocantins,Norte,2026,2,2026T2,61.0,62.3,56.0,11.2

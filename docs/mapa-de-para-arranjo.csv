@@ -1,0 +1,16 @@
+safra,valor_origem,valor_canonico,entra_serie_historica,observacao
+2022,Fully remote,Remoto,true,"Rótulo exclusivo de 2022; em 2023 a 2025 a mesma opção se chama Remote."
+2022,"Hybrid (some remote, some in-person)",Híbrido,true,"Texto idêntico em 2022, 2023 e 2024."
+2022,Full in-person,Presencial,true,"Rótulo exclusivo de 2022; em 2023 a 2025 a mesma opção se chama In-person."
+2023,Remote,Remoto,true,
+2023,"Hybrid (some remote, some in-person)",Híbrido,true,"Texto idêntico em 2022, 2023 e 2024."
+2023,In-person,Presencial,true,
+2024,Remote,Remoto,true,
+2024,"Hybrid (some remote, some in-person)",Híbrido,true,"Texto idêntico em 2022, 2023 e 2024."
+2024,In-person,Presencial,true,
+2025,Remote,Remoto,true,
+2025,In-person,Presencial,true,
+2025,"Hybrid (some remote, leans heavy to in-person)",Híbrido,true,"Perda de granularidade declarada: 2025 divide o híbrido em duas opções (esta, inclinada ao presencial, e a inclinada à flexibilidade); as duas são fundidas em Híbrido para manter a série comparável com 2022 a 2024."
+2025,"Hybrid (some in-person, leans heavy to flexibility)",Híbrido,true,"Perda de granularidade declarada: 2025 divide o híbrido em duas opções (esta, inclinada à flexibilidade, e a inclinada ao presencial); as duas são fundidas em Híbrido para manter a série comparável com 2022 a 2024."
+2025,"Your choice (very flexible, you can come in when you want or just as needed)",Flexível,false,"Opção nova em 2025, sem equivalente em 2022 a 2024. Fica fora da série histórica para não inflar nem Remoto nem Híbrido."
+todas,,Não informado,false,"Linha do valor nulo (campo vazio nesta coluna). Vale para todas as safras. Inclui quem não respondeu e quem não recebeu a pergunta; a distinção é feita no check de completude sobre a base filtrada por Employment."

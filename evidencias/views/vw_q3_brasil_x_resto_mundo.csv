@@ -1,0 +1,27 @@
+safra,grupo,arranjo,ordem,entra_serie_historica,respondentes,n_informados,n_serie_comparavel,pct_serie_comparavel,ic95_inf,ic95_sup
+2022,Brasil,Presencial,3,true,207,1869,1869,11.1,9.7,12.6
+2022,Brasil,Híbrido,2,true,414,1869,1869,22.2,20.3,24.1
+2022,Brasil,Remoto,1,true,1248,1869,1869,66.8,64.6,68.9
+2022,Resto do mundo,Presencial,3,true,8389,57089,57089,14.7,14.4,15.0
+2022,Resto do mundo,Híbrido,2,true,24607,57089,57089,43.1,42.7,43.5
+2022,Resto do mundo,Remoto,1,true,24093,57089,57089,42.2,41.8,42.6
+2023,Brasil,Presencial,3,true,223,1805,1805,12.4,10.9,14.0
+2023,Brasil,Remoto,1,true,1180,1805,1805,65.4,63.1,67.5
+2023,Brasil,Híbrido,2,true,402,1805,1805,22.3,20.4,24.2
+2023,Resto do mundo,Híbrido,2,true,30729,72005,72005,42.7,42.3,43.0
+2023,Resto do mundo,Remoto,1,true,29386,72005,72005,40.8,40.5,41.2
+2023,Resto do mundo,Presencial,3,true,11890,72005,72005,16.5,16.2,16.8
+2024,Brasil,Remoto,1,true,714,1216,1216,58.7,55.9,61.5
+2024,Brasil,Presencial,3,true,191,1216,1216,15.7,13.8,17.9
+2024,Brasil,Híbrido,2,true,311,1216,1216,25.6,23.2,28.1
+2024,Resto do mundo,Híbrido,2,true,20548,48274,48274,42.6,42.1,43.0
+2024,Resto do mundo,Presencial,3,true,9275,48274,48274,19.2,18.9,19.6
+2024,Resto do mundo,Remoto,1,true,18451,48274,48274,38.2,37.8,38.7
+2025,Brasil,Remoto,1,true,342,634,586,58.4,54.3,62.3
+2025,Brasil,Presencial,3,true,96,634,586,16.4,13.6,19.6
+2025,Brasil,Híbrido,2,true,148,634,586,25.3,21.9,28.9
+2025,Brasil,Flexível,4,false,48,634,586,,,
+2025,Resto do mundo,Remoto,1,true,8429,26057,22719,37.1,36.5,37.7
+2025,Resto do mundo,Flexível,4,false,3338,26057,22719,,,
+2025,Resto do mundo,Presencial,3,true,4403,26057,22719,19.4,18.9,19.9
+2025,Resto do mundo,Híbrido,2,true,9887,26057,22719,43.5,42.9,44.2

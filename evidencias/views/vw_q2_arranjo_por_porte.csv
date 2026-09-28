@@ -1,0 +1,118 @@
+safra,porte,porte_ordem,e_autonomo,arranjo,arranjo_ordem,respondentes,n_porte,pct_no_porte
+2022,1.000 a 4.999,6,false,Presencial,3,592,5729,10.3
+2022,1.000 a 4.999,6,false,Remoto,1,2356,5729,41.1
+2022,1.000 a 4.999,6,false,Híbrido,2,2781,5729,48.5
+2022,10.000 ou mais,8,false,Híbrido,2,3519,6902,51.0
+2022,10.000 ou mais,8,false,Remoto,1,2877,6902,41.7
+2022,10.000 ou mais,8,false,Presencial,3,506,6902,7.3
+2022,100 a 499,4,false,Presencial,3,1164,9277,12.5
+2022,100 a 499,4,false,Híbrido,2,3953,9277,42.6
+2022,100 a 499,4,false,Remoto,1,4160,9277,44.8
+2022,20 a 99,3,false,Híbrido,2,4245,10325,41.1
+2022,20 a 99,3,false,Remoto,1,4275,10325,41.4
+2022,20 a 99,3,false,Presencial,3,1805,10325,17.5
+2022,5.000 a 9.999,7,false,Presencial,3,198,2186,9.1
+2022,5.000 a 9.999,7,false,Remoto,1,894,2186,40.9
+2022,5.000 a 9.999,7,false,Híbrido,2,1094,2186,50.0
+2022,500 a 999,5,false,Presencial,3,401,3636,11.0
+2022,500 a 999,5,false,Híbrido,2,1583,3636,43.5
+2022,500 a 999,5,false,Remoto,1,1652,3636,45.4
+2022,Autônomo,1,true,Remoto,1,1888,2676,70.6
+2022,Autônomo,1,true,Híbrido,2,625,2676,23.4
+2022,Autônomo,1,true,Presencial,3,163,2676,6.1
+2022,Menos de 20,2,false,Híbrido,2,3330,9101,36.6
+2022,Menos de 20,2,false,Remoto,1,3896,9101,42.8
+2022,Menos de 20,2,false,Presencial,3,1875,9101,20.6
+2022,Não sabe,9,false,Remoto,1,410,950,43.2
+2022,Não sabe,9,false,Presencial,3,151,950,15.9
+2022,Não sabe,9,false,Híbrido,2,389,950,40.9
+2023,1.000 a 4.999,6,false,Remoto,1,2822,7224,39.1
+2023,1.000 a 4.999,6,false,Híbrido,2,3474,7224,48.1
+2023,1.000 a 4.999,6,false,Presencial,3,928,7224,12.8
+2023,10.000 ou mais,8,false,Remoto,1,2862,7914,36.2
+2023,10.000 ou mais,8,false,Presencial,3,730,7914,9.2
+2023,10.000 ou mais,8,false,Híbrido,2,4322,7914,54.6
+2023,100 a 499,4,false,Híbrido,2,5216,12201,42.8
+2023,100 a 499,4,false,Remoto,1,5166,12201,42.3
+2023,100 a 499,4,false,Presencial,3,1819,12201,14.9
+2023,20 a 99,3,false,Remoto,1,5396,13357,40.4
+2023,20 a 99,3,false,Híbrido,2,5495,13357,41.1
+2023,20 a 99,3,false,Presencial,3,2466,13357,18.5
+2023,5.000 a 9.999,7,false,Híbrido,2,1388,2673,51.9
+2023,5.000 a 9.999,7,false,Presencial,3,291,2673,10.9
+2023,5.000 a 9.999,7,false,Remoto,1,994,2673,37.2
+2023,500 a 999,5,false,Remoto,1,1883,4464,42.2
+2023,500 a 999,5,false,Presencial,3,617,4464,13.8
+2023,500 a 999,5,false,Híbrido,2,1964,4464,44.0
+2023,Autônomo,1,true,Remoto,1,2717,4009,67.8
+2023,Autônomo,1,true,Presencial,3,304,4009,7.6
+2023,Autônomo,1,true,Híbrido,2,988,4009,24.6
+2023,Menos de 20,2,false,Híbrido,2,3991,11655,34.2
+2023,Menos de 20,2,false,Remoto,1,5193,11655,44.6
+2023,Menos de 20,2,false,Presencial,3,2471,11655,21.2
+2023,Não sabe,9,false,Presencial,3,206,1175,17.5
+2023,Não sabe,9,false,Remoto,1,491,1175,41.8
+2023,Não sabe,9,false,Híbrido,2,478,1175,40.7
+2024,1.000 a 4.999,6,false,Presencial,3,814,5352,15.2
+2024,1.000 a 4.999,6,false,Remoto,1,1812,5352,33.9
+2024,1.000 a 4.999,6,false,Híbrido,2,2726,5352,50.9
+2024,10.000 ou mais,8,false,Presencial,3,739,5557,13.3
+2024,10.000 ou mais,8,false,Remoto,1,1729,5557,31.1
+2024,10.000 ou mais,8,false,Híbrido,2,3089,5557,55.6
+2024,100 a 499,4,false,Híbrido,2,3827,8690,44.0
+2024,100 a 499,4,false,Presencial,3,1595,8690,18.4
+2024,100 a 499,4,false,Remoto,1,3268,8690,37.6
+2024,20 a 99,3,false,Híbrido,2,3895,9754,39.9
+2024,20 a 99,3,false,Remoto,1,3579,9754,36.7
+2024,20 a 99,3,false,Presencial,3,2280,9754,23.4
+2024,5.000 a 9.999,7,false,Híbrido,2,930,1867,49.8
+2024,5.000 a 9.999,7,false,Remoto,1,640,1867,34.3
+2024,5.000 a 9.999,7,false,Presencial,3,297,1867,15.9
+2024,500 a 999,5,false,Híbrido,2,1435,3182,45.1
+2024,500 a 999,5,false,Presencial,3,563,3182,17.7
+2024,500 a 999,5,false,Remoto,1,1184,3182,37.2
+2024,Autônomo,1,true,Presencial,3,206,3068,6.7
+2024,Autônomo,1,true,Remoto,1,2089,3068,68.1
+2024,Autônomo,1,true,Híbrido,2,773,3068,25.2
+2024,Menos de 20,2,false,Presencial,3,2077,8910,23.3
+2024,Menos de 20,2,false,Híbrido,2,3021,8910,33.9
+2024,Menos de 20,2,false,Remoto,1,3812,8910,42.8
+2024,Não sabe,9,false,Presencial,3,237,1063,22.3
+2024,Não sabe,9,false,Remoto,1,386,1063,36.3
+2024,Não sabe,9,false,Híbrido,2,440,1063,41.4
+2025,1.000 a 4.999,6,false,Remoto,1,1125,4011,28.0
+2025,1.000 a 4.999,6,false,Híbrido,2,1799,4011,44.9
+2025,1.000 a 4.999,6,false,Presencial,3,579,4011,14.4
+2025,1.000 a 4.999,6,false,Flexível,4,508,4011,12.7
+2025,10.000 ou mais,8,false,Híbrido,2,2292,4823,47.5
+2025,10.000 ou mais,8,false,Remoto,1,1231,4823,25.5
+2025,10.000 ou mais,8,false,Presencial,3,724,4823,15.0
+2025,10.000 ou mais,8,false,Flexível,4,576,4823,11.9
+2025,100 a 499,4,false,Remoto,1,1969,5929,33.2
+2025,100 a 499,4,false,Presencial,3,1008,5929,17.0
+2025,100 a 499,4,false,Híbrido,2,2234,5929,37.7
+2025,100 a 499,4,false,Flexível,4,718,5929,12.1
+2025,20 a 99,3,false,Flexível,4,756,6447,11.7
+2025,20 a 99,3,false,Híbrido,2,2262,6447,35.1
+2025,20 a 99,3,false,Presencial,3,1295,6447,20.1
+2025,20 a 99,3,false,Remoto,1,2134,6447,33.1
+2025,5.000 a 9.999,7,false,Flexível,4,194,1557,12.5
+2025,5.000 a 9.999,7,false,Presencial,3,214,1557,13.7
+2025,5.000 a 9.999,7,false,Híbrido,2,743,1557,47.7
+2025,5.000 a 9.999,7,false,Remoto,1,406,1557,26.1
+2025,500 a 999,5,false,Presencial,3,337,2290,14.7
+2025,500 a 999,5,false,Híbrido,2,929,2290,40.6
+2025,500 a 999,5,false,Remoto,1,709,2290,31.0
+2025,500 a 999,5,false,Flexível,4,315,2290,13.8
+2025,Autônomo,1,true,Presencial,3,130,1383,9.4
+2025,Autônomo,1,true,Flexível,4,261,1383,18.9
+2025,Autônomo,1,true,Remoto,1,801,1383,57.9
+2025,Autônomo,1,true,Híbrido,2,191,1383,13.8
+2025,Menos de 20,2,false,Presencial,3,1193,5246,22.7
+2025,Menos de 20,2,false,Remoto,1,1971,5246,37.6
+2025,Menos de 20,2,false,Flexível,4,569,5246,10.8
+2025,Menos de 20,2,false,Híbrido,2,1513,5246,28.8
+2025,Não sabe,9,false,Flexível,4,95,728,13.0
+2025,Não sabe,9,false,Remoto,1,219,728,30.1
+2025,Não sabe,9,false,Presencial,3,194,728,26.6
+2025,Não sabe,9,false,Híbrido,2,220,728,30.2

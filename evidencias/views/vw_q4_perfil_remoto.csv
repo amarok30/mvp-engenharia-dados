@@ -1,0 +1,761 @@
+safra,perfil,faixa_experiencia,n_informados,n_serie_comparavel,remotos,hibridos,pct_remoto_comparavel,pct_hibrido_comparavel,pct_nao_presencial_comparavel,ic95_inf,ic95_sup
+2022,"Developer, front-end",6–10,4593,4593,1933,1937,42.1,42.2,84.3,40.7,43.5
+2022,System administrator,3–5,33,33,4,15,12.1,45.5,57.6,4.8,27.3
+2022,Educator,0–2,21,21,0,10,0.0,47.6,47.6,0.0,15.5
+2022,Academic researcher,Não informado,7,7,2,1,28.6,14.3,42.9,8.2,64.1
+2023,Cloud infrastructure engineer,6–10,284,284,131,132,46.1,46.5,92.6,40.4,51.9
+2023,Scientist,6–10,80,80,12,41,15.0,51.2,66.3,8.8,24.4
+2023,"Developer, embedded applications or devices",3–5,131,131,20,60,15.3,45.8,61.1,10.1,22.4
+2024,Security professional,0–2,10,10,1,5,10.0,50.0,60.0,1.8,40.4
+2024,"Developer, AI",21+,78,78,44,24,56.4,30.8,87.2,45.4,66.9
+2024,"Developer, AI",0–2,18,18,8,7,44.4,38.9,83.3,24.6,66.3
+2024,Data engineer,6–10,358,358,118,190,33.0,53.1,86.0,28.3,38.0
+2024,Security professional,3–5,25,25,8,6,32.0,24.0,56.0,17.2,51.6
+2024,Data engineer,0–2,12,12,4,6,33.3,50.0,83.3,13.8,60.9
+2025,"Developer, full-stack",6–10,2659,2367,805,980,34.0,41.4,75.4,32.1,35.9
+2025,Cloud infrastructure engineer,0–2,3,2,0,2,0.0,100.0,100.0,0.0,65.8
+2025,"Developer, mobile",0–2,24,23,9,5,39.1,21.7,60.9,22.2,59.2
+2025,Cloud infrastructure engineer,3–5,27,21,6,12,28.6,57.1,85.7,13.8,50.0
+2025,Cloud infrastructure engineer,Não informado,5,5,2,0,40.0,0.0,40.0,11.8,76.9
+2022,Project manager,21+,66,66,24,28,36.4,42.4,78.8,25.8,48.4
+2022,Product manager,3–5,18,18,4,10,22.2,55.6,77.8,9.0,45.2
+2022,"Developer, mobile",0–2,67,67,22,16,32.8,23.9,56.7,22.8,44.7
+2023,"Engineer, data",6–10,425,425,152,230,35.8,54.1,89.9,31.4,40.4
+2023,"Engineer, data",3–5,167,167,56,83,33.5,49.7,83.2,26.8,41.0
+2023,System administrator,21+,188,188,52,93,27.7,49.5,77.1,21.8,34.5
+2023,Database administrator,3–5,27,27,8,7,29.6,25.9,55.6,15.9,48.5
+2024,Other (please specify):,3–5,208,208,49,76,23.6,36.5,60.1,18.3,29.8
+2024,Engineering manager,11–20,571,571,233,267,40.8,46.8,87.6,36.8,44.9
+2024,"Developer, embedded applications or devices",6–10,441,441,43,208,9.8,47.2,56.9,7.3,12.9
+2024,Marketing or sales professional,21+,24,24,7,12,29.2,50.0,79.2,14.9,49.2
+2024,Developer Experience,3–5,11,11,5,4,45.5,36.4,81.8,21.3,72.0
+2024,Data engineer,11–20,348,348,140,174,40.2,50.0,90.2,35.2,45.5
+2024,Database administrator,0–2,10,10,1,6,10.0,60.0,70.0,1.8,40.4
+2024,Blockchain,3–5,31,31,22,6,71.0,19.4,90.3,53.4,83.9
+2024,DevOps specialist,0–2,13,13,4,4,30.8,30.8,61.5,12.7,57.6
+2024,Research & Development role,Não informado,4,4,1,2,25.0,50.0,75.0,4.6,69.9
+2025,"Developer, full-stack",0–2,129,120,30,34,25.0,28.3,53.3,18.1,33.4
+2025,"Architect, software or solutions",6–10,198,162,63,61,38.9,37.7,76.5,31.7,46.6
+2025,Data or business analyst,6–10,73,64,17,28,26.6,43.8,70.3,17.3,38.5
+2025,Student,3–5,59,55,7,14,12.7,25.5,38.2,6.3,24.0
+2025,"Developer, game or graphics",21+,77,68,40,23,58.8,33.8,92.6,47.0,69.7
+2025,"Developer, back-end",0–2,50,45,15,14,33.3,31.1,64.4,21.4,47.9
+2025,System administrator,6–10,96,81,8,35,9.9,43.2,53.1,5.1,18.3
+2022,"Developer, desktop or enterprise applications",11–20,479,479,159,231,33.2,48.2,81.4,29.1,37.5
+2022,Other (please specify):,11–20,286,286,95,131,33.2,45.8,79.0,28.0,38.9
+2022,Security professional,3–5,15,15,6,5,40.0,33.3,73.3,19.8,64.3
+2022,Other (please specify):,0–2,157,157,45,37,28.7,23.6,52.2,22.2,36.2
+2022,Engineering manager,Não informado,3,3,2,1,66.7,33.3,100.0,20.8,93.9
+2022,Student,Não informado,4,4,0,3,0.0,75.0,75.0,0.0,49.0
+2022,Other (please specify):,Não informado,10,10,4,4,40.0,40.0,80.0,16.8,68.7
+2022,"Senior Executive (C-Suite, VP, etc.)",Não informado,5,5,3,2,60.0,40.0,100.0,23.1,88.2
+2023,Hardware Engineer,21+,79,79,14,32,17.7,40.5,58.2,10.9,27.6
+2023,Product manager,11–20,147,147,47,69,32.0,46.9,78.9,25.0,39.9
+2023,DevOps specialist,11–20,472,472,212,228,44.9,48.3,93.2,40.5,49.4
+2023,Student,21+,13,13,4,3,30.8,23.1,53.8,12.7,57.6
+2023,DevOps specialist,0–2,22,22,8,10,36.4,45.5,81.8,19.7,57.0
+2023,"Developer, QA or test",0–2,29,29,11,12,37.9,41.4,79.3,22.7,56.0
+2023,Educator,Não informado,3,3,2,0,66.7,0.0,66.7,20.8,93.9
+2024,Educator,21+,131,131,26,57,19.8,43.5,63.4,13.9,27.5
+2024,"Developer, front-end",0–2,140,140,54,43,38.6,30.7,69.3,30.9,46.8
+2024,Project manager,6–10,69,69,20,31,29.0,44.9,73.9,19.6,40.6
+2024,Hardware Engineer,6–10,43,43,4,19,9.3,44.2,53.5,3.7,21.6
+2024,Educator,Não informado,2,2,1,0,50.0,0.0,50.0,9.5,90.5
+2025,System administrator,21+,118,94,21,41,22.3,43.6,66.0,15.1,31.8
+2025,Applied scientist,3–5,11,9,1,5,11.1,55.6,66.7,2.0,43.5
+2025,Data scientist,Não informado,9,6,1,3,16.7,50.0,66.7,3.0,56.4
+2025,Retired,6–10,1,1,1,0,100.0,0.0,100.0,20.7,100.0
+2022,"Developer, front-end",11–20,4226,4226,1940,1809,45.9,42.8,88.7,44.4,47.4
+2023,"Developer, full-stack",3–5,3144,3144,1224,1218,38.9,38.7,77.7,37.2,40.6
+2023,Educator,3–5,37,37,4,13,10.8,35.1,45.9,4.3,24.7
+2023,"Engineer, site reliability",11–20,167,167,97,59,58.1,35.3,93.4,50.5,65.3
+2023,Student,11–20,91,91,21,39,23.1,42.9,65.9,15.6,32.7
+2023,Project manager,Não informado,5,5,0,4,0.0,80.0,80.0,0.0,43.4
+2024,Educator,3–5,31,31,10,8,32.3,25.8,58.1,18.6,49.9
+2024,"Developer, embedded applications or devices",21+,452,452,105,206,23.2,45.6,68.8,19.6,27.3
+2025,"Developer, AI apps or physical AI",11–20,49,44,25,14,56.8,31.8,88.6,42.2,70.3
+2025,"Senior executive (C-suite, VP, etc.)",11–20,134,118,42,54,35.6,45.8,81.4,27.5,44.6
+2025,Academic researcher,0–2,18,13,9,1,69.2,7.7,76.9,42.4,87.3
+2025,Academic researcher,3–5,44,38,5,18,13.2,47.4,60.5,5.8,27.3
+2025,Cybersecurity or InfoSec professional,6–10,69,62,12,37,19.4,59.7,79.0,11.4,30.9
+2022,"Developer, full-stack",11–20,4923,4923,2368,2080,48.1,42.3,90.4,46.7,49.5
+2022,Engineering manager,21+,308,308,128,156,41.6,50.6,92.2,36.2,47.1
+2022,"Developer, embedded applications or devices",11–20,229,229,45,136,19.7,59.4,79.0,15.0,25.3
+2022,Marketing or sales professional,6–10,14,14,4,7,28.6,50.0,78.6,11.7,54.6
+2022,DevOps specialist,6–10,183,183,76,89,41.5,48.6,90.2,34.6,48.8
+2022,Security professional,6–10,40,40,13,24,32.5,60.0,92.5,20.1,48.0
+2022,Marketing or sales professional,3–5,7,7,2,2,28.6,28.6,57.1,8.2,64.1
+2023,"Developer, back-end",11–20,4918,4918,2446,2060,49.7,41.9,91.6,48.3,51.1
+2023,DevOps specialist,6–10,392,392,163,185,41.6,47.2,88.8,36.8,46.5
+2023,Marketing or sales professional,11–20,26,26,15,6,57.7,23.1,80.8,38.9,74.5
+2023,Security professional,6–10,142,142,55,62,38.7,43.7,82.4,31.1,46.9
+2023,Database administrator,Não informado,6,6,1,4,16.7,66.7,83.3,3.0,56.4
+2025,"Developer, desktop or enterprise applications",6–10,311,273,66,125,24.2,45.8,70.0,19.5,29.6
+2025,Engineering manager,6–10,85,76,32,30,42.1,39.5,81.6,31.6,53.3
+2025,Support engineer or analyst,21+,48,38,14,18,36.8,47.4,84.2,23.4,52.7
+2025,Financial analyst or engineer,21+,14,14,2,8,14.3,57.1,71.4,4.0,39.9
+2025,"UX, Research Ops or UI design professional",21+,21,17,6,11,35.3,64.7,100.0,17.3,58.7
+2025,"UX, Research Ops or UI design professional",11–20,13,11,6,4,54.5,36.4,90.9,28.0,78.7
+2025,Student,Não informado,12,10,1,4,10.0,40.0,50.0,1.8,40.4
+2025,Data engineer,Não informado,7,7,2,4,28.6,57.1,85.7,8.2,64.1
+2025,"Architect, software or solutions",0–2,7,5,2,3,40.0,60.0,100.0,11.8,76.9
+2025,Retired,0–2,1,1,0,1,0.0,100.0,100.0,0.0,79.3
+2022,"Developer, back-end",0–2,301,301,109,106,36.2,35.2,71.4,31.0,41.8
+2022,Cloud infrastructure engineer,Não informado,2,2,2,0,100.0,0.0,100.0,34.2,100.0
+2023,Student,6–10,443,443,124,180,28.0,40.6,68.6,24.0,32.3
+2023,Developer Experience,11–20,125,125,56,65,44.8,52.0,96.8,36.4,53.5
+2023,"Developer, embedded applications or devices",6–10,499,499,68,250,13.6,50.1,63.7,10.9,16.9
+2023,Project manager,11–20,189,189,55,89,29.1,47.1,76.2,23.1,35.9
+2023,Developer Experience,Não informado,2,2,2,0,100.0,0.0,100.0,34.2,100.0
+2023,Product manager,3–5,31,31,14,15,45.2,48.4,93.5,29.2,62.2
+2023,"Developer, front-end",Não informado,8,8,2,4,25.0,50.0,75.0,7.1,59.1
+2024,"Developer, full-stack",3–5,2134,2134,697,788,32.7,36.9,69.6,30.7,34.7
+2024,"Engineer, site reliability",11–20,96,96,50,34,52.1,35.4,87.5,42.2,61.8
+2024,Marketing or sales professional,3–5,20,20,6,6,30.0,30.0,60.0,14.5,51.9
+2024,"Developer, embedded applications or devices",Não informado,3,3,0,0,0.0,0.0,0.0,0.0,56.2
+2024,Educator,0–2,17,17,0,5,0.0,29.4,29.4,0.0,18.4
+2025,Data or business analyst,11–20,57,50,11,28,22.0,56.0,78.0,12.8,35.2
+2025,Student,6–10,49,42,9,16,21.4,38.1,59.5,11.7,35.9
+2025,Student,11–20,19,14,2,4,14.3,28.6,42.9,4.0,39.9
+2025,"Developer, AI apps or physical AI",Não informado,3,3,0,1,0.0,33.3,33.3,0.0,56.2
+2025,Retired,Não informado,1,1,0,0,0.0,0.0,0.0,0.0,79.3
+2022,"Developer, full-stack",0–2,574,574,236,197,41.1,34.3,75.4,37.2,45.2
+2022,"Developer, QA or test",11–20,131,131,59,64,45.0,48.9,93.9,36.8,53.6
+2022,Cloud infrastructure engineer,3–5,29,29,13,14,44.8,48.3,93.1,28.4,62.5
+2022,Cloud infrastructure engineer,21+,26,26,16,9,61.5,34.6,96.2,42.5,77.6
+2022,Designer,21+,12,12,5,6,41.7,50.0,91.7,19.3,68.0
+2022,Designer,11–20,14,14,4,4,28.6,28.6,57.1,11.7,54.6
+2023,Data or business analyst,11–20,172,172,41,92,23.8,53.5,77.3,18.1,30.7
+2023,Other (please specify):,0–2,205,205,40,53,19.5,25.9,45.4,14.7,25.5
+2023,Security professional,3–5,41,41,10,18,24.4,43.9,68.3,13.8,39.3
+2023,"Senior Executive (C-Suite, VP, etc.)",3–5,24,24,6,13,25.0,54.2,79.2,12.0,44.9
+2024,Academic researcher,11–20,342,342,40,181,11.7,52.9,64.6,8.7,15.5
+2024,"Developer, full-stack",6–10,5038,5038,1700,2195,33.7,43.6,77.3,32.5,35.1
+2024,"Developer, desktop or enterprise applications",6–10,567,567,131,242,23.1,42.7,65.8,19.8,26.7
+2024,Data or business analyst,21+,64,64,21,33,32.8,51.6,84.4,22.6,45.0
+2024,Data scientist or machine learning specialist,21+,146,146,52,79,35.6,54.1,89.7,28.3,43.7
+2024,Cloud infrastructure engineer,21+,167,167,97,60,58.1,35.9,94.0,50.5,65.3
+2024,"Developer, mobile",Não informado,7,7,4,3,57.1,42.9,100.0,25.0,84.2
+2024,"Developer, mobile",0–2,43,43,14,11,32.6,25.6,58.1,20.5,47.5
+2024,Designer,21+,36,36,17,17,47.2,47.2,94.4,32.0,63.0
+2024,Blockchain,0–2,19,19,8,4,42.1,21.1,63.2,23.1,63.7
+2024,Marketing or sales professional,6–10,13,13,3,7,23.1,53.8,76.9,8.2,50.3
+2024,Hardware Engineer,3–5,25,25,2,11,8.0,44.0,52.0,2.2,25.0
+2024,"Senior Executive (C-Suite, VP, etc.)",0–2,13,13,5,4,38.5,30.8,69.2,17.7,64.5
+2025,"Developer, embedded applications or devices",Não informado,13,11,5,1,45.5,9.1,54.5,21.3,72.0
+2022,"Developer, desktop or enterprise applications",21+,640,640,263,259,41.1,40.5,81.6,37.3,44.9
+2022,Security professional,11–20,43,43,21,17,48.8,39.5,88.4,34.6,63.2
+2022,Database administrator,11–20,24,24,9,12,37.5,50.0,87.5,21.2,57.3
+2022,Marketing or sales professional,21+,14,14,7,3,50.0,21.4,71.4,26.8,73.2
+2022,"Senior Executive (C-Suite, VP, etc.)",11–20,88,88,36,43,40.9,48.9,89.8,31.2,51.4
+2022,"Developer, mobile",21+,174,174,118,47,67.8,27.0,94.8,60.6,74.3
+2022,"Developer, front-end",Não informado,37,37,12,18,32.4,48.6,81.1,19.6,48.5
+2022,"Developer, game or graphics",3–5,14,14,5,5,35.7,35.7,71.4,16.3,61.2
+2022,Engineering manager,0–2,5,5,2,2,40.0,40.0,80.0,11.8,76.9
+2022,Product manager,0–2,8,8,2,5,25.0,62.5,87.5,7.1,59.1
+2022,"Developer, embedded applications or devices",Não informado,1,1,0,1,0.0,100.0,100.0,0.0,79.3
+2023,Cloud infrastructure engineer,0–2,20,20,6,12,30.0,60.0,90.0,14.5,51.9
+2023,Engineering manager,21+,804,804,346,382,43.0,47.5,90.5,39.7,46.5
+2023,"Developer, QA or test",Não informado,4,4,4,0,100.0,0.0,100.0,51.0,100.0
+2023,Blockchain,0–2,20,20,8,6,40.0,30.0,70.0,21.9,61.3
+2024,"Developer, back-end",3–5,1053,1053,404,367,38.4,34.9,73.2,35.5,41.3
+2024,"Developer, QA or test",11–20,112,112,49,53,43.8,47.3,91.1,34.9,53.0
+2024,Hardware Engineer,11–20,54,54,2,25,3.7,46.3,50.0,1.0,12.5
+2024,Academic researcher,0–2,20,20,4,10,20.0,50.0,70.0,8.1,41.6
+2024,Academic researcher,3–5,101,101,12,59,11.9,58.4,70.3,6.9,19.6
+2024,Data or business analyst,Não informado,6,6,0,3,0.0,50.0,50.0,0.0,39.0
+2024,Security professional,Não informado,2,2,0,2,0.0,100.0,100.0,0.0,65.8
+2024,"Senior Executive (C-Suite, VP, etc.)",Não informado,1,1,1,0,100.0,0.0,100.0,20.7,100.0
+2025,"Developer, mobile",6–10,317,291,128,93,44.0,32.0,75.9,38.4,49.7
+2025,Data engineer,6–10,200,173,62,84,35.8,48.6,84.4,29.1,43.2
+2025,"Developer, QA or test",21+,43,40,16,19,40.0,47.5,87.5,26.3,55.4
+2025,Product manager,3–5,15,15,7,4,46.7,26.7,73.3,24.8,69.9
+2022,"Developer, full-stack",6–10,5151,5151,2148,2214,41.7,43.0,84.7,40.4,43.1
+2022,"Developer, mobile",11–20,549,549,294,191,53.6,34.8,88.3,49.4,57.7
+2022,Cloud infrastructure engineer,6–10,62,62,30,28,48.4,45.2,93.5,36.4,60.6
+2022,Scientist,6–10,22,22,5,10,22.7,45.5,68.2,10.1,43.4
+2022,Data or business analyst,21+,29,29,10,14,34.5,48.3,82.8,19.9,52.7
+2022,Scientist,21+,31,31,5,15,16.1,48.4,64.5,7.1,32.6
+2022,Database administrator,6–10,45,45,19,14,42.2,31.1,73.3,29.0,56.7
+2022,Database administrator,Não informado,2,2,1,1,50.0,50.0,100.0,9.5,90.5
+2023,"Developer, QA or test",11–20,169,169,73,80,43.2,47.3,90.5,36.0,50.7
+2023,Developer Experience,21+,83,83,43,32,51.8,38.6,90.4,41.2,62.2
+2023,Product manager,6–10,70,70,33,28,47.1,40.0,87.1,35.9,58.7
+2024,"Developer, back-end",21+,2123,2123,1076,860,50.7,40.5,91.2,48.6,52.8
+2024,"Developer, mobile",3–5,241,241,97,72,40.2,29.9,70.1,34.3,46.5
+2024,"Developer, mobile",21+,289,289,172,89,59.5,30.8,90.3,53.8,65.0
+2024,Scientist,Não informado,1,1,0,0,0.0,0.0,0.0,0.0,79.3
+2025,AI/ML engineer,6–10,161,144,33,72,22.9,50.0,72.9,16.8,30.4
+2025,Database administrator or engineer,21+,54,47,23,18,48.9,38.3,87.2,35.3,62.8
+2025,Product manager,21+,55,49,23,22,46.9,44.9,91.8,33.7,60.6
+2025,"Founder, technology or otherwise",6–10,37,28,11,8,39.3,28.6,67.9,23.6,57.6
+2025,Student,0–2,39,37,12,10,32.4,27.0,59.5,19.6,48.5
+2022,Data scientist or machine learning specialist,6–10,1105,1105,361,581,32.7,52.6,85.2,30.0,35.5
+2022,Scientist,Não informado,1,1,0,1,0.0,100.0,100.0,0.0,79.3
+2023,Data scientist or machine learning specialist,11–20,471,471,177,245,37.6,52.0,89.6,33.3,42.0
+2023,Data scientist or machine learning specialist,3–5,240,240,81,109,33.8,45.4,79.2,28.1,39.9
+2023,"Engineer, site reliability",0–2,12,12,5,3,41.7,25.0,66.7,19.3,68.0
+2023,Blockchain,11–20,93,93,71,18,76.3,19.4,95.7,66.8,83.8
+2023,Database administrator,11–20,53,53,16,27,30.2,50.9,81.1,19.5,43.5
+2023,Project manager,3–5,47,47,10,23,21.3,48.9,70.2,12.0,34.9
+2023,Marketing or sales professional,3–5,26,26,7,10,26.9,38.5,65.4,13.7,46.1
+2023,System administrator,0–2,53,53,7,21,13.2,39.6,52.8,6.5,24.8
+2024,Data or business analyst,6–10,149,149,36,66,24.2,44.3,68.5,18.0,31.6
+2024,"Developer, AI",11–20,129,129,54,57,41.9,44.2,86.0,33.7,50.5
+2024,Research & Development role,3–5,63,63,12,23,19.0,36.5,55.6,11.2,30.4
+2024,Data scientist or machine learning specialist,0–2,21,21,7,9,33.3,42.9,76.2,17.2,54.6
+2024,Blockchain,21+,29,29,24,4,82.8,13.8,96.6,65.5,92.4
+2024,Student,Não informado,5,5,1,4,20.0,80.0,100.0,3.6,62.4
+2025,AI/ML engineer,11–20,192,173,74,76,42.8,43.9,86.7,35.6,50.2
+2025,Data scientist,0–2,9,8,1,3,12.5,37.5,50.0,2.2,47.1
+2025,Cybersecurity or InfoSec professional,Não informado,4,4,2,1,50.0,25.0,75.0,15.0,85.0
+2022,Data scientist or machine learning specialist,11–20,937,937,324,504,34.6,53.8,88.4,31.6,37.7
+2022,"Developer, back-end",11–20,3240,3240,1573,1421,48.5,43.9,92.4,46.8,50.3
+2022,"Developer, desktop or enterprise applications",6–10,410,410,114,195,27.8,47.6,75.4,23.7,32.3
+2022,"Developer, QA or test",3–5,99,99,47,41,47.5,41.4,88.9,37.9,57.2
+2022,Educator,21+,130,130,23,71,17.7,54.6,72.3,12.1,25.2
+2022,Student,21+,8,8,2,4,25.0,50.0,75.0,7.1,59.1
+2023,"Developer, back-end",3–5,1310,1310,500,509,38.2,38.9,77.0,35.6,40.8
+2023,Blockchain,6–10,95,95,65,18,68.4,18.9,87.4,58.5,76.9
+2023,Project manager,6–10,97,97,23,53,23.7,54.6,78.4,16.4,33.1
+2023,"Senior Executive (C-Suite, VP, etc.)",Não informado,3,3,1,1,33.3,33.3,66.7,6.1,79.2
+2024,Student,3–5,258,258,79,89,30.6,34.5,65.1,25.3,36.5
+2024,Security professional,21+,81,81,37,38,45.7,46.9,92.6,35.3,56.5
+2024,Student,11–20,54,54,8,23,14.8,42.6,57.4,7.7,26.6
+2024,"Developer, game or graphics",6–10,162,162,79,48,48.8,29.6,78.4,41.2,56.4
+2024,Scientist,11–20,81,81,8,42,9.9,51.9,61.7,5.1,18.3
+2024,Cloud infrastructure engineer,3–5,40,40,9,25,22.5,62.5,85.0,12.3,37.5
+2024,Other (please specify):,Não informado,9,9,3,4,33.3,44.4,77.8,12.1,64.6
+2024,Engineering manager,3–5,12,12,3,7,25.0,58.3,83.3,8.9,53.2
+2024,Data scientist or machine learning specialist,Não informado,3,3,0,2,0.0,66.7,66.7,0.0,56.2
+2025,"Developer, full-stack",11–20,3576,3135,1308,1320,41.7,42.1,83.8,40.0,43.5
+2025,"Developer, front-end",21+,234,218,126,77,57.8,35.3,93.1,51.2,64.2
+2025,Other (please specify):,11–20,304,259,66,109,25.5,42.1,67.6,20.6,31.1
+2025,Cybersecurity or InfoSec professional,21+,66,52,23,21,44.2,40.4,84.6,31.6,57.7
+2025,Data scientist,6–10,144,130,28,80,21.5,61.5,83.1,15.3,29.4
+2025,Data scientist,3–5,48,44,11,22,25.0,50.0,75.0,14.6,39.4
+2025,AI/ML engineer,0–2,8,7,3,1,42.9,14.3,57.1,15.8,75.0
+2022,"Developer, back-end",6–10,3216,3216,1408,1431,43.8,44.5,88.3,42.1,45.5
+2022,DevOps specialist,11–20,162,162,78,71,48.1,43.8,92.0,40.6,55.8
+2022,"Developer, embedded applications or devices",21+,157,157,46,78,29.3,49.7,79.0,22.7,36.8
+2022,Academic researcher,11–20,166,166,27,95,16.3,57.2,73.5,11.4,22.6
+2022,"Developer, game or graphics",11–20,61,61,30,20,49.2,32.8,82.0,37.1,61.4
+2022,"Engineer, site reliability",0–2,15,15,3,9,20.0,60.0,80.0,7.0,45.2
+2022,Data or business analyst,Não informado,1,1,1,0,100.0,0.0,100.0,20.7,100.0
+2023,"Developer, front-end",11–20,1359,1359,717,547,52.8,40.3,93.0,50.1,55.4
+2023,System administrator,11–20,180,180,35,79,19.4,43.9,63.3,14.3,25.8
+2023,"Developer, desktop or enterprise applications",11–20,1025,1025,315,505,30.7,49.3,80.0,28.0,33.6
+2023,System administrator,3–5,106,106,20,48,18.9,45.3,64.2,12.6,27.4
+2023,DevOps specialist,3–5,142,142,57,71,40.1,50.0,90.1,32.4,48.4
+2023,Cloud infrastructure engineer,3–5,80,80,26,43,32.5,53.8,86.3,23.2,43.4
+2023,Security professional,Não informado,3,3,0,3,0.0,100.0,100.0,0.0,56.2
+2023,Developer Advocate,21+,90,90,54,30,60.0,33.3,93.3,49.7,69.5
+2023,Data or business analyst,0–2,79,79,25,38,31.6,48.1,79.7,22.4,42.5
+2023,Designer,11–20,71,71,34,22,47.9,31.0,78.9,36.7,59.3
+2023,"Senior Executive (C-Suite, VP, etc.)",0–2,7,7,2,5,28.6,71.4,100.0,8.2,64.1
+2023,"Engineer, data",0–2,31,31,6,14,19.4,45.2,64.5,9.2,36.3
+2023,Data or business analyst,Não informado,8,8,4,3,50.0,37.5,87.5,21.5,78.5
+2023,"Developer, game or graphics",Não informado,3,3,2,1,66.7,33.3,100.0,20.8,93.9
+2024,Product manager,11–20,94,94,25,50,26.6,53.2,79.8,18.7,36.3
+2024,Project manager,0–2,17,17,2,8,11.8,47.1,58.8,3.3,34.3
+2024,Developer Experience,11–20,83,83,32,41,38.6,49.4,88.0,28.8,49.3
+2024,"Engineer, site reliability",6–10,83,83,27,40,32.5,48.2,80.7,23.4,43.2
+2024,Scientist,3–5,27,27,6,12,22.2,44.4,66.7,10.6,40.8
+2024,Developer Advocate,6–10,17,17,13,4,76.5,23.5,100.0,52.7,90.4
+2025,"Architect, software or solutions",Não informado,38,35,15,13,42.9,37.1,80.0,28.0,59.1
+2025,"Architect, software or solutions",11–20,745,637,239,300,37.5,47.1,84.6,33.8,41.3
+2025,"Developer, full-stack",Não informado,94,85,26,33,30.6,38.8,69.4,21.8,41.0
+2025,Other (please specify):,6–10,236,219,38,83,17.4,37.9,55.3,12.9,22.9
+2025,"Developer, front-end",11–20,534,456,223,191,48.9,41.9,90.8,44.3,53.5
+2025,Database administrator or engineer,11–20,35,30,6,16,20.0,53.3,73.3,9.5,37.3
+2025,"Developer, AI apps or physical AI",6–10,45,42,15,14,35.7,33.3,69.0,23.0,50.8
+2025,Engineering manager,Não informado,9,9,2,5,22.2,55.6,77.8,6.3,54.7
+2025,"Developer, AI apps or physical AI",3–5,27,23,6,9,26.1,39.1,65.2,12.5,46.5
+2025,Database administrator or engineer,Não informado,3,3,2,0,66.7,0.0,66.7,20.8,93.9
+2025,"Developer, QA or test",0–2,20,17,8,5,47.1,29.4,76.5,26.2,69.0
+2022,Data or business analyst,6–10,80,80,25,44,31.3,55.0,86.3,22.2,42.1
+2022,"Developer, QA or test",21+,62,62,28,31,45.2,50.0,95.2,33.4,57.5
+2022,Academic researcher,21+,109,109,24,62,22.0,56.9,78.9,15.3,30.7
+2022,Other (please specify):,3–5,174,174,47,52,27.0,29.9,56.9,21.0,34.1
+2022,Academic researcher,3–5,61,61,15,33,24.6,54.1,78.7,15.5,36.7
+2022,"Senior Executive (C-Suite, VP, etc.)",3–5,9,9,3,5,33.3,55.6,88.9,12.1,64.6
+2022,"Senior Executive (C-Suite, VP, etc.)",0–2,9,9,3,4,33.3,44.4,77.8,12.1,64.6
+2022,Database administrator,0–2,9,9,6,1,66.7,11.1,77.8,35.4,87.9
+2022,Project manager,Não informado,1,1,1,0,100.0,0.0,100.0,20.7,100.0
+2023,"Developer, front-end",6–10,1574,1574,782,588,49.7,37.4,87.0,47.2,52.2
+2023,"Developer, mobile",3–5,356,356,144,108,40.4,30.3,70.8,35.5,45.6
+2023,"Developer, embedded applications or devices",11–20,601,601,123,321,20.5,53.4,73.9,17.4,23.9
+2023,"Developer, embedded applications or devices",21+,557,557,152,256,27.3,46.0,73.2,23.8,31.1
+2023,DevOps specialist,21+,326,326,151,148,46.3,45.4,91.7,41.0,51.7
+2023,"Developer, mobile",11–20,912,912,452,375,49.6,41.1,90.7,46.3,52.8
+2023,Product manager,21+,180,180,67,86,37.2,47.8,85.0,30.5,44.5
+2023,Student,0–2,147,147,39,47,26.5,32.0,58.5,20.1,34.2
+2023,Research & Development role,Não informado,4,4,1,3,25.0,75.0,100.0,4.6,69.9
+2023,Project manager,0–2,31,31,10,17,32.3,54.8,87.1,18.6,49.9
+2023,"Developer, embedded applications or devices",0–2,18,18,2,7,11.1,38.9,50.0,3.1,32.8
+2023,Database administrator,0–2,12,12,5,2,41.7,16.7,58.3,19.3,68.0
+2024,"Developer, full-stack",11–20,5543,5543,2481,2315,44.8,41.8,86.5,43.5,46.1
+2024,Academic researcher,6–10,289,289,38,161,13.1,55.7,68.9,9.7,17.5
+2024,Data scientist or machine learning specialist,6–10,360,360,102,202,28.3,56.1,84.4,23.9,33.2
+2024,Engineering manager,21+,528,528,202,267,38.3,50.6,88.8,34.2,42.5
+2024,Research & Development role,21+,290,290,113,141,39.0,48.6,87.6,33.5,44.7
+2024,Blockchain,11–20,61,61,46,9,75.4,14.8,90.2,63.3,84.5
+2024,System administrator,0–2,36,36,8,17,22.2,47.2,69.4,11.7,38.1
+2024,Educator,6–10,68,68,13,26,19.1,38.2,57.4,11.5,30.0
+2024,Marketing or sales professional,0–2,16,16,4,4,25.0,25.0,50.0,10.2,49.5
+2024,Data engineer,Não informado,2,2,1,0,50.0,0.0,50.0,9.5,90.5
+2025,"Architect, software or solutions",21+,1189,996,402,492,40.4,49.4,89.8,37.4,43.4
+2025,Other (please specify):,0–2,89,84,18,17,21.4,20.2,41.7,14.0,31.3
+2025,AI/ML engineer,3–5,56,53,17,14,32.1,26.4,58.5,21.1,45.5
+2025,Cybersecurity or InfoSec professional,3–5,36,29,9,13,31.0,44.8,75.9,17.3,49.2
+2025,DevOps engineer or professional,0–2,12,11,3,4,27.3,36.4,63.6,9.7,56.6
+2025,"Founder, technology or otherwise",0–2,9,9,5,3,55.6,33.3,88.9,26.7,81.1
+2022,Blockchain,21+,5,5,5,0,100.0,0.0,100.0,56.6,100.0
+2022,Educator,3–5,19,19,0,7,0.0,36.8,36.8,0.0,16.8
+2022,System administrator,Não informado,3,3,2,1,66.7,33.3,100.0,20.8,93.9
+2023,"Developer, front-end",21+,484,484,257,180,53.1,37.2,90.3,48.6,57.5
+2023,Data or business analyst,6–10,213,213,60,106,28.2,49.8,77.9,22.6,34.6
+2023,Academic researcher,21+,282,282,26,156,9.2,55.3,64.5,6.4,13.2
+2023,Hardware Engineer,6–10,79,79,6,40,7.6,50.6,58.2,3.5,15.6
+2023,Engineering manager,0–2,6,6,1,3,16.7,50.0,66.7,3.0,56.4
+2024,"Developer, desktop or enterprise applications",21+,862,862,338,361,39.2,41.9,81.1,36.0,42.5
+2024,"Developer, QA or test",21+,68,68,30,27,44.1,39.7,83.8,32.9,55.9
+2024,Data or business analyst,3–5,112,112,27,60,24.1,53.6,77.7,17.1,32.8
+2024,Cloud infrastructure engineer,Não informado,2,2,1,0,50.0,0.0,50.0,9.5,90.5
+2024,"Developer, desktop or enterprise applications",Não informado,5,5,2,2,40.0,40.0,80.0,11.8,76.9
+2025,Academic researcher,21+,218,178,17,103,9.6,57.9,67.4,6.0,14.8
+2025,Other (please specify):,21+,382,333,98,116,29.4,34.8,64.3,24.8,34.5
+2025,Project manager,21+,85,69,13,38,18.8,55.1,73.9,11.4,29.6
+2025,Applied scientist,6–10,43,37,4,19,10.8,51.4,62.2,4.3,24.7
+2025,Cloud infrastructure engineer,6–10,86,70,23,39,32.9,55.7,88.6,23.0,44.5
+2025,Applied scientist,11–20,77,67,15,34,22.4,50.7,73.1,14.1,33.7
+2025,"Founder, technology or otherwise",21+,105,75,44,22,58.7,29.3,88.0,47.4,69.1
+2025,"Developer, embedded applications or devices",3–5,65,56,3,27,5.4,48.2,53.6,1.8,14.6
+2025,"Developer, game or graphics",6–10,58,51,20,15,39.2,29.4,68.6,27.0,52.9
+2025,Database administrator or engineer,0–2,6,6,0,3,0.0,50.0,50.0,0.0,39.0
+2022,DevOps specialist,0–2,18,18,8,4,44.4,22.2,66.7,24.6,66.3
+2022,"Developer, game or graphics",0–2,7,7,3,1,42.9,14.3,57.1,15.8,75.0
+2022,Blockchain,Não informado,4,4,1,3,25.0,75.0,100.0,4.6,69.9
+2023,"Developer, back-end",0–2,210,210,74,70,35.2,33.3,68.6,29.1,41.9
+2023,Academic researcher,3–5,127,127,10,75,7.9,59.1,66.9,4.3,13.9
+2023,"Developer, QA or test",6–10,180,180,84,68,46.7,37.8,84.4,39.5,53.9
+2023,"Developer, mobile",6–10,764,764,332,277,43.5,36.3,79.7,40.0,47.0
+2023,Data or business analyst,21+,159,159,51,88,32.1,55.3,87.4,25.3,39.7
+2023,"Senior Executive (C-Suite, VP, etc.)",21+,697,697,277,314,39.7,45.1,84.8,36.2,43.4
+2023,Academic researcher,0–2,37,37,11,12,29.7,32.4,62.2,17.5,45.8
+2023,Product manager,Não informado,2,2,2,0,100.0,0.0,100.0,34.2,100.0
+2024,"Developer, full-stack",Não informado,55,55,19,20,34.5,36.4,70.9,23.4,47.7
+2024,Data scientist or machine learning specialist,3–5,109,109,28,46,25.7,42.2,67.9,18.4,34.6
+2024,"Developer, mobile",6–10,620,620,235,238,37.9,38.4,76.3,34.2,41.8
+2024,Data scientist or machine learning specialist,11–20,288,288,96,151,33.3,52.4,85.8,28.1,39.0
+2024,Blockchain,Não informado,3,3,0,1,0.0,33.3,33.3,0.0,56.2
+2025,"Founder, technology or otherwise",11–20,75,64,34,21,53.1,32.8,85.9,41.1,64.8
+2025,"Developer, embedded applications or devices",21+,361,310,69,145,22.3,46.8,69.0,18.0,27.2
+2025,System administrator,11–20,86,81,10,35,12.3,43.2,55.6,6.8,21.3
+2025,Financial analyst or engineer,11–20,18,18,5,9,27.8,50.0,77.8,12.5,50.9
+2025,Support engineer or analyst,Não informado,3,2,1,0,50.0,0.0,50.0,9.5,90.5
+2025,"UX, Research Ops or UI design professional",0–2,5,5,2,3,40.0,60.0,100.0,11.8,76.9
+2025,Project manager,Não informado,3,3,1,1,33.3,33.3,66.7,6.1,79.2
+2022,Data scientist or machine learning specialist,21+,637,637,275,297,43.2,46.6,89.8,39.4,47.0
+2022,Designer,0–2,23,23,7,12,30.4,52.2,82.6,15.6,50.9
+2022,Academic researcher,6–10,172,172,22,110,12.8,64.0,76.7,8.6,18.6
+2022,"Developer, full-stack",Não informado,63,63,19,28,30.2,44.4,74.6,20.2,42.4
+2023,Designer,3–5,47,47,15,21,31.9,44.7,76.6,20.4,46.2
+2023,"Developer, desktop or enterprise applications",6–10,765,765,197,378,25.8,49.4,75.2,22.8,29.0
+2023,Research & Development role,6–10,284,284,67,141,23.6,49.6,73.2,19.0,28.9
+2023,Developer Advocate,0–2,2,2,1,0,50.0,0.0,50.0,9.5,90.5
+2023,Designer,Não informado,3,3,0,1,0.0,33.3,33.3,0.0,56.2
+2024,Developer Advocate,21+,40,40,26,11,65.0,27.5,92.5,49.5,77.9
+2024,Research & Development role,11–20,297,297,82,156,27.6,52.5,80.1,22.8,33.0
+2024,"Developer, game or graphics",11–20,182,182,85,65,46.7,35.7,82.4,39.6,53.9
+2024,Designer,11–20,25,25,9,10,36.0,40.0,76.0,20.2,55.5
+2024,Cloud infrastructure engineer,11–20,229,229,100,111,43.7,48.5,92.1,37.4,50.1
+2024,Student,0–2,95,95,29,21,30.5,22.1,52.6,22.2,40.4
+2025,Data engineer,11–20,225,206,86,96,41.7,46.6,88.3,35.2,48.6
+2025,Support engineer or analyst,0–2,12,12,2,6,16.7,50.0,66.7,4.7,44.8
+2025,"UX, Research Ops or UI design professional",6–10,13,9,3,4,33.3,44.4,77.8,12.1,64.6
+2025,Retired,21+,5,4,2,0,50.0,0.0,50.0,15.0,85.0
+2022,"Developer, back-end",21+,2045,2045,1118,808,54.7,39.5,94.2,52.5,56.8
+2022,"Senior Executive (C-Suite, VP, etc.)",21+,143,143,46,77,32.2,53.8,86.0,25.1,40.2
+2022,DevOps specialist,21+,95,95,48,45,50.5,47.4,97.9,40.6,60.4
+2022,System administrator,6–10,46,46,17,15,37.0,32.6,69.6,24.5,51.4
+2022,Data or business analyst,11–20,45,45,12,29,26.7,64.4,91.1,16.0,41.0
+2023,"Senior Executive (C-Suite, VP, etc.)",11–20,468,468,190,214,40.6,45.7,86.3,36.2,45.1
+2023,"Developer, full-stack",11–20,8232,8232,3818,3432,46.4,41.7,88.1,45.3,47.5
+2023,"Developer, full-stack",21+,5578,5578,2945,2043,52.8,36.6,89.4,51.5,54.1
+2023,Security professional,11–20,142,142,50,69,35.2,48.6,83.8,27.8,43.4
+2023,Educator,21+,158,158,29,49,18.4,31.0,49.4,13.1,25.1
+2023,"Engineer, site reliability",3–5,33,33,13,10,39.4,30.3,69.7,24.7,56.3
+2023,"Developer, embedded applications or devices",Não informado,4,4,1,3,25.0,75.0,100.0,4.6,69.9
+2023,Hardware Engineer,Não informado,1,1,0,1,0.0,100.0,100.0,0.0,79.3
+2024,"Developer, desktop or enterprise applications",11–20,642,642,196,304,30.5,47.4,77.9,27.1,34.2
+2024,"Developer, AI",6–10,170,170,46,76,27.1,44.7,71.8,20.9,34.2
+2024,"Developer, front-end",21+,323,323,166,123,51.4,38.1,89.5,46.0,56.8
+2024,"Developer, desktop or enterprise applications",0–2,31,31,7,9,22.6,29.0,51.6,11.4,39.8
+2024,Product manager,6–10,45,45,16,21,35.6,46.7,82.2,23.2,50.2
+2024,Data engineer,21+,235,235,115,93,48.9,39.6,88.5,42.6,55.3
+2024,"Developer, QA or test",3–5,88,88,40,31,45.5,35.2,80.7,35.5,55.8
+2024,Database administrator,Não informado,3,3,0,1,0.0,33.3,33.3,0.0,56.2
+2024,Marketing or sales professional,Não informado,1,1,0,0,0.0,0.0,0.0,0.0,79.3
+2025,Applied scientist,21+,91,83,20,38,24.1,45.8,69.9,16.2,34.3
+2025,Product manager,6–10,32,30,11,14,36.7,46.7,83.3,21.9,54.5
+2025,Database administrator or engineer,3–5,10,10,1,5,10.0,50.0,60.0,1.8,40.4
+2025,System administrator,0–2,22,21,5,8,23.8,38.1,61.9,10.6,45.1
+2025,Financial analyst or engineer,0–2,7,6,1,3,16.7,50.0,66.7,3.0,56.4
+2022,Data scientist or machine learning specialist,3–5,509,509,169,255,33.2,50.1,83.3,29.3,37.4
+2022,"Developer, desktop or enterprise applications",3–5,185,185,57,79,30.8,42.7,73.5,24.6,37.8
+2022,Project manager,11–20,65,65,16,32,24.6,49.2,73.8,15.8,36.3
+2022,Educator,11–20,88,88,22,41,25.0,46.6,71.6,17.1,35.0
+2022,Product manager,6–10,23,23,4,16,17.4,69.6,87.0,7.0,37.1
+2023,"Developer, full-stack",0–2,567,567,202,196,35.6,34.6,70.2,31.8,39.7
+2023,Cloud infrastructure engineer,21+,235,235,118,110,50.2,46.8,97.0,43.9,56.6
+2023,Academic researcher,11–20,431,431,40,265,9.3,61.5,70.8,6.9,12.4
+2023,Engineering manager,3–5,25,25,10,9,40.0,36.0,76.0,23.4,59.3
+2023,Scientist,3–5,25,25,2,12,8.0,48.0,56.0,2.2,25.0
+2023,Blockchain,Não informado,4,4,3,0,75.0,0.0,75.0,30.1,95.4
+2024,"Developer, full-stack",21+,3932,3932,1965,1504,50.0,38.3,88.2,48.4,51.5
+2024,Database administrator,21+,61,61,27,23,44.3,37.7,82.0,32.5,56.7
+2024,System administrator,3–5,68,68,13,26,19.1,38.2,57.4,11.5,30.0
+2024,Blockchain,6–10,59,59,44,10,74.6,16.9,91.5,62.2,83.9
+2024,Cloud infrastructure engineer,0–2,8,8,2,5,25.0,62.5,87.5,7.1,59.1
+2024,Marketing or sales professional,11–20,12,12,5,4,41.7,33.3,75.0,19.3,68.0
+2024,System administrator,Não informado,1,1,1,0,100.0,0.0,100.0,20.7,100.0
+2025,"Senior executive (C-suite, VP, etc.)",Não informado,7,7,2,0,28.6,0.0,28.6,8.2,64.1
+2025,"Architect, software or solutions",3–5,50,47,18,18,38.3,38.3,76.6,25.8,52.6
+2025,DevOps engineer or professional,Não informado,11,9,3,5,33.3,55.6,88.9,12.1,64.6
+2025,"Founder, technology or otherwise",Não informado,2,2,2,0,100.0,0.0,100.0,34.2,100.0
+2022,"Engineer, site reliability",6–10,287,287,141,126,49.1,43.9,93.0,43.4,54.9
+2022,Data scientist or machine learning specialist,0–2,93,93,40,37,43.0,39.8,82.8,33.4,53.2
+2022,Database administrator,21+,39,39,15,20,38.5,51.3,89.7,24.9,54.1
+2022,Product manager,11–20,51,51,16,26,31.4,51.0,82.4,20.3,45.0
+2022,"Developer, game or graphics",6–10,66,66,31,21,47.0,31.8,78.8,35.4,58.8
+2022,"Engineer, data",Não informado,15,15,4,8,26.7,53.3,80.0,10.9,52.0
+2023,Other (please specify):,3–5,306,306,78,104,25.5,34.0,59.5,20.9,30.7
+2023,System administrator,6–10,171,171,35,78,20.5,45.6,66.1,15.1,27.1
+2023,Blockchain,3–5,47,47,27,11,57.4,23.4,80.9,43.3,70.5
+2023,Scientist,11–20,100,100,18,53,18.0,53.0,71.0,11.7,26.7
+2023,"Engineer, site reliability",Não informado,1,1,0,1,0.0,100.0,100.0,0.0,79.3
+2024,System administrator,11–20,116,116,25,57,21.6,49.1,70.7,15.0,29.9
+2024,"Developer, full-stack",0–2,320,320,83,112,25.9,35.0,60.9,21.4,31.0
+2024,"Developer, QA or test",0–2,47,47,27,14,57.4,29.8,87.2,43.3,70.5
+2024,Data engineer,3–5,121,121,38,59,31.4,48.8,80.2,23.8,40.1
+2024,Designer,0–2,20,20,8,9,40.0,45.0,85.0,21.9,61.3
+2025,Engineering manager,11–20,401,345,116,186,33.6,53.9,87.5,28.8,38.8
+2025,"Developer, QA or test",6–10,92,85,31,41,36.5,48.2,84.7,27.0,47.1
+2025,"Developer, front-end",3–5,252,221,87,77,39.4,34.8,74.2,33.2,45.9
+2025,Data scientist,21+,81,76,24,40,31.6,52.6,84.2,22.2,42.7
+2025,Project manager,3–5,16,15,3,7,20.0,46.7,66.7,7.0,45.2
+2025,Other (please specify):,Não informado,30,22,0,11,0.0,50.0,50.0,0.0,14.9
+2022,"Developer, full-stack",3–5,2480,2480,976,982,39.4,39.6,79.0,37.4,41.3
+2022,"Developer, back-end",3–5,1407,1407,577,546,41.0,38.8,79.8,38.5,43.6
+2022,System administrator,21+,39,39,13,14,33.3,35.9,69.2,20.6,49.0
+2022,Engineering manager,6–10,80,80,44,30,55.0,37.5,92.5,44.1,65.4
+2022,"Senior Executive (C-Suite, VP, etc.)",6–10,33,33,9,14,27.3,42.4,69.7,15.1,44.2
+2022,Designer,6–10,19,19,7,6,36.8,31.6,68.4,19.1,59.0
+2023,"Developer, front-end",3–5,1023,1023,453,355,44.3,34.7,79.0,41.3,47.3
+2023,Research & Development role,11–20,419,419,115,221,27.4,52.7,80.2,23.4,31.9
+2023,Designer,21+,72,72,24,36,33.3,50.0,83.3,23.5,44.8
+2023,Developer Advocate,11–20,66,66,36,22,54.5,33.3,87.9,42.6,66.0
+2023,Product manager,0–2,11,11,4,5,36.4,45.5,81.8,15.2,64.6
+2023,Data or business analyst,3–5,168,168,44,83,26.2,49.4,75.6,20.1,33.3
+2023,"Engineer, site reliability",21+,97,97,54,39,55.7,40.2,95.9,45.8,65.2
+2023,Marketing or sales professional,21+,32,32,13,12,40.6,37.5,78.1,25.5,57.7
+2023,Educator,6–10,81,81,21,26,25.9,32.1,58.0,17.6,36.4
+2023,Cloud infrastructure engineer,Não informado,5,5,4,0,80.0,0.0,80.0,37.6,96.4
+2024,System administrator,21+,133,133,39,62,29.3,46.6,75.9,22.3,37.6
+2024,"Developer, front-end",11–20,879,879,420,376,47.8,42.8,90.6,44.5,51.1
+2024,Research & Development role,6–10,213,213,39,104,18.3,48.8,67.1,13.7,24.0
+2024,"Senior Executive (C-Suite, VP, etc.)",11–20,264,264,114,106,43.2,40.2,83.3,37.3,49.2
+2024,Project manager,21+,137,137,41,72,29.9,52.6,82.5,22.9,38.1
+2025,"Developer, mobile",21+,205,184,108,64,58.7,34.8,93.5,51.5,65.6
+2025,Cloud infrastructure engineer,21+,88,79,40,34,50.6,43.0,93.7,39.8,61.4
+2025,Data or business analyst,21+,49,40,8,21,20.0,52.5,72.5,10.5,34.8
+2025,Financial analyst or engineer,6–10,20,17,1,9,5.9,52.9,58.8,1.0,27.0
+2025,DevOps engineer or professional,3–5,72,61,21,27,34.4,44.3,78.7,23.7,47.0
+2025,"Developer, AI apps or physical AI",0–2,5,5,1,2,20.0,40.0,60.0,3.6,62.4
+2025,Engineering manager,0–2,3,1,1,0,100.0,0.0,100.0,20.7,100.0
+2022,Student,6–10,317,317,88,148,27.8,46.7,74.4,23.1,32.9
+2022,"Developer, mobile",6–10,664,664,299,262,45.0,39.5,84.5,41.3,48.8
+2022,Engineering manager,3–5,21,21,4,10,19.0,47.6,66.7,7.7,40.0
+2022,Educator,6–10,44,44,9,22,20.5,50.0,70.5,11.2,34.5
+2022,"Developer, desktop or enterprise applications",0–2,43,43,8,17,18.6,39.5,58.1,9.7,32.6
+2022,Data or business analyst,3–5,77,77,25,39,32.5,50.6,83.1,23.1,43.5
+2022,Product manager,Não informado,1,1,0,1,0.0,100.0,100.0,0.0,79.3
+2023,"Engineer, data",11–20,369,369,152,188,41.2,50.9,92.1,36.3,46.3
+2023,Project manager,21+,207,207,59,104,28.5,50.2,78.7,22.8,35.0
+2023,"Developer, mobile",21+,374,374,219,133,58.6,35.6,94.1,53.5,63.4
+2023,Developer Experience,3–5,29,29,8,12,27.6,41.4,69.0,14.7,45.7
+2023,"Developer, mobile",Não informado,10,10,4,3,40.0,30.0,70.0,16.8,68.7
+2023,Hardware Engineer,11–20,78,78,17,28,21.8,35.9,57.7,14.1,32.2
+2023,Hardware Engineer,3–5,33,33,4,13,12.1,39.4,51.5,4.8,27.3
+2023,Student,Não informado,5,5,1,2,20.0,40.0,60.0,3.6,62.4
+2023,Scientist,Não informado,1,1,0,0,0.0,0.0,0.0,0.0,79.3
+2024,"Developer, embedded applications or devices",11–20,507,507,91,287,17.9,56.6,74.6,14.9,21.5
+2024,DevOps specialist,3–5,99,99,29,51,29.3,51.5,80.8,21.2,38.9
+2024,"Senior Executive (C-Suite, VP, etc.)",6–10,80,80,29,43,36.3,53.8,90.0,26.6,47.2
+2024,"Developer, QA or test",Não informado,3,3,1,1,33.3,33.3,66.7,6.1,79.2
+2024,Developer Advocate,3–5,9,9,3,3,33.3,33.3,66.7,12.1,64.6
+2024,Developer Experience,0–2,5,5,0,0,0.0,0.0,0.0,0.0,43.4
+2025,"Developer, back-end",21+,1432,1249,634,528,50.8,42.3,93.0,48.0,53.5
+2025,DevOps engineer or professional,11–20,332,295,115,158,39.0,53.6,92.5,33.6,44.7
+2025,Data engineer,3–5,67,59,13,30,22.0,50.8,72.9,13.4,34.1
+2025,"Developer, front-end",Não informado,30,26,14,7,53.8,26.9,80.8,35.5,71.2
+2025,"UX, Research Ops or UI design professional",Não informado,8,8,5,1,62.5,12.5,75.0,30.6,86.3
+2025,Product manager,0–2,11,10,5,3,50.0,30.0,80.0,23.7,76.3
+2022,Engineering manager,11–20,309,309,127,169,41.1,54.7,95.8,35.8,46.7
+2022,Student,0–2,143,143,38,47,26.6,32.9,59.4,20.0,34.4
+2022,"Developer, QA or test",6–10,175,175,69,87,39.4,49.7,89.1,32.5,46.8
+2022,Data or business analyst,0–2,42,42,11,18,26.2,42.9,69.0,15.3,41.1
+2022,Student,11–20,83,83,17,51,20.5,61.4,81.9,13.2,30.4
+2022,DevOps specialist,Não informado,1,1,1,0,100.0,0.0,100.0,20.7,100.0
+2022,Marketing or sales professional,Não informado,2,2,1,0,50.0,0.0,50.0,9.5,90.5
+2022,Designer,Não informado,1,1,0,0,0.0,0.0,0.0,0.0,79.3
+2023,"Developer, back-end",6–10,3933,3933,1714,1679,43.6,42.7,86.3,42.0,45.1
+2023,Database administrator,21+,99,99,35,50,35.4,50.5,85.9,26.6,45.2
+2023,Data scientist or machine learning specialist,6–10,598,598,192,315,32.1,52.7,84.8,28.5,36.0
+2023,Academic researcher,6–10,422,422,49,235,11.6,55.7,67.3,8.9,15.0
+2023,Scientist,21+,119,119,19,59,16.0,49.6,65.5,10.5,23.6
+2023,Data scientist or machine learning specialist,Não informado,9,9,1,6,11.1,66.7,77.8,2.0,43.5
+2023,Engineering manager,Não informado,4,4,1,1,25.0,25.0,50.0,4.6,69.9
+2023,"Developer, desktop or enterprise applications",Não informado,5,5,2,2,40.0,40.0,80.0,11.8,76.9
+2024,Scientist,6–10,84,84,10,46,11.9,54.8,66.7,6.6,20.5
+2024,System administrator,6–10,134,134,21,55,15.7,41.0,56.7,10.5,22.8
+2024,"Developer, back-end",0–2,149,149,66,45,44.3,30.2,74.5,36.6,52.3
+2024,"Developer, back-end",Não informado,21,21,10,6,47.6,28.6,76.2,28.3,67.6
+2024,"Senior Executive (C-Suite, VP, etc.)",3–5,18,18,4,10,22.2,55.6,77.8,9.0,45.2
+2024,"Developer, AI",3–5,72,72,16,29,22.2,40.3,62.5,14.2,33.1
+2024,"Developer, front-end",Não informado,9,9,6,2,66.7,22.2,88.9,35.4,87.9
+2024,Scientist,0–2,7,7,1,2,14.3,28.6,42.9,2.6,51.3
+2025,Data engineer,21+,148,132,55,64,41.7,48.5,90.2,33.6,50.2
+2025,Academic researcher,11–20,270,221,19,125,8.6,56.6,65.2,5.6,13.0
+2025,Engineering manager,21+,455,404,143,214,35.4,53.0,88.4,30.9,40.2
+2025,"Developer, game or graphics",3–5,16,16,6,5,37.5,31.3,68.8,18.5,61.4
+2025,"Developer, desktop or enterprise applications",Não informado,14,13,2,6,15.4,46.2,61.5,4.3,42.2
+2025,Data engineer,0–2,8,8,1,3,12.5,37.5,50.0,2.2,47.1
+2025,Academic researcher,Não informado,8,7,2,2,28.6,28.6,57.1,8.2,64.1
+2022,"Developer, QA or test",0–2,37,37,19,13,51.4,35.1,86.5,35.9,66.6
+2023,Engineering manager,6–10,220,220,76,108,34.5,49.1,83.6,28.6,41.0
+2023,Research & Development role,0–2,14,14,1,4,7.1,28.6,35.7,1.3,31.5
+2023,Research & Development role,3–5,93,93,29,38,31.2,40.9,72.0,22.7,41.2
+2023,Data scientist or machine learning specialist,0–2,23,23,8,11,34.8,47.8,82.6,18.8,55.1
+2023,Academic researcher,Não informado,9,9,5,3,55.6,33.3,88.9,26.7,81.1
+2024,"Developer, front-end",6–10,993,993,434,398,43.7,40.1,83.8,40.7,46.8
+2024,"Senior Executive (C-Suite, VP, etc.)",21+,433,433,173,196,40.0,45.3,85.2,35.4,44.6
+2024,"Developer, mobile",11–20,629,629,284,262,45.2,41.7,86.8,41.3,49.1
+2024,"Developer, front-end",3–5,639,639,262,198,41.0,31.0,72.0,37.3,44.9
+2024,Other (please specify):,11–20,520,520,186,234,35.8,45.0,80.8,31.8,40.0
+2024,Other (please specify):,0–2,116,116,23,29,19.8,25.0,44.8,13.6,28.0
+2024,Data or business analyst,0–2,37,37,12,9,32.4,24.3,56.8,19.6,48.5
+2024,"Developer, embedded applications or devices",0–2,16,16,3,6,18.8,37.5,56.3,6.6,43.0
+2025,Data or business analyst,3–5,58,51,13,25,25.5,49.0,74.5,15.5,38.9
+2025,Support engineer or analyst,11–20,34,30,8,12,26.7,40.0,66.7,14.2,44.4
+2022,Other (please specify):,6–10,276,276,84,99,30.4,35.9,66.3,25.3,36.1
+2022,"Engineer, site reliability",11–20,453,453,240,194,53.0,42.8,95.8,48.4,57.5
+2022,"Developer, embedded applications or devices",3–5,55,55,6,34,10.9,61.8,72.7,5.1,21.8
+2022,"Engineer, data",6–10,610,610,245,287,40.2,47.0,87.2,36.3,44.1
+2023,Other (please specify):,6–10,613,613,168,257,27.4,41.9,69.3,24.0,31.1
+2023,Cloud infrastructure engineer,11–20,398,398,199,177,50.0,44.5,94.5,45.1,54.9
+2023,"Developer, desktop or enterprise applications",3–5,265,265,67,105,25.3,39.6,64.9,20.4,30.8
+2023,Database administrator,6–10,51,51,20,24,39.2,47.1,86.3,27.0,52.9
+2023,Data scientist or machine learning specialist,21+,174,174,84,74,48.3,42.5,90.8,41.0,55.7
+2023,Developer Advocate,6–10,34,34,19,13,55.9,38.2,94.1,39.5,71.1
+2023,"Engineer, data",Não informado,6,6,3,3,50.0,50.0,100.0,18.8,81.2
+2024,Developer Experience,21+,49,49,34,13,69.4,26.5,95.9,55.5,80.5
+2024,Security professional,11–20,108,108,56,40,51.9,37.0,88.9,42.5,61.0
+2024,Hardware Engineer,Não informado,1,1,0,1,0.0,100.0,100.0,0.0,79.3
+2024,"Engineer, site reliability",3–5,23,23,6,8,26.1,34.8,60.9,12.5,46.5
+2024,"Engineer, site reliability",0–2,2,2,0,1,0.0,50.0,50.0,0.0,65.8
+2024,"Engineer, site reliability",Não informado,2,2,0,2,0.0,100.0,100.0,0.0,65.8
+2024,Designer,6–10,33,33,14,13,42.4,39.4,81.8,27.2,59.2
+2024,DevOps specialist,Não informado,4,4,1,3,25.0,75.0,100.0,4.6,69.9
+2025,"Developer, desktop or enterprise applications",11–20,465,407,117,204,28.7,50.1,78.9,24.6,33.3
+2025,"Developer, AI apps or physical AI",21+,35,30,17,10,56.7,33.3,90.0,39.2,72.6
+2025,Project manager,11–20,77,73,14,38,19.2,52.1,71.2,11.8,29.7
+2025,Engineering manager,3–5,8,8,4,2,50.0,25.0,75.0,21.5,78.5
+2025,"Developer, front-end",0–2,37,33,13,7,39.4,21.2,60.6,24.7,56.3
+2022,"Engineer, data",0–2,57,57,26,25,45.6,43.9,89.5,33.4,58.4
+2022,DevOps specialist,3–5,79,79,34,36,43.0,45.6,88.6,32.7,54.0
+2022,Scientist,11–20,38,38,6,25,15.8,65.8,81.6,7.4,30.4
+2022,Project manager,0–2,22,22,7,8,31.8,36.4,68.2,16.4,52.7
+2023,Security professional,21+,115,115,58,42,50.4,36.5,87.0,41.4,59.4
+2023,Research & Development role,21+,514,514,185,245,36.0,47.7,83.7,32.0,40.2
+2023,Student,3–5,411,411,116,156,28.2,38.0,66.2,24.1,32.8
+2023,Other (please specify):,11–20,802,802,282,382,35.2,47.6,82.8,31.9,38.5
+2023,Engineering manager,11–20,947,947,355,491,37.5,51.8,89.3,34.5,40.6
+2023,Other (please specify):,Não informado,16,16,7,5,43.8,31.3,75.0,23.1,66.8
+2023,"Developer, front-end",0–2,313,313,120,97,38.3,31.0,69.3,33.1,43.8
+2023,Blockchain,21+,49,49,41,6,83.7,12.2,95.9,71.0,91.5
+2023,"Developer, mobile",0–2,71,71,18,24,25.4,33.8,59.2,16.7,36.6
+2023,DevOps specialist,Não informado,8,8,2,4,25.0,50.0,75.0,7.1,59.1
+2023,Developer Experience,0–2,6,6,1,2,16.7,33.3,50.0,3.0,56.4
+2023,System administrator,Não informado,6,6,2,1,33.3,16.7,50.0,9.7,70.0
+2023,Marketing or sales professional,Não informado,1,1,0,0,0.0,0.0,0.0,0.0,79.3
+2024,DevOps specialist,6–10,279,279,94,144,33.7,51.6,85.3,28.4,39.4
+2024,Student,21+,5,5,3,1,60.0,20.0,80.0,23.1,88.2
+2024,Designer,Não informado,1,1,0,0,0.0,0.0,0.0,0.0,79.3
+2025,DevOps engineer or professional,6–10,229,198,64,104,32.3,52.5,84.8,26.2,39.1
+2025,"Developer, mobile",3–5,113,101,34,26,33.7,25.7,59.4,25.2,43.3
+2025,Student,21+,4,4,2,1,50.0,25.0,75.0,15.0,85.0
+2022,"Engineer, data",11–20,621,621,271,298,43.6,48.0,91.6,39.8,47.6
+2022,"Developer, front-end",0–2,748,748,307,253,41.0,33.8,74.9,37.6,44.6
+2022,Product manager,21+,50,50,21,25,42.0,50.0,92.0,29.4,55.8
+2022,Security professional,0–2,9,9,6,0,66.7,0.0,66.7,35.4,87.9
+2022,Blockchain,11–20,10,10,8,0,80.0,0.0,80.0,49.0,94.3
+2022,Data scientist or machine learning specialist,Não informado,19,19,9,6,47.4,31.6,78.9,27.3,68.3
+2022,Blockchain,0–2,7,7,4,2,57.1,28.6,85.7,25.0,84.2
+2023,"Developer, full-stack",6–10,7353,7353,2918,3232,39.7,44.0,83.6,38.6,40.8
+2023,"Developer, QA or test",21+,83,83,32,42,38.6,50.6,89.2,28.8,49.3
+2023,Other (please specify):,21+,944,944,407,381,43.1,40.4,83.5,40.0,46.3
+2023,"Developer, game or graphics",0–2,15,15,5,3,33.3,20.0,53.3,15.2,58.3
+2024,Cloud infrastructure engineer,6–10,161,161,73,72,45.3,44.7,90.1,37.8,53.1
+2024,Other (please specify):,21+,626,626,241,266,38.5,42.5,81.0,34.8,42.4
+2024,DevOps specialist,21+,221,221,93,117,42.1,52.9,95.0,35.8,48.7
+2024,Project manager,Não informado,4,4,1,3,25.0,75.0,100.0,4.6,69.9
+2024,Developer Advocate,11–20,33,33,19,11,57.6,33.3,90.9,40.8,72.8
+2024,Product manager,0–2,7,7,1,3,14.3,42.9,57.1,2.6,51.3
+2024,"Developer, game or graphics",Não informado,1,1,1,0,100.0,0.0,100.0,20.7,100.0
+2025,"Developer, back-end",6–10,1335,1183,437,507,36.9,42.9,79.8,34.2,39.7
+2025,Academic researcher,6–10,162,128,14,78,10.9,60.9,71.9,6.6,17.5
+2025,DevOps engineer or professional,21+,264,221,92,115,41.6,52.0,93.7,35.3,48.2
+2025,"Developer, game or graphics",Não informado,4,3,1,1,33.3,33.3,66.7,6.1,79.2
+2025,Financial analyst or engineer,3–5,16,16,0,7,0.0,43.8,43.8,0.0,19.4
+2025,"Developer, embedded applications or devices",0–2,3,2,0,1,0.0,50.0,50.0,0.0,65.8
+2022,"Developer, full-stack",21+,3064,3064,1606,1182,52.4,38.6,91.0,50.6,54.2
+2022,"Developer, embedded applications or devices",0–2,4,4,1,2,25.0,50.0,75.0,4.6,69.9
+2023,"Senior Executive (C-Suite, VP, etc.)",6–10,119,119,38,57,31.9,47.9,79.8,24.2,40.8
+2023,Marketing or sales professional,6–10,24,24,9,7,37.5,29.2,66.7,21.2,57.3
+2024,Other (please specify):,6–10,366,366,97,142,26.5,38.8,65.3,22.2,31.3
+2024,Student,6–10,311,311,75,127,24.1,40.8,65.0,19.7,29.2
+2024,"Developer, game or graphics",21+,95,95,53,31,55.8,32.6,88.4,45.8,65.4
+2024,"Developer, QA or test",6–10,173,173,82,75,47.4,43.4,90.8,40.1,54.8
+2024,Hardware Engineer,21+,44,44,4,21,9.1,47.7,56.8,3.6,21.2
+2024,Product manager,3–5,14,14,2,9,14.3,64.3,78.6,4.0,39.9
+2025,"Developer, mobile",11–20,416,367,174,138,47.4,37.6,85.0,42.4,52.5
+2025,"Developer, back-end",Não informado,67,62,23,26,37.1,41.9,79.0,26.2,49.5
+2025,Other (please specify):,3–5,136,124,27,27,21.8,21.8,43.5,15.4,29.8
+2025,System administrator,3–5,48,44,4,12,9.1,27.3,36.4,3.6,21.2
+2025,"Senior executive (C-suite, VP, etc.)",3–5,7,5,0,1,0.0,20.0,20.0,0.0,43.4
+2025,Applied scientist,Não informado,2,2,1,0,50.0,0.0,50.0,9.5,90.5
+2025,"Senior executive (C-suite, VP, etc.)",0–2,2,2,1,1,50.0,50.0,100.0,9.5,90.5
+2022,Student,3–5,327,327,105,125,32.1,38.2,70.3,27.3,37.4
+2022,"Developer, front-end",3–5,2443,2443,974,966,39.9,39.5,79.4,37.9,41.8
+2022,Marketing or sales professional,11–20,12,12,4,6,33.3,50.0,83.3,13.8,60.9
+2022,"Developer, game or graphics",21+,38,38,25,10,65.8,26.3,92.1,49.9,78.8
+2022,Database administrator,3–5,36,36,10,15,27.8,41.7,69.4,15.8,44.0
+2022,System administrator,0–2,33,33,11,10,33.3,30.3,63.6,19.8,50.4
+2023,"Developer, game or graphics",11–20,313,313,170,94,54.3,30.0,84.3,48.8,59.7
+2023,"Developer, full-stack",Não informado,72,72,32,25,44.4,34.7,79.2,33.5,55.9
+2023,"Engineer, site reliability",6–10,112,112,56,42,50.0,37.5,87.5,40.9,59.1
+2024,DevOps specialist,11–20,354,354,147,181,41.5,51.1,92.7,36.5,46.7
+2024,Scientist,21+,85,85,17,47,20.0,55.3,75.3,12.9,29.7
+2024,Educator,11–20,80,80,11,26,13.8,32.5,46.3,7.9,23.0
+2024,Designer,3–5,22,22,9,7,40.9,31.8,72.7,23.3,61.3
+2024,Developer Experience,6–10,49,49,19,21,38.8,42.9,81.6,26.4,52.8
+2024,"Developer, game or graphics",0–2,14,14,6,3,42.9,21.4,64.3,21.4,67.4
+2024,"Developer, AI",Não informado,4,4,1,2,25.0,50.0,75.0,4.6,69.9
+2024,Academic researcher,Não informado,4,4,2,1,50.0,25.0,75.0,15.0,85.0
+2025,"Developer, back-end",11–20,2058,1790,869,746,48.5,41.7,90.2,46.2,50.9
+2025,"Developer, desktop or enterprise applications",21+,671,596,202,269,33.9,45.1,79.0,30.2,37.8
+2025,"Developer, front-end",6–10,465,425,187,157,44.0,36.9,80.9,39.4,48.8
+2025,Cloud infrastructure engineer,11–20,156,132,66,57,50.0,43.2,93.2,41.6,58.4
+2025,Support engineer or analyst,3–5,28,27,7,14,25.9,51.9,77.8,13.2,44.7
+2025,AI/ML engineer,Não informado,7,7,4,1,57.1,14.3,71.4,25.0,84.2
+2025,"Developer, QA or test",Não informado,6,6,5,0,83.3,0.0,83.3,43.6,97.0
+2025,System administrator,Não informado,8,8,0,3,0.0,37.5,37.5,0.0,32.4
+2025,"Developer, game or graphics",0–2,2,2,0,0,0.0,0.0,0.0,0.0,65.8
+2022,"Developer, mobile",3–5,313,313,106,111,33.9,35.5,69.3,28.8,39.3
+2022,Other (please specify):,21+,285,285,127,109,44.6,38.2,82.8,38.9,50.4
+2022,"Developer, embedded applications or devices",6–10,200,200,24,113,12.0,56.5,68.5,8.2,17.2
+2022,Cloud infrastructure engineer,11–20,57,57,31,25,54.4,43.9,98.2,41.6,66.6
+2022,"Developer, mobile",Não informado,9,9,4,4,44.4,44.4,88.9,18.9,73.3
+2022,Project manager,3–5,21,21,5,9,23.8,42.9,66.7,10.6,45.1
+2022,"Developer, QA or test",Não informado,2,2,0,2,0.0,100.0,100.0,0.0,65.8
+2022,Cloud infrastructure engineer,0–2,11,11,5,4,45.5,36.4,81.8,21.3,72.0
+2022,Educator,Não informado,1,1,0,1,0.0,100.0,100.0,0.0,79.3
+2023,"Developer, QA or test",3–5,104,104,37,49,35.6,47.1,82.7,27.0,45.1
+2023,"Developer, desktop or enterprise applications",21+,1713,1713,657,717,38.4,41.9,80.2,36.1,40.7
+2023,"Engineer, data",21+,223,223,110,87,49.3,39.0,88.3,42.8,55.8
+2023,"Developer, game or graphics",21+,178,178,113,43,63.5,24.2,87.6,56.2,70.2
+2023,Designer,6–10,46,46,17,15,37.0,32.6,69.6,24.5,51.4
+2023,Designer,0–2,27,27,9,9,33.3,33.3,66.7,18.6,52.2
+2023,Security professional,0–2,17,17,5,7,29.4,41.2,70.6,13.3,53.1
+2024,Engineering manager,Não informado,2,2,2,0,100.0,0.0,100.0,34.2,100.0
+2024,Database administrator,11–20,37,37,11,17,29.7,45.9,75.7,17.5,45.8
+2024,"Developer, game or graphics",3–5,65,65,32,21,49.2,32.3,81.5,37.5,61.1
+2024,Developer Experience,Não informado,2,2,1,0,50.0,0.0,50.0,9.5,90.5
+2025,"Developer, embedded applications or devices",6–10,281,262,30,124,11.5,47.3,58.8,8.1,15.9
+2025,"Developer, full-stack",21+,2589,2240,1057,909,47.2,40.6,87.8,45.1,49.3
+2025,"Developer, full-stack",3–5,1023,935,251,355,26.8,38.0,64.8,24.1,29.8
+2025,Data scientist,11–20,170,148,47,81,31.8,54.7,86.5,24.8,39.6
+2025,"Developer, QA or test",11–20,90,80,30,42,37.5,52.5,90.0,27.7,48.5
+2025,Support engineer or analyst,6–10,64,53,11,21,20.8,39.6,60.4,12.0,33.5
+2025,Project manager,0–2,22,17,9,5,52.9,29.4,82.4,31.0,73.8
+2025,"UX, Research Ops or UI design professional",3–5,14,11,5,2,45.5,18.2,63.6,21.3,72.0
+2022,Marketing or sales professional,0–2,22,22,8,8,36.4,36.4,72.7,19.7,57.0
+2022,System administrator,11–20,32,32,7,14,21.9,43.8,65.6,11.0,38.8
+2022,Security professional,21+,24,24,14,9,58.3,37.5,95.8,38.8,75.5
+2022,Blockchain,3–5,11,11,7,3,63.6,27.3,90.9,35.4,84.8
+2022,Designer,3–5,15,15,7,4,46.7,26.7,73.3,24.8,69.9
+2022,Scientist,3–5,11,11,1,4,9.1,36.4,45.5,1.6,37.7
+2022,"Developer, desktop or enterprise applications",Não informado,9,9,4,3,44.4,33.3,77.8,18.9,73.3
+2023,"Developer, back-end",21+,2918,2918,1586,1135,54.4,38.9,93.2,52.5,56.2
+2023,Marketing or sales professional,0–2,35,35,11,16,31.4,45.7,77.1,18.6,48.0
+2024,"Engineer, site reliability",21+,87,87,43,37,49.4,42.5,92.0,39.2,59.7
+2024,Security professional,6–10,83,83,25,45,30.1,54.2,84.3,21.3,40.7
+2024,Project manager,3–5,43,43,11,16,25.6,37.2,62.8,14.9,40.2
+2024,Database administrator,3–5,17,17,6,6,35.3,35.3,70.6,17.3,58.7
+2025,"Developer, game or graphics",11–20,123,104,46,42,44.2,40.4,84.6,35.1,53.8
+2025,AI/ML engineer,21+,90,80,32,39,40.0,48.8,88.8,30.0,51.0
+2025,Database administrator or engineer,6–10,29,22,6,10,27.3,45.5,72.7,13.2,48.2
+2025,"Developer, mobile",Não informado,26,23,4,9,17.4,39.1,56.5,7.0,37.1
+2025,Data or business analyst,Não informado,5,5,1,1,20.0,20.0,40.0,3.6,62.4
+2025,Financial analyst or engineer,Não informado,1,1,0,0,0.0,0.0,0.0,0.0,79.3
+2022,"Developer, front-end",21+,2715,2715,1358,1047,50.0,38.6,88.6,48.1,51.9
+2022,"Developer, back-end",Não informado,25,25,9,14,36.0,56.0,92.0,20.2,55.5
+2022,"Engineer, site reliability",21+,296,296,179,103,60.5,34.8,95.3,54.8,65.9
+2022,Project manager,6–10,34,34,15,15,44.1,44.1,88.2,28.9,60.5
+2023,"Developer, game or graphics",6–10,208,208,102,61,49.0,29.3,78.4,42.3,55.8
+2023,"Developer, back-end",Não informado,43,43,16,16,37.2,37.2,74.4,24.4,52.1
+2023,Educator,11–20,99,99,20,34,20.2,34.3,54.5,13.5,29.2
+2023,Scientist,0–2,8,8,1,2,12.5,25.0,37.5,2.2,47.1
+2023,Developer Advocate,3–5,16,16,8,5,50.0,31.3,81.3,28.0,72.0
+2024,"Developer, back-end",11–20,3224,3224,1557,1329,48.3,41.2,89.5,46.6,50.0
+2024,"Developer, back-end",6–10,2690,2690,1066,1156,39.6,43.0,82.6,37.8,41.5
+2024,Engineering manager,6–10,130,130,42,62,32.3,47.7,80.0,24.9,40.8
+2024,"Developer, desktop or enterprise applications",3–5,202,202,53,75,26.2,37.1,63.4,20.7,32.7
+2024,Database administrator,6–10,29,29,5,11,17.2,37.9,55.2,7.6,34.5
+2024,Research & Development role,0–2,13,13,1,6,7.7,46.2,53.8,1.4,33.3
+2024,Engineering manager,0–2,3,3,1,0,33.3,0.0,33.3,6.1,79.2
+2025,"Senior executive (C-suite, VP, etc.)",21+,260,228,93,103,40.8,45.2,86.0,34.6,47.3
+2025,"Developer, embedded applications or devices",11–20,380,329,50,184,15.2,55.9,71.1,11.7,19.5
+2025,"Developer, desktop or enterprise applications",3–5,89,80,14,41,17.5,51.2,68.8,10.7,27.3
+2025,Cybersecurity or InfoSec professional,0–2,7,7,3,2,42.9,28.6,71.4,15.8,75.0
+2025,"Developer, desktop or enterprise applications",0–2,17,16,2,4,12.5,25.0,37.5,3.5,36.0
+2025,"Senior executive (C-suite, VP, etc.)",6–10,33,29,9,13,31.0,44.8,75.9,17.3,49.2
+2025,Product manager,Não informado,5,5,3,1,60.0,20.0,80.0,23.1,88.2
+2025,"Founder, technology or otherwise",3–5,16,13,5,5,38.5,38.5,76.9,17.7,64.5
+2025,Data or business analyst,0–2,22,20,3,5,15.0,25.0,40.0,5.2,36.0
+2022,"Engineer, data",3–5,268,268,108,117,40.3,43.7,84.0,34.6,46.3
+2022,"Engineer, data",21+,453,453,230,179,50.8,39.5,90.3,46.2,55.4
+2022,"Engineer, site reliability",3–5,113,113,42,54,37.2,47.8,85.0,28.8,46.4
+2022,Academic researcher,0–2,27,27,11,10,40.7,37.0,77.8,24.5,59.3
+2022,Blockchain,6–10,9,9,5,3,55.6,33.3,88.9,26.7,81.1
+2022,Scientist,0–2,4,4,1,1,25.0,25.0,50.0,4.6,69.9
+2022,"Engineer, site reliability",Não informado,2,2,0,1,0.0,50.0,50.0,0.0,65.8
+2023,"Developer, game or graphics",3–5,80,80,38,19,47.5,23.8,71.3,36.9,58.3
+2023,"Developer, desktop or enterprise applications",0–2,53,53,10,17,18.9,32.1,50.9,10.6,31.4
+2023,Educator,0–2,23,23,5,7,21.7,30.4,52.2,9.7,41.9
+2023,Hardware Engineer,0–2,11,11,0,3,0.0,27.3,27.3,0.0,25.9
+2023,Developer Experience,6–10,70,70,35,27,50.0,38.6,88.6,38.6,61.4
+2024,Project manager,11–20,125,125,32,65,25.6,52.0,77.6,18.8,33.9
+2024,Academic researcher,21+,201,201,19,120,9.5,59.7,69.2,6.1,14.3
+2024,Data or business analyst,11–20,106,106,27,57,25.5,53.8,79.2,18.1,34.5
+2024,Product manager,21+,114,114,45,47,39.5,41.2,80.7,31.0,48.6
+2024,"Developer, embedded applications or devices",3–5,111,111,8,38,7.2,34.2,41.4,3.7,13.6
+2024,Hardware Engineer,0–2,8,8,1,1,12.5,12.5,25.0,2.2,47.1
+2025,"Developer, back-end",3–5,455,416,149,138,35.8,33.2,69.0,31.4,40.5
+2025,Cybersecurity or InfoSec professional,11–20,110,89,34,38,38.2,42.7,80.9,28.8,48.6
+2025,Product manager,11–20,49,43,16,22,37.2,51.2,88.4,24.4,52.1
+2025,Project manager,6–10,34,29,6,15,20.7,51.7,72.4,9.8,38.4
+2025,"Developer, QA or test",3–5,49,47,21,10,44.7,21.3,66.0,31.4,58.8
+2025,Applied scientist,0–2,4,4,0,2,0.0,50.0,50.0,0.0,49.0

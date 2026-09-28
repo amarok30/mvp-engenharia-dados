@@ -1,0 +1,457 @@
+{
+  "run_id": 393674333656157,
+  "job_id": 396676034535354,
+  "commit": "33625e960a49b761e80ab6408bed5f0319f3d15d",
+  "inicio": 1790534279453,
+  "fim": 1790535081057,
+  "versoes_tabelas": {
+    "mafia_office.gold.analise_q1d_modelo_logistico": {
+      "versao": "155",
+      "atualizada_em": "2026-09-27T18:49:01.000Z"
+    },
+    "mafia_office.gold.dim_arranjo_trabalho": {
+      "versao": "73",
+      "atualizada_em": "2026-09-27T18:48:31.000Z"
+    },
+    "mafia_office.gold.dim_atividade_economica": {
+      "versao": "95",
+      "atualizada_em": "2026-09-27T18:48:51.000Z"
+    },
+    "mafia_office.gold.dim_geografia": {
+      "versao": "106",
+      "atualizada_em": "2026-09-27T18:48:26.000Z"
+    },
+    "mafia_office.gold.dim_modalidade_ibge": {
+      "versao": "84",
+      "atualizada_em": "2026-09-27T18:48:44.000Z"
+    },
+    "mafia_office.gold.dim_perfil_dev": {
+      "versao": "62",
+      "atualizada_em": "2026-09-27T18:48:39.000Z"
+    },
+    "mafia_office.gold.dim_periodo": {
+      "versao": "84",
+      "atualizada_em": "2026-09-27T18:48:19.000Z"
+    },
+    "mafia_office.gold.dim_porte_empresa": {
+      "versao": "84",
+      "atualizada_em": "2026-09-27T18:48:36.000Z"
+    },
+    "mafia_office.gold.fato_ocupacao_uf_atividade": {
+      "versao": "69",
+      "atualizada_em": "2026-09-27T18:49:31.000Z"
+    },
+    "mafia_office.gold.fato_resposta_pesquisa": {
+      "versao": "181",
+      "atualizada_em": "2026-09-27T18:49:15.000Z"
+    },
+    "mafia_office.gold.fato_teletrabalho_uf": {
+      "versao": "135",
+      "atualizada_em": "2026-09-27T18:49:27.000Z"
+    },
+    "mafia_office.gold.qualidade_por_atributo": {
+      "versao": "90",
+      "atualizada_em": "2026-09-27T18:50:04.000Z"
+    },
+    "mafia_office.gold.verificacoes_qualidade": {
+      "versao": "161",
+      "atualizada_em": "2026-09-27T18:49:41.000Z"
+    },
+    "mafia_office.gold.verificacoes_qualidade_historico": {
+      "versao": "91",
+      "atualizada_em": "2026-09-27T18:49:50.000Z"
+    },
+    "mafia_office.silver.ibge_ocupados_uf_atividade": {
+      "versao": "243",
+      "atualizada_em": "2026-09-27T18:48:11.000Z"
+    },
+    "mafia_office.silver.ibge_teletrabalho_uf": {
+      "versao": "356",
+      "atualizada_em": "2026-09-27T18:47:59.000Z"
+    },
+    "mafia_office.silver.so_de_para_arranjo": {
+      "versao": "97",
+      "atualizada_em": "2026-09-27T18:47:26.000Z"
+    },
+    "mafia_office.silver.so_metadados_pergunta": {
+      "versao": "141",
+      "atualizada_em": "2026-09-27T18:47:33.000Z"
+    },
+    "mafia_office.silver.so_respondente": {
+      "versao": "458",
+      "atualizada_em": "2026-09-27T18:47:19.000Z"
+    }
+  },
+  "arquivos": {
+    "analise_q1d_modelo_logistico": {
+      "linhas": 14,
+      "sha256": "0444463c736a466c943a05461067b91ca4e14aa4b89b2395402d64266d3ee2cf",
+      "sha256_exportacao_original": "c114f049d2970be383f02a9ba91cd11c20e03c9c32333788922c89589e161156",
+      "caminho": "evidencias/views/analise_q1d_modelo_logistico.csv"
+    },
+    "vw_q1_evolucao_arranjo": {
+      "linhas": 26,
+      "sha256": "7ceb42bc298ff9d90465c4fff9df53aaa9c0cd030ea0f6e41a4fe8757bfc022b",
+      "sha256_exportacao_original": "114e83c9b1da1cea24b69606f51688b7ca700041fa706362d52a7aa2680aa8a4",
+      "caminho": "evidencias/views/vw_q1_evolucao_arranjo.csv"
+    },
+    "vw_q1_remoto_por_vinculo": {
+      "linhas": 24,
+      "sha256": "a1be4111362d95aa27ee4baea09760a9cdb86b4a12b4b563e973fa7170dee675",
+      "sha256_exportacao_original": "53c988f32432298497d2fc477ad3ae83c2bb8e04efbe33819bb8f38eefbe1a3d",
+      "caminho": "evidencias/views/vw_q1_remoto_por_vinculo.csv"
+    },
+    "vw_q2_arranjo_por_porte": {
+      "linhas": 117,
+      "sha256": "71e72f64749495d4950752ba66ea2ee8cee9c634ee9b2d2615c95b92d2be870f",
+      "sha256_exportacao_original": "a37b2716496b13c567b78fd55bc942c2e48867cb8cd0c3b8b08d3105f6b9aed1",
+      "caminho": "evidencias/views/vw_q2_arranjo_por_porte.csv"
+    },
+    "vw_q3_brasil_x_resto_mundo": {
+      "linhas": 26,
+      "sha256": "b3aa2e84ced51c945fe7b4f6ee22697086179187fd31ca6e1718e7b29a5c6740",
+      "sha256_exportacao_original": "d5f8b33906419cf9c8e9d6339a439c8dfb82322c510b8c34502a5653608f6ee4",
+      "caminho": "evidencias/views/vw_q3_brasil_x_resto_mundo.csv"
+    },
+    "vw_q4_perfil_remoto": {
+      "linhas": 760,
+      "sha256": "6a62fae2caf3ef45ac2d661555b8566eb57e92b9bf3170e5454e884636016f40",
+      "sha256_exportacao_original": "fdf8946d443a558c6f5d148fbbcedfc4b51ef9d40ce5a5a0302c82ccc53a7ba5",
+      "caminho": "evidencias/views/vw_q4_perfil_remoto.csv"
+    },
+    "vw_q5_arranjo_satisfacao": {
+      "linhas": 7,
+      "sha256": "35edf5946cb7f815ddfcdc527b129ef930a53436f0687a81b4b582b40fdc67b0",
+      "sha256_exportacao_original": "6b00286221507302cb28ba95e9b3e3ed8c9f9e1c29a0e77af937745e7db17cc4",
+      "caminho": "evidencias/views/vw_q5_arranjo_satisfacao.csv"
+    },
+    "vw_q6_teletrabalho_uf": {
+      "linhas": 114,
+      "sha256": "04d188ccc8b9af341967f2472e3e771617b7398dc971c96fea779899de96ed9d",
+      "sha256_exportacao_original": "b093cd76b5b28d9da2cccdaab1d1303fa59d769e06e3402d28216c24bd972b48",
+      "caminho": "evidencias/views/vw_q6_teletrabalho_uf.csv"
+    },
+    "vw_q7_ocupacao_proxy_tecnologia_uf": {
+      "linhas": 1566,
+      "sha256": "44b2bcddf6d9b984a7da0dd22657e5eddaed7cc19b4da4e1038f119b088a4a80",
+      "sha256_exportacao_original": "c575182957c64af24c2e00fe46896fa14eac63ff11583e2ae403120290d5c07e",
+      "caminho": "evidencias/views/vw_q7_ocupacao_proxy_tecnologia_uf.csv"
+    },
+    "vw_q8_mercado_brasil": {
+      "linhas": 59,
+      "sha256": "95ed7bef28efb82ae5164b529d42e49807a419c330571be27b962f0154258b28",
+      "sha256_exportacao_original": "5e343ef31fd707f157d32036b67fa8c30b713a01d644a7817885664f56d8d276",
+      "caminho": "evidencias/views/vw_q8_mercado_brasil.csv"
+    },
+    "verificacoes-qualidade": {
+      "linhas": 32,
+      "sha256": "36a02807b1b5cb01957322853d81dab0b7897897cbe5ff078a9673229d732295",
+      "sha256_exportacao_original": "b7e343f74e96d5dca1393010b3f0d8633e9ca07d68dbfc2b927e37fd7912a155",
+      "caminho": "evidencias/verificacoes-qualidade.csv"
+    },
+    "historico-execucao": {
+      "linhas": 32,
+      "sha256": "e3c244c3640c56793d8dd2521d7e89416b85cf83ff63a85e47e10f5e7769bfcc",
+      "sha256_exportacao_original": "229c0f1456e18bc9df2ded45a17078819fb7de183a69748f5c7180b83dd3946a",
+      "caminho": "evidencias/historico-execucao.csv"
+    },
+    "cobertura-catalogo": {
+      "linhas": 3,
+      "sha256": "139170a56e9b74ebda1b76c61179596fd48c86eb901ab4972fbdf91228b39417",
+      "sha256_exportacao_original": "9317d90b9705647daf483c79545ae3a8fb53073306e03f841e4154a8902555dc",
+      "caminho": "evidencias/cobertura-catalogo.csv"
+    },
+    "cobertura-colunas": {
+      "linhas": 3,
+      "sha256": "5a8ef00270c1a6700879228608a7a1d937acf1c2df4aff3eaf4fac081ea94827",
+      "sha256_exportacao_original": "dc652ed7cdd42e552f0bdb2c544c6b3b98e44ecac24cc444db54cf47b936fc32",
+      "caminho": "evidencias/cobertura-colunas.csv"
+    },
+    "linhagem-unity-catalog": {
+      "linhas": 80,
+      "sha256": "bb88c0d4dafa25ae23beb1b8da6dc2ef81b4c9c6c2948eb055d7b40c5439588e",
+      "sha256_exportacao_original": "8f108088f53cac2851d7621621ab2a0a0f8a0f750ca700881477464f2f583e90",
+      "caminho": "evidencias/linhagem-unity-catalog.csv"
+    },
+    "linhagem-colunas-unity-catalog": {
+      "linhas": 450,
+      "sha256": "f2ed14ca45a4588a18012b8896c72bb683e0815e8b6e10521208df94a02d0586",
+      "sha256_exportacao_original": "3e3386b0b0d4b48682f9b8e65f98a5c5f7eb80a1817316ff1e82178bc1ebc5d9",
+      "caminho": "evidencias/linhagem-colunas-unity-catalog.csv"
+    }
+  },
+  "linhagem_extraida_em": "2026-09-27T18:57:28.887588+00:00",
+  "url_execucao": "https://dbc-90a65ce2-7728.cloud.databricks.com/?o=7474658598244241#job/396676034535354/run/393674333656157",
+  "estado": "SUCCESS",
+  "documentos_exportados": {
+    "catalogo-de-dados.md": {
+      "name": "catalogo-de-dados.md",
+      "is_directory": false,
+      "size": 82532,
+      "last_modified": "2026-09-27T15:51:16-03:00",
+      "sha256": "fae9b5a376e14e466d73571640a80354be2ba85c4c281bbfde6e615692878c83"
+    },
+    "catalogo-bronze.md": {
+      "name": "catalogo-bronze.md",
+      "is_directory": false,
+      "size": 374801,
+      "last_modified": "2026-09-27T15:51:16-03:00",
+      "sha256": "fc38de8468ebd5a95201c63701a0f869202c808d4315208cd474a53202075898"
+    },
+    "qualidade-por-atributo.md": {
+      "name": "qualidade-por-atributo.md",
+      "is_directory": false,
+      "size": 214563,
+      "last_modified": "2026-09-27T15:51:17-03:00",
+      "sha256": "24dbd7617674109d9fc63faadc16aaff2bad71323ce6e846a7032678caea8107"
+    },
+    "dominios-captura.json": {
+      "name": "dominios-captura.json",
+      "is_directory": false,
+      "size": 1717905,
+      "last_modified": "2026-09-27T15:43:37-03:00",
+      "sha256": "3d975e46ce5dd93120d9ee5bef5e236deef261bb2da797850ff4bf1bfa9141f3"
+    },
+    "06_gold_dimensoes.html": {
+      "sha256": "44757181ad1ab80573d3e3428d8ad4f0a76e05cbf6998780d4580e61c7185da8"
+    },
+    "08_analise_perguntas.html": {
+      "sha256": "c0f303444e49743ccf7a952c17fe6ae4bdf372dd00536cc5ca7dc91a9445eba2"
+    },
+    "01_bronze_stackoverflow.html": {
+      "sha256": "480d6cc38cdebc369bb5318d4be243ab9c461acae8a0295d72274f75d211835e"
+    },
+    "00_setup_catalogo.html": {
+      "sha256": "e3c991265bf6a61a8cd81708960bd86e9ee6c332faf7dfd4d552499204d5b606"
+    },
+    "07_gold_fatos.html": {
+      "sha256": "463fe21c501ad8bb7392a8a840ca7665cb69ae10638e179cc542c10d5a30acf2"
+    },
+    "02_bronze_ibge.html": {
+      "sha256": "b7e01ff270224e6bd6a0817bca05de5dd9a56324ada511a8b835b4fefa6c7e45"
+    },
+    "04_silver_ibge.html": {
+      "sha256": "9f6cb9be05b0e47ec9b17684062ac4ac5e2fb9541fdbdeb0bdb016a375c2fc81"
+    },
+    "10_gerar_catalogo_markdown.html": {
+      "sha256": "dc36cdb7a148c449fd7296a5d379b94cc86978f3bbc7ab0825c298026b530d86"
+    },
+    "03_silver_stackoverflow.html": {
+      "sha256": "f5b8ba6844e99d24e78ea255849e9016713c8e5ae149a969bbaf7f5a8e65d8f9"
+    },
+    "05b_qualidade_por_atributo.html": {
+      "sha256": "de73a35c5a417db5004af4ff962ae429567602f82e1c6753cd66198d41ab7517"
+    },
+    "05_qualidade_dados.html": {
+      "sha256": "42796aa2623da84909169416266bdcf5672faff9e3cc55d01ac2b7dba9e494c2"
+    },
+    "09_catalogo_comentarios.html": {
+      "sha256": "931182f584268148d797d9b4fc0946ec15dcf2f172b8f294ce0e6c1e0c796d93"
+    },
+    "08b_analise_modelo.html": {
+      "sha256": "f415de6385124cf09c7a932bd3d81af1d68cd4fd705effca46021a2f9b499e0a"
+    }
+  },
+  "tarefas": [
+    {
+      "nome": "00_setup_catalogo",
+      "run_id": 636943501234152,
+      "resultado": "SUCCESS",
+      "commit": "33625e960a49b761e80ab6408bed5f0319f3d15d"
+    },
+    {
+      "nome": "01_bronze_stackoverflow",
+      "run_id": 714169381216826,
+      "resultado": "SUCCESS",
+      "commit": "33625e960a49b761e80ab6408bed5f0319f3d15d"
+    },
+    {
+      "nome": "02_bronze_ibge",
+      "run_id": 323571210396773,
+      "resultado": "SUCCESS",
+      "commit": "33625e960a49b761e80ab6408bed5f0319f3d15d"
+    },
+    {
+      "nome": "03_silver_stackoverflow",
+      "run_id": 154726110313087,
+      "resultado": "SUCCESS",
+      "commit": "33625e960a49b761e80ab6408bed5f0319f3d15d"
+    },
+    {
+      "nome": "04_silver_ibge",
+      "run_id": 740368691660790,
+      "resultado": "SUCCESS",
+      "commit": "33625e960a49b761e80ab6408bed5f0319f3d15d"
+    },
+    {
+      "nome": "05_qualidade_dados",
+      "run_id": 837666185498047,
+      "resultado": "SUCCESS",
+      "commit": "33625e960a49b761e80ab6408bed5f0319f3d15d"
+    },
+    {
+      "nome": "05b_qualidade_por_atributo",
+      "run_id": 295495326594805,
+      "resultado": "SUCCESS",
+      "commit": "33625e960a49b761e80ab6408bed5f0319f3d15d"
+    },
+    {
+      "nome": "06_gold_dimensoes",
+      "run_id": 937430268141853,
+      "resultado": "SUCCESS",
+      "commit": "33625e960a49b761e80ab6408bed5f0319f3d15d"
+    },
+    {
+      "nome": "07_gold_fatos",
+      "run_id": 60105644822838,
+      "resultado": "SUCCESS",
+      "commit": "33625e960a49b761e80ab6408bed5f0319f3d15d"
+    },
+    {
+      "nome": "08_analise_perguntas",
+      "run_id": 758429974893337,
+      "resultado": "SUCCESS",
+      "commit": "33625e960a49b761e80ab6408bed5f0319f3d15d"
+    },
+    {
+      "nome": "08b_analise_modelo",
+      "run_id": 660105999098019,
+      "resultado": "SUCCESS",
+      "commit": "33625e960a49b761e80ab6408bed5f0319f3d15d"
+    },
+    {
+      "nome": "09_catalogo_comentarios",
+      "run_id": 223713549713305,
+      "resultado": "SUCCESS",
+      "commit": "33625e960a49b761e80ab6408bed5f0319f3d15d"
+    },
+    {
+      "nome": "10_gerar_catalogo_markdown",
+      "run_id": 953189004392772,
+      "resultado": "SUCCESS",
+      "commit": "33625e960a49b761e80ab6408bed5f0319f3d15d"
+    }
+  ],
+  "testes_locais": {
+    "aprovados": 35,
+    "commit_testes": "33625e960a49b761e80ab6408bed5f0319f3d15d",
+    "tabelas_idempotentes": 18,
+    "divergencias": 0,
+    "commit_idempotencia": "99d9bfb64e756558cffa9a2a54a89b026820ec83",
+    "observacao": "Após a comparação integral, a alteração do perfil complementou os domínios e seus arquivos de metadados; os cálculos analíticos foram preservados."
+  },
+  "dashboard": {
+    "id": "01f1b79e77e81f59b252eff4ea7ca95c",
+    "publicado_em": "2026-09-27T18:01:23.717Z",
+    "consultas_aprovadas": 12,
+    "validado_em": "2026-09-27T18:58:35.617511+00:00"
+  },
+  "normalizacao_csv": "Separadores de registros em LF; valores preservados, conferidos com o leitor CSV.",
+  "perfil_captura": {
+    "atributos_so_conferidos_local_e_nuvem": 449,
+    "campos_multivalorados": 248,
+    "listas_opcoes_truncadas": 0
+  },
+  "graficos": {
+    "biblioteca": "matplotlib",
+    "versao": "3.11.2",
+    "quantidade": 12,
+    "origem": "CSVs da execução documentada"
+  },
+  "artefatos_entrega": {
+    "dashboards/mvp-pipeline-dados.lvdash.json": "6505bcc798a570982cc7c381319cfa553a8edd228b5acf702deb8e63a45c5ee4",
+    "docs/catalogo-bronze.md": "fc38de8468ebd5a95201c63701a0f869202c808d4315208cd474a53202075898",
+    "docs/catalogo-de-dados.md": "fae9b5a376e14e466d73571640a80354be2ba85c4c281bbfde6e615692878c83",
+    "docs/dominios-captura.json": "c3c2bffef997b74739c8426e2f336149e95830afb77f325bb9c491d6f0eb6d64",
+    "docs/img/constelacao.png": "7bc99eb4314fd414998b7a8cbeaaf34307769b73ba5c52fe04a3ab5e7fb0e557",
+    "docs/img/q1-evolucao-arranjo.png": "0a648713242dd53995dac2611ff56a461eb7c1f5f8fbe84f9af719d04b6d7fa2",
+    "docs/img/q1-limites.png": "55da27854f597c22db24f879510d8d0856c9760c6c0a3285ce5629c13ee9773c",
+    "docs/img/q1-vinculo.png": "d84ea9b7626ca9b18b2f398147d7247f54c9f98509757f6a4222b44d370c73b4",
+    "docs/img/q2-arranjo-por-porte.png": "19b943a53f856e8b33a2054078092a38dca40ab6f763cdf997300a93f527a4d0",
+    "docs/img/q3-brasil-x-resto-mundo.png": "7541cb3ac85187ac5e101cfc947c39f99de2e5f695c955b257e1ca9780aa21af",
+    "docs/img/q4-experiencia.png": "130c61713515343ae0769ce30ccf78da47f284264ded313d9f8bc34cfd5ce232",
+    "docs/img/q4-perfil.png": "020c7bc694633a9b8ce6cf9c34cec907fff3a8ad1d9eb9d61b1cf0022a26026e",
+    "docs/img/q5-satisfacao.png": "4e98fd6a98d518d2cfcf6ca195d0fe57593a29f1eee8ba16f885e0002f7f6ee4",
+    "docs/img/q6-teletrabalho-uf.png": "7509df4a8e36a570665d668c89b33ebf8df6fe9c3bc06b6dd4dd7da6c9771d67",
+    "docs/img/q7-serie-brasil.png": "ada36f68dd376b831dd5c080a7f4a978fa881c7f0566811250036fb24fdf5c94",
+    "docs/img/q7-ufs.png": "87e18cccabe21d9f141792b628364a1390966d73a8721649c41d204e6e74322c",
+    "docs/img/q8-mercado-brasil.png": "8521746111fdbcc08a648895e6e614027b0a706cdd964fa6b419b8419ee31338",
+    "docs/img/remotework-texto-pergunta.png": "5939c931d18ce6f2fb6c4983b21b9cdfe5ba38bc1858dca88a843de7be9e0059",
+    "docs/notebooks-html/00_setup_catalogo.html": "e3c991265bf6a61a8cd81708960bd86e9ee6c332faf7dfd4d552499204d5b606",
+    "docs/notebooks-html/01_bronze_stackoverflow.html": "480d6cc38cdebc369bb5318d4be243ab9c461acae8a0295d72274f75d211835e",
+    "docs/notebooks-html/02_bronze_ibge.html": "b7e01ff270224e6bd6a0817bca05de5dd9a56324ada511a8b835b4fefa6c7e45",
+    "docs/notebooks-html/03_silver_stackoverflow.html": "f5b8ba6844e99d24e78ea255849e9016713c8e5ae149a969bbaf7f5a8e65d8f9",
+    "docs/notebooks-html/04_silver_ibge.html": "9f6cb9be05b0e47ec9b17684062ac4ac5e2fb9541fdbdeb0bdb016a375c2fc81",
+    "docs/notebooks-html/05_qualidade_dados.html": "42796aa2623da84909169416266bdcf5672faff9e3cc55d01ac2b7dba9e494c2",
+    "docs/notebooks-html/05b_qualidade_por_atributo.html": "de73a35c5a417db5004af4ff962ae429567602f82e1c6753cd66198d41ab7517",
+    "docs/notebooks-html/06_gold_dimensoes.html": "44757181ad1ab80573d3e3428d8ad4f0a76e05cbf6998780d4580e61c7185da8",
+    "docs/notebooks-html/07_gold_fatos.html": "463fe21c501ad8bb7392a8a840ca7665cb69ae10638e179cc542c10d5a30acf2",
+    "docs/notebooks-html/08_analise_perguntas.html": "c0f303444e49743ccf7a952c17fe6ae4bdf372dd00536cc5ca7dc91a9445eba2",
+    "docs/notebooks-html/08b_analise_modelo.html": "f415de6385124cf09c7a932bd3d81af1d68cd4fd705effca46021a2f9b499e0a",
+    "docs/notebooks-html/09_catalogo_comentarios.html": "931182f584268148d797d9b4fc0946ec15dcf2f172b8f294ce0e6c1e0c796d93",
+    "docs/notebooks-html/10_gerar_catalogo_markdown.html": "dc36cdb7a148c449fd7296a5d379b94cc86978f3bbc7ab0825c298026b530d86",
+    "docs/qualidade-por-atributo.md": "fa2b3c42dd520ef7c0430f45e7f99853cc8388bb9abee0fd94ff04e792ef856b",
+    "evidencias/volume-pouso.csv": "42a70c5c6538094322aaaf2f167da53c5d75693993369f4abf17573925c06522",
+    "evidencias/print-01-catalogo.png": "043e53d00dd22fc7b85a72e372cb2e01f6cd7841cff5c9714737c070b02ec72d",
+    "evidencias/print-06-job.png": "924e4f11fbaf01623fb282125eb86ed3bda87f30b49a607db20480762ad1a694",
+    "evidencias/print-08-dashboard.png": "0b7cd68deeecc763edcad12984dcc608dcf7146d66a8ca3c7ffd107ba67ad5ee",
+    "evidencias/print-10-dashboard-q5-q8.png": "dba55750235297d7033de8fa6fcb2e3f4e8c2a3bcf7f0c2229ece963e56b6022",
+    "evidencias/print-11-dashboard-cenarios.png": "4e5d5446be72fbfc38044ca5ceb9e1e3e2b95e50873d9d41f6f91f8ae90c0640",
+    "evidencias/print-14-dashboard-qualidade.png": "935c1903d0e14372354ee071e949e96830fbf176f535095d37f9df9130199abd",
+    "evidencias/print-15-dashboard-q2-q3.png": "fec84e22784beffb6f6c48fa79e634c8a8da187c110e4d34b09d76ff8b5ca70f",
+    "evidencias/print-16-dashboard-q4.png": "1c5a2344a7d7c864859fbaf345558eb054b0f136546817c53fb07430f9fa7526",
+    "evidencias/print-17-dashboard-q6.png": "aa67bec590a04dbfbdd8ad4d33255bca9394ee03195f7a333b169c99755fa90d"
+  },
+  "capturas_interface": {
+    "data": "2026-09-27",
+    "origem": "Interface do Databricks no navegador",
+    "observacao": "Recortes da interface com títulos, eixos, legendas e conteúdo dos painéis preservados. Menus e avisos externos foram excluídos pelo enquadramento; os dados exibidos não foram alterados.",
+    "arquivos": [
+      {
+        "caminho": "evidencias/print-01-catalogo.png",
+        "url": "https://dbc-90a65ce2-7728.cloud.databricks.com/explore/data/mafia_office?o=7474658598244241",
+        "sha256": "043e53d00dd22fc7b85a72e372cb2e01f6cd7841cff5c9714737c070b02ec72d"
+      },
+      {
+        "caminho": "evidencias/print-06-job.png",
+        "url": "https://dbc-90a65ce2-7728.cloud.databricks.com/?o=7474658598244241#job/396676034535354/run/393674333656157",
+        "sha256": "924e4f11fbaf01623fb282125eb86ed3bda87f30b49a607db20480762ad1a694"
+      },
+      {
+        "caminho": "evidencias/print-08-dashboard.png",
+        "url": "https://dbc-90a65ce2-7728.cloud.databricks.com/dashboardsv3/01f1b79e77e81f59b252eff4ea7ca95c/published?o=7474658598244241",
+        "sha256": "0b7cd68deeecc763edcad12984dcc608dcf7146d66a8ca3c7ffd107ba67ad5ee"
+      },
+      {
+        "caminho": "evidencias/print-10-dashboard-q5-q8.png",
+        "url": "https://dbc-90a65ce2-7728.cloud.databricks.com/dashboardsv3/01f1b79e77e81f59b252eff4ea7ca95c/published?o=7474658598244241",
+        "sha256": "dba55750235297d7033de8fa6fcb2e3f4e8c2a3bcf7f0c2229ece963e56b6022"
+      },
+      {
+        "caminho": "evidencias/print-11-dashboard-cenarios.png",
+        "url": "https://dbc-90a65ce2-7728.cloud.databricks.com/dashboardsv3/01f1b79e77e81f59b252eff4ea7ca95c/published?o=7474658598244241",
+        "sha256": "4e5d5446be72fbfc38044ca5ceb9e1e3e2b95e50873d9d41f6f91f8ae90c0640"
+      },
+      {
+        "caminho": "evidencias/print-14-dashboard-qualidade.png",
+        "url": "https://dbc-90a65ce2-7728.cloud.databricks.com/dashboardsv3/01f1b79e77e81f59b252eff4ea7ca95c/published?o=7474658598244241",
+        "sha256": "935c1903d0e14372354ee071e949e96830fbf176f535095d37f9df9130199abd"
+      },
+      {
+        "caminho": "evidencias/print-15-dashboard-q2-q3.png",
+        "url": "https://dbc-90a65ce2-7728.cloud.databricks.com/dashboardsv3/01f1b79e77e81f59b252eff4ea7ca95c/published?o=7474658598244241",
+        "sha256": "fec84e22784beffb6f6c48fa79e634c8a8da187c110e4d34b09d76ff8b5ca70f"
+      },
+      {
+        "caminho": "evidencias/print-16-dashboard-q4.png",
+        "url": "https://dbc-90a65ce2-7728.cloud.databricks.com/dashboardsv3/01f1b79e77e81f59b252eff4ea7ca95c/published?o=7474658598244241",
+        "sha256": "1c5a2344a7d7c864859fbaf345558eb054b0f136546817c53fb07430f9fa7526"
+      },
+      {
+        "caminho": "evidencias/print-17-dashboard-q6.png",
+        "url": "https://dbc-90a65ce2-7728.cloud.databricks.com/dashboardsv3/01f1b79e77e81f59b252eff4ea7ca95c/published?o=7474658598244241",
+        "sha256": "aa67bec590a04dbfbdd8ad4d33255bca9394ee03195f7a333b169c99755fa90d"
+      }
+    ]
+  }
+}

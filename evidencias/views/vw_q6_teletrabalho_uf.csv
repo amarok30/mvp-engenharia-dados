@@ -1,0 +1,115 @@
+nivel,uf_sigla,territorio,regiao,modalidade_codigo,modalidade,modalidade_pai_codigo,e_teletrabalho,pessoas_mil,cv_pessoas,cv_pessoas_classificacao,leitura_pessoas,percentual,cv_percentual,cv_classificacao,leitura_percentual,ic95_percentual_inf,ic95_percentual_sup
+uf,MT,Mato Grosso,Centro-Oeste,59805,Realizou teletrabalho,59804,true,71.0,8.6,Boa,Sustenta conclusão,4.1,8.3,Boa,Sustenta conclusão,3.43,4.77
+uf,RJ,Rio de Janeiro,Sudeste,59803,Total,,false,7832.0,0.8,Ótima,Sustenta conclusão,100.0,0.0,Exata,Sustenta conclusão,100.0,100.0
+uf,SP,São Paulo,Sudeste,59804,Realizou trabalho remoto,59803,false,3184.0,3.7,Ótima,Sustenta conclusão,13.8,3.6,Ótima,Sustenta conclusão,12.83,14.77
+pais,,Brazil,,59805,Realizou teletrabalho,59804,true,7399.0,2.0,Ótima,Sustenta conclusão,7.7,1.9,Ótima,Sustenta conclusão,7.41,7.99
+uf,RO,Rondônia,Norte,59805,Realizou teletrabalho,59804,true,33.0,13.7,Boa,Sustenta conclusão,4.1,13.2,Boa,Sustenta conclusão,3.04,5.16
+uf,RR,Roraima,Norte,59804,Realizou trabalho remoto,59803,false,12.0,12.9,Boa,Sustenta conclusão,5.0,12.3,Boa,Sustenta conclusão,3.79,6.21
+uf,CE,Ceará,Nordeste,59804,Realizou trabalho remoto,59803,false,282.0,6.5,Boa,Sustenta conclusão,7.7,6.2,Boa,Sustenta conclusão,6.76,8.64
+uf,SE,Sergipe,Nordeste,59803,Total,,false,936.0,1.8,Ótima,Sustenta conclusão,100.0,0.0,Exata,Sustenta conclusão,100.0,100.0
+uf,RR,Roraima,Norte,59805,Realizou teletrabalho,59804,true,8.0,18.7,Razoável,Usar com ressalva,3.2,18.0,Razoável,Usar com ressalva,2.07,4.33
+uf,ES,Espírito Santo,Sudeste,59805,Realizou teletrabalho,59804,true,138.0,8.2,Boa,Sustenta conclusão,7.1,7.9,Boa,Sustenta conclusão,6.0,8.2
+uf,AP,Amapá,Norte,59805,Realizou teletrabalho,59804,true,13.0,21.1,Razoável,Usar com ressalva,3.4,20.8,Razoável,Usar com ressalva,2.01,4.79
+uf,PA,Pará,Norte,59805,Realizou teletrabalho,59804,true,167.0,9.5,Boa,Sustenta conclusão,4.4,9.4,Boa,Sustenta conclusão,3.59,5.21
+uf,MG,Minas Gerais,Sudeste,59803,Total,,false,10191.0,0.8,Ótima,Sustenta conclusão,100.0,0.0,Exata,Sustenta conclusão,100.0,100.0
+uf,PI,Piauí,Nordeste,59803,Total,,false,1250.0,2.2,Ótima,Sustenta conclusão,100.0,0.0,Exata,Sustenta conclusão,100.0,100.0
+uf,BA,Bahia,Nordeste,59806,Realizou teletrabalho no domicílio,59805,true,298.0,11.0,Boa,Sustenta conclusão,5.1,10.7,Boa,Sustenta conclusão,4.03,6.17
+uf,DF,Distrito Federal,Centro-Oeste,59804,Realizou trabalho remoto,59803,false,288.0,6.0,Boa,Sustenta conclusão,18.8,5.9,Boa,Sustenta conclusão,16.63,20.97
+uf,PR,Paraná,Sul,59805,Realizou teletrabalho,59804,true,400.0,6.3,Boa,Sustenta conclusão,7.0,6.1,Boa,Sustenta conclusão,6.16,7.84
+uf,ES,Espírito Santo,Sudeste,59803,Total,,false,1946.0,1.0,Ótima,Sustenta conclusão,100.0,0.0,Exata,Sustenta conclusão,100.0,100.0
+uf,AP,Amapá,Norte,59803,Total,,false,371.0,2.3,Ótima,Sustenta conclusão,100.0,0.0,Exata,Sustenta conclusão,100.0,100.0
+uf,PE,Pernambuco,Nordeste,59804,Realizou trabalho remoto,59803,false,271.0,7.3,Boa,Sustenta conclusão,7.4,6.9,Boa,Sustenta conclusão,6.4,8.4
+uf,CE,Ceará,Nordeste,59806,Realizou teletrabalho no domicílio,59805,true,172.0,8.0,Boa,Sustenta conclusão,4.7,7.9,Boa,Sustenta conclusão,3.97,5.43
+pais,,Brazil,,59804,Realizou trabalho remoto,59803,false,9462.0,1.6,Ótima,Sustenta conclusão,9.8,1.6,Ótima,Sustenta conclusão,9.49,10.11
+uf,MT,Mato Grosso,Centro-Oeste,59806,Realizou teletrabalho no domicílio,59805,true,67.0,9.1,Boa,Sustenta conclusão,3.8,8.9,Boa,Sustenta conclusão,3.14,4.46
+uf,PE,Pernambuco,Nordeste,59803,Total,,false,3685.0,1.4,Ótima,Sustenta conclusão,100.0,0.0,Exata,Sustenta conclusão,100.0,100.0
+uf,SC,Santa Catarina,Sul,59805,Realizou teletrabalho,59804,true,254.0,5.0,Ótima,Sustenta conclusão,6.5,5.0,Ótima,Sustenta conclusão,5.86,7.14
+pais,,Brazil,,59806,Realizou teletrabalho no domicílio,59805,true,7015.0,2.0,Ótima,Sustenta conclusão,7.3,1.9,Ótima,Sustenta conclusão,7.03,7.57
+uf,CE,Ceará,Nordeste,59805,Realizou teletrabalho,59804,true,182.0,7.8,Boa,Sustenta conclusão,5.0,7.7,Boa,Sustenta conclusão,4.25,5.75
+uf,RO,Rondônia,Norte,59804,Realizou trabalho remoto,59803,false,59.0,9.6,Boa,Sustenta conclusão,7.2,9.3,Boa,Sustenta conclusão,5.89,8.51
+uf,PA,Pará,Norte,59806,Realizou teletrabalho no domicílio,59805,true,155.0,9.5,Boa,Sustenta conclusão,4.1,9.4,Boa,Sustenta conclusão,3.34,4.86
+uf,MT,Mato Grosso,Centro-Oeste,59803,Total,,false,1731.0,1.4,Ótima,Sustenta conclusão,100.0,0.0,Exata,Sustenta conclusão,100.0,100.0
+uf,SE,Sergipe,Nordeste,59805,Realizou teletrabalho,59804,true,51.0,11.6,Boa,Sustenta conclusão,5.4,11.3,Boa,Sustenta conclusão,4.2,6.6
+uf,PE,Pernambuco,Nordeste,59805,Realizou teletrabalho,59804,true,206.0,8.9,Boa,Sustenta conclusão,5.6,8.4,Boa,Sustenta conclusão,4.68,6.52
+pais,,Brazil,,59803,Total,,false,96695.0,0.3,Ótima,Sustenta conclusão,100.0,0.0,Exata,Sustenta conclusão,100.0,100.0
+uf,BA,Bahia,Nordeste,59805,Realizou teletrabalho,59804,true,319.0,10.6,Boa,Sustenta conclusão,5.4,10.3,Boa,Sustenta conclusão,4.31,6.49
+uf,RJ,Rio de Janeiro,Sudeste,59804,Realizou trabalho remoto,59803,false,979.0,4.0,Ótima,Sustenta conclusão,12.5,3.8,Ótima,Sustenta conclusão,11.57,13.43
+uf,MG,Minas Gerais,Sudeste,59805,Realizou teletrabalho,59804,true,593.0,7.6,Boa,Sustenta conclusão,5.8,7.4,Boa,Sustenta conclusão,4.96,6.64
+uf,MA,Maranhão,Nordeste,59805,Realizou teletrabalho,59804,true,112.0,8.5,Boa,Sustenta conclusão,4.4,8.1,Boa,Sustenta conclusão,3.7,5.1
+uf,RS,Rio Grande do Sul,Sul,59805,Realizou teletrabalho,59804,true,482.0,5.5,Boa,Sustenta conclusão,8.4,5.3,Boa,Sustenta conclusão,7.53,9.27
+uf,BA,Bahia,Nordeste,59803,Total,,false,5879.0,1.5,Ótima,Sustenta conclusão,100.0,0.0,Exata,Sustenta conclusão,100.0,100.0
+uf,RS,Rio Grande do Sul,Sul,59803,Total,,false,5748.0,0.9,Ótima,Sustenta conclusão,100.0,0.0,Exata,Sustenta conclusão,100.0,100.0
+pais,,Brazil,,59807,Realizou teletrabalho fora do domicílio,59805,true,904.0,4.4,Ótima,Sustenta conclusão,0.9,4.4,Ótima,Sustenta conclusão,0.82,0.98
+uf,SP,São Paulo,Sudeste,59806,Realizou teletrabalho no domicílio,59805,true,2569.0,4.3,Ótima,Sustenta conclusão,11.1,4.1,Ótima,Sustenta conclusão,10.21,11.99
+uf,SC,Santa Catarina,Sul,59806,Realizou teletrabalho no domicílio,59805,true,240.0,5.2,Boa,Sustenta conclusão,6.1,5.1,Boa,Sustenta conclusão,5.49,6.71
+uf,RS,Rio Grande do Sul,Sul,59806,Realizou teletrabalho no domicílio,59805,true,451.0,5.7,Boa,Sustenta conclusão,7.9,5.5,Boa,Sustenta conclusão,7.05,8.75
+uf,MS,Mato Grosso do Sul,Centro-Oeste,59804,Realizou trabalho remoto,59803,false,105.0,7.1,Boa,Sustenta conclusão,7.5,6.9,Boa,Sustenta conclusão,6.49,8.51
+pais,,Brazil,,59808,Realizou teletrabalho no domicílio e fora domicílio,59805,true,520.0,5.8,Boa,Sustenta conclusão,0.5,5.8,Boa,Sustenta conclusão,0.44,0.56
+uf,ES,Espírito Santo,Sudeste,59804,Realizou trabalho remoto,59803,false,164.0,7.3,Boa,Sustenta conclusão,8.4,7.0,Boa,Sustenta conclusão,7.25,9.55
+uf,MS,Mato Grosso do Sul,Centro-Oeste,59805,Realizou teletrabalho,59804,true,83.0,8.0,Boa,Sustenta conclusão,5.9,7.7,Boa,Sustenta conclusão,5.01,6.79
+uf,MS,Mato Grosso do Sul,Centro-Oeste,59803,Total,,false,1408.0,1.3,Ótima,Sustenta conclusão,100.0,0.0,Exata,Sustenta conclusão,100.0,100.0
+uf,PI,Piauí,Nordeste,59805,Realizou teletrabalho,59804,true,62.0,16.2,Razoável,Usar com ressalva,5.0,15.6,Razoável,Usar com ressalva,3.47,6.53
+uf,AM,Amazonas,Norte,59804,Realizou trabalho remoto,59803,false,84.0,13.3,Boa,Sustenta conclusão,4.8,12.9,Boa,Sustenta conclusão,3.59,6.01
+uf,RR,Roraima,Norte,59803,Total,,false,252.0,2.4,Ótima,Sustenta conclusão,100.0,0.0,Exata,Sustenta conclusão,100.0,100.0
+uf,AM,Amazonas,Norte,59803,Total,,false,1734.0,1.5,Ótima,Sustenta conclusão,100.0,0.0,Exata,Sustenta conclusão,100.0,100.0
+uf,AL,Alagoas,Nordeste,59804,Realizou trabalho remoto,59803,false,73.0,8.7,Boa,Sustenta conclusão,6.0,8.3,Boa,Sustenta conclusão,5.02,6.98
+uf,AP,Amapá,Norte,59804,Realizou trabalho remoto,59803,false,16.0,17.2,Razoável,Usar com ressalva,4.4,17.0,Razoável,Usar com ressalva,2.93,5.87
+uf,AC,Acre,Norte,59805,Realizou teletrabalho,59804,true,14.0,13.4,Boa,Sustenta conclusão,4.4,13.5,Boa,Sustenta conclusão,3.24,5.56
+uf,MA,Maranhão,Nordeste,59806,Realizou teletrabalho no domicílio,59805,true,101.0,8.9,Boa,Sustenta conclusão,4.0,8.6,Boa,Sustenta conclusão,3.33,4.67
+uf,AC,Acre,Norte,59803,Total,,false,315.0,2.2,Ótima,Sustenta conclusão,100.0,0.0,Exata,Sustenta conclusão,100.0,100.0
+uf,PI,Piauí,Nordeste,59806,Realizou teletrabalho no domicílio,59805,true,60.0,16.7,Razoável,Usar com ressalva,4.8,16.1,Razoável,Usar com ressalva,3.29,6.31
+uf,PA,Pará,Norte,59803,Total,,false,3772.0,1.3,Ótima,Sustenta conclusão,100.0,0.0,Exata,Sustenta conclusão,100.0,100.0
+uf,MA,Maranhão,Nordeste,59804,Realizou trabalho remoto,59803,false,201.0,6.6,Boa,Sustenta conclusão,7.9,6.2,Boa,Sustenta conclusão,6.94,8.86
+uf,RR,Roraima,Norte,59806,Realizou teletrabalho no domicílio,59805,true,8.0,18.7,Razoável,Usar com ressalva,3.2,18.0,Razoável,Usar com ressalva,2.07,4.33
+uf,PB,Paraíba,Nordeste,59804,Realizou trabalho remoto,59803,false,115.0,8.2,Boa,Sustenta conclusão,7.7,7.8,Boa,Sustenta conclusão,6.52,8.88
+uf,MT,Mato Grosso,Centro-Oeste,59804,Realizou trabalho remoto,59803,false,126.0,7.5,Boa,Sustenta conclusão,7.3,7.2,Boa,Sustenta conclusão,6.27,8.33
+uf,AL,Alagoas,Nordeste,59803,Total,,false,1226.0,1.3,Ótima,Sustenta conclusão,100.0,0.0,Exata,Sustenta conclusão,100.0,100.0
+uf,PR,Paraná,Sul,59803,Total,,false,5687.0,1.0,Ótima,Sustenta conclusão,100.0,0.0,Exata,Sustenta conclusão,100.0,100.0
+uf,RN,Rio Grande do Norte,Nordeste,59804,Realizou trabalho remoto,59803,false,122.0,10.5,Boa,Sustenta conclusão,9.0,9.6,Boa,Sustenta conclusão,7.31,10.69
+uf,RO,Rondônia,Norte,59806,Realizou teletrabalho no domicílio,59805,true,32.0,13.9,Boa,Sustenta conclusão,3.9,13.4,Boa,Sustenta conclusão,2.88,4.92
+uf,PB,Paraíba,Nordeste,59803,Total,,false,1489.0,1.8,Ótima,Sustenta conclusão,100.0,0.0,Exata,Sustenta conclusão,100.0,100.0
+uf,RN,Rio Grande do Norte,Nordeste,59803,Total,,false,1356.0,2.0,Ótima,Sustenta conclusão,100.0,0.0,Exata,Sustenta conclusão,100.0,100.0
+uf,RO,Rondônia,Norte,59803,Total,,false,819.0,1.7,Ótima,Sustenta conclusão,100.0,0.0,Exata,Sustenta conclusão,100.0,100.0
+uf,AL,Alagoas,Nordeste,59805,Realizou teletrabalho,59804,true,57.0,10.7,Boa,Sustenta conclusão,4.6,10.3,Boa,Sustenta conclusão,3.67,5.53
+uf,PE,Pernambuco,Nordeste,59806,Realizou teletrabalho no domicílio,59805,true,189.0,9.3,Boa,Sustenta conclusão,5.1,8.8,Boa,Sustenta conclusão,4.22,5.98
+uf,SC,Santa Catarina,Sul,59803,Total,,false,3912.0,0.7,Ótima,Sustenta conclusão,100.0,0.0,Exata,Sustenta conclusão,100.0,100.0
+uf,RJ,Rio de Janeiro,Sudeste,59806,Realizou teletrabalho no domicílio,59805,true,757.0,4.7,Ótima,Sustenta conclusão,9.7,4.6,Ótima,Sustenta conclusão,8.83,10.57
+uf,DF,Distrito Federal,Centro-Oeste,59805,Realizou teletrabalho,59804,true,257.0,6.4,Boa,Sustenta conclusão,16.7,6.3,Boa,Sustenta conclusão,14.64,18.76
+uf,AC,Acre,Norte,59806,Realizou teletrabalho no domicílio,59805,true,13.0,14.0,Boa,Sustenta conclusão,4.1,14.0,Boa,Sustenta conclusão,2.97,5.23
+uf,PR,Paraná,Sul,59804,Realizou trabalho remoto,59803,false,559.0,5.1,Boa,Sustenta conclusão,9.8,4.9,Ótima,Sustenta conclusão,8.86,10.74
+uf,PB,Paraíba,Nordeste,59805,Realizou teletrabalho,59804,true,78.0,10.3,Boa,Sustenta conclusão,5.3,9.9,Boa,Sustenta conclusão,4.27,6.33
+uf,AM,Amazonas,Norte,59805,Realizou teletrabalho,59804,true,65.0,15.8,Razoável,Usar com ressalva,3.7,15.4,Razoável,Usar com ressalva,2.58,4.82
+uf,CE,Ceará,Nordeste,59803,Total,,false,3643.0,1.2,Ótima,Sustenta conclusão,100.0,0.0,Exata,Sustenta conclusão,100.0,100.0
+uf,TO,Tocantins,Norte,59805,Realizou teletrabalho,59804,true,26.0,12.2,Boa,Sustenta conclusão,3.5,12.0,Boa,Sustenta conclusão,2.68,4.32
+uf,PR,Paraná,Sul,59806,Realizou teletrabalho no domicílio,59805,true,376.0,6.2,Boa,Sustenta conclusão,6.6,5.9,Boa,Sustenta conclusão,5.84,7.36
+uf,SP,São Paulo,Sudeste,59803,Total,,false,23105.0,0.8,Ótima,Sustenta conclusão,100.0,0.0,Exata,Sustenta conclusão,100.0,100.0
+uf,SE,Sergipe,Nordeste,59806,Realizou teletrabalho no domicílio,59805,true,50.0,11.6,Boa,Sustenta conclusão,5.3,11.3,Boa,Sustenta conclusão,4.13,6.47
+uf,SP,São Paulo,Sudeste,59805,Realizou teletrabalho,59804,true,2671.0,4.2,Ótima,Sustenta conclusão,11.6,4.1,Ótima,Sustenta conclusão,10.67,12.53
+uf,TO,Tocantins,Norte,59803,Total,,false,741.0,1.6,Ótima,Sustenta conclusão,100.0,0.0,Exata,Sustenta conclusão,100.0,100.0
+uf,AP,Amapá,Norte,59806,Realizou teletrabalho no domicílio,59805,true,12.0,21.7,Razoável,Usar com ressalva,3.3,21.4,Razoável,Usar com ressalva,1.92,4.68
+uf,SE,Sergipe,Nordeste,59804,Realizou trabalho remoto,59803,false,73.0,8.3,Boa,Sustenta conclusão,7.8,8.0,Boa,Sustenta conclusão,6.58,9.02
+uf,BA,Bahia,Nordeste,59804,Realizou trabalho remoto,59803,false,430.0,8.8,Boa,Sustenta conclusão,7.3,8.6,Boa,Sustenta conclusão,6.07,8.53
+uf,GO,Goiás,Centro-Oeste,59804,Realizou trabalho remoto,59803,false,231.0,7.2,Boa,Sustenta conclusão,6.4,6.9,Boa,Sustenta conclusão,5.53,7.27
+uf,RN,Rio Grande do Norte,Nordeste,59806,Realizou teletrabalho no domicílio,59805,true,79.0,12.9,Boa,Sustenta conclusão,5.8,12.3,Boa,Sustenta conclusão,4.4,7.2
+uf,PA,Pará,Norte,59804,Realizou trabalho remoto,59803,false,238.0,8.1,Boa,Sustenta conclusão,6.3,8.0,Boa,Sustenta conclusão,5.31,7.29
+uf,TO,Tocantins,Norte,59804,Realizou trabalho remoto,59803,false,39.0,9.4,Boa,Sustenta conclusão,5.3,9.3,Boa,Sustenta conclusão,4.33,6.27
+uf,SC,Santa Catarina,Sul,59804,Realizou trabalho remoto,59803,false,378.0,4.4,Ótima,Sustenta conclusão,9.7,4.2,Ótima,Sustenta conclusão,8.9,10.5
+uf,GO,Goiás,Centro-Oeste,59806,Realizou teletrabalho no domicílio,59805,true,167.0,8.5,Boa,Sustenta conclusão,4.7,8.2,Boa,Sustenta conclusão,3.94,5.46
+uf,MA,Maranhão,Nordeste,59803,Total,,false,2550.0,1.4,Ótima,Sustenta conclusão,100.0,0.0,Exata,Sustenta conclusão,100.0,100.0
+uf,GO,Goiás,Centro-Oeste,59805,Realizou teletrabalho,59804,true,177.0,8.5,Boa,Sustenta conclusão,4.9,8.1,Boa,Sustenta conclusão,4.12,5.68
+uf,AM,Amazonas,Norte,59806,Realizou teletrabalho no domicílio,59805,true,61.0,16.6,Razoável,Usar com ressalva,3.5,16.2,Razoável,Usar com ressalva,2.39,4.61
+uf,DF,Distrito Federal,Centro-Oeste,59803,Total,,false,1537.0,1.3,Ótima,Sustenta conclusão,100.0,0.0,Exata,Sustenta conclusão,100.0,100.0
+uf,PI,Piauí,Nordeste,59804,Realizou trabalho remoto,59803,false,90.0,12.8,Boa,Sustenta conclusão,7.2,12.2,Boa,Sustenta conclusão,5.48,8.92
+uf,RN,Rio Grande do Norte,Nordeste,59805,Realizou teletrabalho,59804,true,86.0,12.0,Boa,Sustenta conclusão,6.4,11.3,Boa,Sustenta conclusão,4.98,7.82
+uf,MS,Mato Grosso do Sul,Centro-Oeste,59806,Realizou teletrabalho no domicílio,59805,true,79.0,7.9,Boa,Sustenta conclusão,5.6,7.6,Boa,Sustenta conclusão,4.77,6.43
+uf,PB,Paraíba,Nordeste,59806,Realizou teletrabalho no domicílio,59805,true,74.0,10.5,Boa,Sustenta conclusão,5.0,10.1,Boa,Sustenta conclusão,4.01,5.99
+uf,RS,Rio Grande do Sul,Sul,59804,Realizou trabalho remoto,59803,false,569.0,4.9,Ótima,Sustenta conclusão,9.9,4.7,Ótima,Sustenta conclusão,8.99,10.81
+uf,AC,Acre,Norte,59804,Realizou trabalho remoto,59803,false,33.0,9.6,Boa,Sustenta conclusão,10.4,9.5,Boa,Sustenta conclusão,8.46,12.34
+uf,TO,Tocantins,Norte,59806,Realizou teletrabalho no domicílio,59805,true,26.0,12.4,Boa,Sustenta conclusão,3.5,12.3,Boa,Sustenta conclusão,2.66,4.34
+uf,ES,Espírito Santo,Sudeste,59806,Realizou teletrabalho no domicílio,59805,true,124.0,8.3,Boa,Sustenta conclusão,6.4,8.0,Boa,Sustenta conclusão,5.4,7.4
+uf,GO,Goiás,Centro-Oeste,59803,Total,,false,3581.0,1.1,Ótima,Sustenta conclusão,100.0,0.0,Exata,Sustenta conclusão,100.0,100.0
+uf,AL,Alagoas,Nordeste,59806,Realizou teletrabalho no domicílio,59805,true,55.0,10.9,Boa,Sustenta conclusão,4.5,10.5,Boa,Sustenta conclusão,3.57,5.43
+uf,MG,Minas Gerais,Sudeste,59804,Realizou trabalho remoto,59803,false,740.0,6.2,Boa,Sustenta conclusão,7.3,6.0,Boa,Sustenta conclusão,6.44,8.16
+uf,DF,Distrito Federal,Centro-Oeste,59806,Realizou teletrabalho no domicílio,59805,true,250.0,6.5,Boa,Sustenta conclusão,16.2,6.4,Boa,Sustenta conclusão,14.17,18.23
+uf,RJ,Rio de Janeiro,Sudeste,59805,Realizou teletrabalho,59804,true,795.0,4.5,Ótima,Sustenta conclusão,10.2,4.4,Ótima,Sustenta conclusão,9.32,11.08
+uf,MG,Minas Gerais,Sudeste,59806,Realizou teletrabalho no domicílio,59805,true,551.0,7.6,Boa,Sustenta conclusão,5.4,7.4,Boa,Sustenta conclusão,4.62,6.18

@@ -1,0 +1,260 @@
+{
+  "name": "mvp-pipeline-dados",
+  "description": "Pipeline do MVP em Bronze, Silver e Gold. Um notebook por tarefa, lido direto do repositório no GitHub (branch main). As duas fontes seguem em paralelo até a Silver e se juntam na verificação de qualidade. Compute serverless.",
+  "git_source": {
+    "git_url": "https://github.com/amarok30/mvp-engenharia-dados",
+    "git_provider": "gitHub",
+    "git_branch": "main"
+  },
+  "tasks": [
+    {
+      "task_key": "00_setup_catalogo",
+      "notebook_task": {
+        "notebook_path": "notebooks/00_setup_catalogo",
+        "source": "GIT"
+      },
+      "timeout_seconds": 1800,
+      "max_retries": 1,
+      "min_retry_interval_millis": 60000,
+      "retry_on_timeout": true
+    },
+    {
+      "task_key": "01_bronze_stackoverflow",
+      "notebook_task": {
+        "notebook_path": "notebooks/01_bronze_stackoverflow",
+        "source": "GIT"
+      },
+      "depends_on": [
+        {
+          "task_key": "00_setup_catalogo"
+        }
+      ],
+      "max_retries": 1,
+      "min_retry_interval_millis": 60000,
+      "retry_on_timeout": true,
+      "timeout_seconds": 1800
+    },
+    {
+      "task_key": "02_bronze_ibge",
+      "notebook_task": {
+        "notebook_path": "notebooks/02_bronze_ibge",
+        "source": "GIT"
+      },
+      "depends_on": [
+        {
+          "task_key": "00_setup_catalogo"
+        }
+      ],
+      "max_retries": 1,
+      "min_retry_interval_millis": 60000,
+      "retry_on_timeout": true,
+      "timeout_seconds": 1800
+    },
+    {
+      "task_key": "03_silver_stackoverflow",
+      "notebook_task": {
+        "notebook_path": "notebooks/03_silver_stackoverflow",
+        "source": "GIT"
+      },
+      "depends_on": [
+        {
+          "task_key": "01_bronze_stackoverflow"
+        }
+      ],
+      "timeout_seconds": 1800,
+      "max_retries": 1,
+      "min_retry_interval_millis": 60000,
+      "retry_on_timeout": true
+    },
+    {
+      "task_key": "04_silver_ibge",
+      "notebook_task": {
+        "notebook_path": "notebooks/04_silver_ibge",
+        "source": "GIT"
+      },
+      "depends_on": [
+        {
+          "task_key": "02_bronze_ibge"
+        }
+      ],
+      "timeout_seconds": 1800,
+      "max_retries": 1,
+      "min_retry_interval_millis": 60000,
+      "retry_on_timeout": true
+    },
+    {
+      "task_key": "05_qualidade_dados",
+      "notebook_task": {
+        "notebook_path": "notebooks/05_qualidade_dados",
+        "source": "GIT"
+      },
+      "depends_on": [
+        {
+          "task_key": "03_silver_stackoverflow"
+        },
+        {
+          "task_key": "04_silver_ibge"
+        }
+      ],
+      "timeout_seconds": 1800,
+      "max_retries": 1,
+      "min_retry_interval_millis": 60000,
+      "retry_on_timeout": true
+    },
+    {
+      "task_key": "05b_qualidade_por_atributo",
+      "notebook_task": {
+        "notebook_path": "notebooks/05b_qualidade_por_atributo",
+        "source": "GIT"
+      },
+      "depends_on": [
+        {
+          "task_key": "05_qualidade_dados"
+        }
+      ],
+      "timeout_seconds": 1800,
+      "max_retries": 1,
+      "min_retry_interval_millis": 60000,
+      "retry_on_timeout": true
+    },
+    {
+      "task_key": "06_gold_dimensoes",
+      "notebook_task": {
+        "notebook_path": "notebooks/06_gold_dimensoes",
+        "source": "GIT"
+      },
+      "depends_on": [
+        {
+          "task_key": "05_qualidade_dados"
+        }
+      ],
+      "timeout_seconds": 1800,
+      "max_retries": 1,
+      "min_retry_interval_millis": 60000,
+      "retry_on_timeout": true
+    },
+    {
+      "task_key": "07_gold_fatos",
+      "notebook_task": {
+        "notebook_path": "notebooks/07_gold_fatos",
+        "source": "GIT"
+      },
+      "depends_on": [
+        {
+          "task_key": "06_gold_dimensoes"
+        }
+      ],
+      "timeout_seconds": 1800,
+      "max_retries": 1,
+      "min_retry_interval_millis": 60000,
+      "retry_on_timeout": true
+    },
+    {
+      "task_key": "08_analise_perguntas",
+      "notebook_task": {
+        "notebook_path": "notebooks/08_analise_perguntas",
+        "source": "GIT"
+      },
+      "depends_on": [
+        {
+          "task_key": "07_gold_fatos"
+        }
+      ],
+      "timeout_seconds": 1800,
+      "max_retries": 1,
+      "min_retry_interval_millis": 60000,
+      "retry_on_timeout": true
+    },
+    {
+      "task_key": "08b_analise_modelo",
+      "notebook_task": {
+        "notebook_path": "notebooks/08b_analise_modelo",
+        "source": "GIT"
+      },
+      "depends_on": [
+        {
+          "task_key": "07_gold_fatos"
+        }
+      ],
+      "timeout_seconds": 1800,
+      "max_retries": 1,
+      "min_retry_interval_millis": 60000,
+      "retry_on_timeout": true
+    },
+    {
+      "task_key": "09_catalogo_comentarios",
+      "notebook_task": {
+        "notebook_path": "notebooks/09_catalogo_comentarios",
+        "source": "GIT"
+      },
+      "depends_on": [
+        {
+          "task_key": "08_analise_perguntas"
+        },
+        {
+          "task_key": "08b_analise_modelo"
+        },
+        {
+          "task_key": "05b_qualidade_por_atributo"
+        }
+      ],
+      "timeout_seconds": 1800,
+      "max_retries": 1,
+      "min_retry_interval_millis": 60000,
+      "retry_on_timeout": true
+    },
+    {
+      "task_key": "10_gerar_catalogo_markdown",
+      "notebook_task": {
+        "notebook_path": "notebooks/10_gerar_catalogo_markdown",
+        "source": "GIT"
+      },
+      "depends_on": [
+        {
+          "task_key": "09_catalogo_comentarios"
+        }
+      ],
+      "timeout_seconds": 1800,
+      "max_retries": 1,
+      "min_retry_interval_millis": 60000,
+      "retry_on_timeout": true
+    }
+  ],
+  "email_notifications": {
+    "on_failure": [
+      "amaraltjs1@gmail.com"
+    ],
+    "on_duration_warning_threshold_exceeded": [
+      "amaraltjs1@gmail.com"
+    ]
+  },
+  "timeout_seconds": 7200,
+  "max_concurrent_runs": 1,
+  "tags": {
+    "projeto": "mvp-pipeline-dados"
+  },
+  "queue": {
+    "enabled": true
+  },
+  "parameters": [
+    {
+      "name": "job_run_id",
+      "default": "{{job.run_id}}"
+    }
+  ],
+  "trigger": {
+    "pause_status": "PAUSED",
+    "file_arrival": {
+      "url": "/Volumes/mafia_office/bronze/pouso/stackoverflow/"
+    }
+  },
+  "health": {
+    "rules": [
+      {
+        "metric": "RUN_DURATION_SECONDS",
+        "op": "GREATER_THAN",
+        "value": 2700
+      }
+    ]
+  }
+}
